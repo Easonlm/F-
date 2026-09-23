@@ -1,0 +1,57 @@
+{
+  "records_A1": 51230,
+  "spearman_domain_mean_vs_median": 1.0,
+  "method_rank": [
+    {
+      "method": "Q_baseline",
+      "rank_spearman_vs_baseline": 1.0,
+      "mean_absolute_sample_difference": 0.0,
+      "range_of_domain_means": 0.1897080606686279
+    },
+    {
+      "method": "Q_critic",
+      "rank_spearman_vs_baseline": 0.9285714285714288,
+      "mean_absolute_sample_difference": 0.027928504796161883,
+      "range_of_domain_means": 0.18551334675199904
+    },
+    {
+      "method": "Q_robust",
+      "rank_spearman_vs_baseline": 0.9642857142857145,
+      "mean_absolute_sample_difference": 0.0323419071680943,
+      "range_of_domain_means": 0.1991299847912722
+    },
+    {
+      "method": "Q_penalty",
+      "rank_spearman_vs_baseline": 1.0,
+      "mean_absolute_sample_difference": 0.03684840895286071,
+      "range_of_domain_means": 0.20072943226928652
+    },
+    {
+      "method": "Q_hard",
+      "rank_spearman_vs_baseline": 0.9642857142857145,
+      "mean_absolute_sample_difference": 0.009714539424729253,
+      "range_of_domain_means": 0.19024004637082303
+    }
+  ],
+  "extension": [
+    {
+      "domain": "arxiv",
+      "A1_n": 1419,
+      "extended_total_n": 17523,
+      "extended_nonoverlap_n": 16104,
+      "A1_mean_Q": 0.7646787201897518,
+      "nonoverlap_mean_Q": 0.7615908572916686,
+      "difference_nonoverlap_minus_A1": -0.00308786289808316
+    },
+    {
+      "domain": "github",
+      "A1_n": 10000,
+      "extended_total_n": 203752,
+      "extended_nonoverlap_n": 193752,
+      "A1_mean_Q": 0.5749706595211239,
+      "nonoverlap_mean_Q": 0.5740726504250949,
+      "difference_nonoverlap_minus_A1": -0.0008980090960289955
+    }
+  ],
+  "limitations": "No independent human-labeled quality ground truth; excerpt inspection is qualitative only."
+}

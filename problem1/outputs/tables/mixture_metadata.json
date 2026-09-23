@@ -1,0 +1,8 @@
+{
+  "selected_model_by_train_cv": "alr_ridge",
+  "alr_zero_pseudocount": 0.000499001996007984,
+  "reference_domain": "train_the_pile_uspto_backgrounds",
+  "train_rows": 512,
+  "mean_train_loss": 5.344656776171178,
+  "test_scale_shift_expected": true
+}
