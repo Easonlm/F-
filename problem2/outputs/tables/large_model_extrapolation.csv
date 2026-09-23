@@ -1,0 +1,131 @@
+family,N_params_B,D_tokens_B,val_loss,is_converged,model_name,FLOPs,publication_date,organization,accessibility,country,predicted,residual,scale_band
+Ling-flash-base-2.0-20T,100,20000,1.8412,1,Ling-flash-base-2.0-20T,7.32e+23,2025-09-10,Ant Group,Open weights (unrestricted),China,1.841345136,0.0001451361537,100-300B
+FaXin,100,3670,1.8882,1,FaXin,,2024-11-15,,,,1.888459691,0.0002596905464,100-300B
+PLaMo-100B,100,2000,1.9112,1,PLaMo-100B,1.2e+24,2024-06-14,Preferred Networks Inc,API access,Japan,1.911551678,0.000351677643,100-300B
+Yi-Large,100,3000,1.8954,1,Yi-Large,1.8e+24,2024-05-13,01.AI,API access,China,1.895697051,0.0002970512602,100-300B
+Hunyuan,100,2000,1.9112,1,Hunyuan,1.2e+24,2023-09-07,Tencent,API access,China,1.911551678,0.000351677643,100-300B
+Luca 2.0,100,2000,1.9112,1,Luca 2.0,1.2e+24,2023-08-29,Mianbi Intelligence,Hosted access (no API),China,1.911551678,0.000351677643,100-300B
+xTrimoPGLM -100B,100,275,2.0206,1,xTrimoPGLM -100B,6.2e+23,2023-07-06,"Tsinghua University,BioMap Research",Unreleased,"China,China",2.021283617,0.0006836170162,100-300B
+YaLM,100,300,2.0144,1,YaLM,2.2e+23,2022-06-23,Yandex,Open weights (unrestricted),Russia,2.015088058,0.0006880584303,100-300B
+FLM-101B,101,311.5,2.0116,1,FLM-101B,5.72e+22,2023-09-07,"Chinese Academy of Sciences,Harbin Institute of Technology,Nanyang Technological University,Beijing Academy of Artificial Intelligence / BAAI",Open weights (unrestricted),"China,China,Singapore,China",2.012206157,0.000606156699,100-300B
+"Solar Open 100B
+",102,19700,1.841,1,"Solar Open 100B
+",,2025-12-31,Upstage,API access,Korea (Republic of),1.841177713,0.0001777126092,100-300B
+Odyssey 102B,102,179.7,2.0526,1,Odyssey 102B,1.1e+23,2025-10-18,Anthrogen,Unreleased,United States of America,2.053354379,0.0007543785895,100-300B
+Yuan 2.0,102.6,289.1,2.0164,1,Yuan 2.0,1.78e+23,2023-11-27,Inspur,Open weights (restricted use),China,2.017062236,0.0006622363045,100-300B
+InternLM,104,1600,1.9197,1,InternLM,9.984e+23,2023-07-06,"Shanghai AI Lab,SenseTime",Unreleased,"China,Hong Kong",1.920096155,0.0003961545587,100-300B
+Ring-flash-linear-2.0,104.2,1000,1.9417,1,Ring-flash-linear-2.0,7.686e+23,2025-10-23,Ant Group,Open weights (unrestricted),China,1.942164835,0.0004648353394,100-300B
+GLM-4.5-Air,106,2603.8,1.8993,1,GLM-4.5-Air,1.656e+24,2025-08-05,"Z.ai (Zhipu AI),Tsinghua University",Open weights (unrestricted),"China,China",1.899581424,0.0002814240717,100-300B
+GLM-4.5V,108,2013.3,1.909,1,GLM-4.5V,1.8e+24,2025-08-15,"Z.ai (Zhipu AI),Tsinghua University",Open weights (unrestricted),"China,China",1.909367588,0.0003675883744,100-300B
+Llama 4 Scout,109,30000,1.8308,1,Llama 4 Scout,4.08e+24,2025-04-05,Meta AI,Open weights (restricted use),United States of America,1.830886558,8.65580103e-05,100-300B
+Telechat2-115B,115,10000,1.8543,1,Telechat2-115B,6.9e+24,2024-09-20,China Telecom,Open weights (restricted use),China,1.854522668,0.0002226679611,100-300B
+gpt-oss-120b,116.8,7047.3,1.8636,1,gpt-oss-120b,4.94e+24,2025-08-05,OpenAI,Open weights (unrestricted),United States of America,1.863843385,0.0002433846032,100-300B
+Galactica,120,106,2.0947,1,Galactica,3.24e+23,2022-11-16,Meta AI,Open weights (non-commercial),United States of America,2.095588353,0.0008883525752,100-300B
+Mistral Large 2,123,28861.8,1.8286,1,Mistral Large 2,2.13e+25,2024-07-24,Mistral AI,Open weights (non-commercial),France,1.828749314,0.0001493140364,100-300B
+Step-Audio-Chat 130B,130,1668,1.9126,1,Step-Audio-Chat 130B,1.925e+24,2025-02-18,StepFun,Open weights (unrestricted),China,1.912942136,0.0003421361935,100-300B
+Step-1,130,800,1.948,1,Step-1,6.24e+23,2025-02-18,StepFun,Unreleased,China,1.948443628,0.000443627784,100-300B
+Step-Omni,130,2468,1.8965,1,Step-Omni,2.549e+24,2025-02-18,StepFun,Unreleased,China,1.896793797,0.0002937966944,100-300B
+BlueLM 130B,130,1000,1.9364,1,BlueLM 130B,7.8e+23,2023-11-02,vivo AI lab,Unreleased,China,1.936880384,0.0004803838113,100-300B
+GLM-130B,130,152,2.0607,1,GLM-130B,3.549e+23,2022-08-04,Tsinghua University,Open weights (non-commercial),China,2.061454062,0.0007540616464,100-300B
+DBRX,132,12000,1.8464,1,DBRX,2.6e+24,2024-03-27,Databricks,Open weights (restricted use),United States of America,1.846607047,0.0002070470143,100-300B
+Pangu Ultra,135,13200,1.8436,1,Pangu Ultra,1.069e+25,2025-04-10,Huawei,Hosted access (no API),China,1.84373875,0.0001387499419,100-300B
+MEB,135,500,1.9739,1,MEB,,2021-09-04,Microsoft,Hosted access (no API),United States of America,1.974432402,0.0005324024428,100-300B
+BIG-G 137B,137,681.2,1.9555,1,BIG-G 137B,5.6e+23,2022-06-09,Google,Unreleased,United States of America,1.956037428,0.0005374277023,100-300B
+LaMDA,137,2080,1.9021,1,LaMDA,3.55e+23,2022-02-10,Google,Unreleased,United States of America,1.902430842,0.0003308417773,100-300B
+FLAN 137B,137,2490,1.8949,1,FLAN 137B,2.047e+24,2021-09-03,Google Research,Unreleased,United States of America,1.895252521,0.0003525214385,100-300B
+Mixtral 8x22B,141,2766,1.8903,1,Mixtral 8x22B,2.34e+24,2024-04-17,Mistral AI,Open weights (unrestricted),France,1.890575635,0.0002756352293,100-300B
+dots.llm1,142,11328,1.8462,1,dots.llm1,1.216e+24,2025-07-06,Rednote,Open weights (unrestricted),China,1.84641207,0.000212069578,100-300B
+GPT-3 175B (davinci),174.6,238,2.0185,1,GPT-3 175B (davinci),3.14e+23,2020-05-28,OpenAI,API access,United States of America,2.019144846,0.0006448457905,100-300B
+MegaScale (175B),175,300,2.0016,1,MegaScale (175B),2.739e+23,2024-02-23,"ByteDance,Peking University",Unreleased,"China,China",2.002273427,0.000673427264,100-300B
+BlueLM 175B,175,1000,1.9299,1,BlueLM 175B,1.05e+24,2023-11-02,vivo AI lab,Unreleased,China,1.930377572,0.000477572084,100-300B
+OPT-IML (175B),175,2,2.77,1,OPT-IML (175B),4.3e+23,2022-12-22,Meta AI,Open weights (non-commercial),United States of America,2.772538712,0.002538711835,100-300B
+BlenderBot 3,175,1.3,2.9007,1,BlenderBot 3,4.3e+23,2022-08-10,"McGill University,Meta AI,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)",Open weights (non-commercial),"Canada,United States of America,Canada",2.903441278,0.002741278398,100-300B
+OPT-175B,175,180,2.0402,1,OPT-175B,4.3e+23,2022-05-02,Meta AI,Open weights (non-commercial),United States of America,2.040900642,0.0007006418919,100-300B
+BLUUMI,176,38,2.1978,1,BLUUMI,,2023-11-03,"University of Turku,Hugging Face",Open weights (restricted use),"Finland,United States of America",2.198936631,0.001136631176,100-300B
+BLOOMZ-176B,176,20,2.2857,1,BLOOMZ-176B,,2022-11-03,Hugging Face,Open weights (unrestricted),United States of America,2.287118496,0.001418496241,100-300B
+XuanYuan 2.0,176.2,366,1.9879,1,XuanYuan 2.0,,2023-05-19,Du Xiaoman,Open weights (restricted use),China,1.98852635,0.0006263499868,100-300B
+BLOOM-176B,176.2,379,1.9856,1,BLOOM-176B,3.657e+23,2022-07-11,"Hugging Face,BigScience",Open weights (restricted use),"United States of America,France",1.986215472,0.0006154718438,100-300B
+Jurassic-1-Jumbo,178,300,2.0013,1,Jurassic-1-Jumbo,3.7e+23,2021-08-11,AI21 Labs,API access,Israel,2.001921072,0.0006210722366,100-300B
+Falcon-180B,180,3500,1.8765,1,Falcon-180B,3.76e+24,2023-09-06,Technology Innovation Institute,Open weights (restricted use),United Arab Emirates,1.876728489,0.0002284886281,100-300B
+SenseChat,180,3601.9,1.8754,1,SenseChat,3.89e+24,2023-04-10,SenseTime,API access,Hong Kong,1.875717591,0.0003175914529,100-300B
+Mi:dm 200B,200,1000,1.9272,1,Mi:dm 200B,1.2e+24,2023-10-31,KT,API access,Korea (Republic of),1.927663568,0.0004635684029,100-300B
+Amazon Titan,200,4000,1.8697,1,Amazon Titan,4.8e+24,2023-09-28,Amazon,API access,United States of America,1.869961989,0.000261988713,100-300B
+HyperCLOVA 204B,204,560,1.9584,1,HyperCLOVA 204B,2e+23,2021-09-10,NAVER,Hosted access (no API),Korea (Republic of),1.958884791,0.0004847909864,100-300B
+PanGu-α,207,41.2,2.1845,1,PanGu-α,5.112e+22,2021-04-25,Huawei Noah's Ark Lab,Unreleased,China,2.185635274,0.001135273814,100-300B
+Qwen3-235B-A22B-Thinking (Jul 2025),235,36000,1.8108,1,Qwen3-235B-A22B-Thinking (Jul 2025),4.752e+24,2025-07-25,Alibaba,Open weights (unrestricted),China,1.810930363,0.0001303634418,100-300B
+Qwen3-235B-A22B (Jul 2025),235,36000,1.8108,1,Qwen3-235B-A22B (Jul 2025),4.752e+24,2025-07-25,Alibaba,Open weights (unrestricted),China,1.810930363,0.0001303634418,100-300B
+Qwen3-235B-A22B,235,36000,1.8108,1,Qwen3-235B-A22B,4.752e+24,2025-04-29,Alibaba,Open weights (unrestricted),China,1.810930363,0.0001303634418,100-300B
+K-EXAONE,236,11000,1.8366,1,K-EXAONE,1.52e+24,2025-12-31,LG AI Research,API access,Korea (Republic of),1.83674949,0.0001494898371,100-300B
+DeepSeek-V2.5,236,1263.6,1.9127,1,DeepSeek-V2.5,1.789e+24,2024-09-06,DeepSeek,Open weights (restricted use),China,1.913093177,0.0003931767599,100-300B
+DeepSeek-Coder-V2 236B,236,3191,1.8744,1,DeepSeek-Coder-V2 236B,1.285e+24,2024-06-17,DeepSeek,Open weights (restricted use),China,1.8747114,0.0003113998326,100-300B
+DeepSeek-V2 (MoE-236B),236,8100,1.8448,1,DeepSeek-V2 (MoE-236B),1.02e+24,2024-05-07,DeepSeek,Open weights (restricted use),China,1.844951073,0.0001510727253,100-300B
+Yuan 1.0,245.7,180,2.0335,1,Yuan 1.0,3.538e+23,2021-10-12,Inspur,API access,China,2.034237883,0.0007378832966,100-300B
+Aramco Metabrain AI,250,7000,1.8478,1,Aramco Metabrain AI,1.05e+25,2024-03-04,Saudi Aramco,Unreleased,Saudi Arabia,1.84804529,0.0002452899239,100-300B
+Llama Nemotron Ultra 253B,253,603,1.95,1,Llama Nemotron Ultra 253B,3.911e+25,2025-03-18,NVIDIA,Open weights (restricted use),United States of America,1.950463637,0.0004636367761,100-300B
+ERNIE 3.0 Titan,260,668,1.9436,1,ERNIE 3.0 Titan,1.042e+24,2021-12-23,"Baidu,Peng Cheng Laboratory",Hosted access (no API),"China,China",1.944126664,0.0005266644355,100-300B
+ST-MoE,269,1500,1.9024,1,ST-MoE,2.9e+23,2022-02-17,"Google,Google Brain,Google Research",Unreleased,"United States of America,United States of America,United States of America",1.902813097,0.0004130967729,100-300B
+Gopher (280B),280,300,1.9926,1,Gopher (280B),6.31e+23,2021-12-08,DeepMind,Unreleased,United Kingdom of Great Britain and Northern Ireland,1.993242905,0.0006429053172,100-300B
+"Ling-Plus (""Bailing"")",290,9000,1.8381,1,"Ling-Plus (""Bailing"")",1.555e+24,2025-03-10,Ant Group,Open weights (unrestricted),China,1.838310636,0.0002106360564,100-300B
+ERNIE-4.5-300B-A47B,300,1566.7,1.8986,1,ERNIE-4.5-300B-A47B,2.82e+24,2025-06-29,Baidu,Open weights (unrestricted),China,1.898951165,0.0003511648064,100-300B
+EXAONE 1.0,300,942,1.9227,1,EXAONE 1.0,1.696e+24,2021-12-14,LG,Unreleased,Korea (Republic of),1.923164538,0.0004645380683,100-300B
+SB-LM,300,1800,1.8926,1,SB-LM,1.449e+18,2007-06-22,Google,,United States of America,1.892921144,0.0003211444171,100-300B
+MiMo-V2-Flash,309,1310.7,1.9062,1,MiMo-V2-Flash,2.43e+24,2025-12-16,Xiaomi Corp,Open weights (unrestricted),China,1.906544219,0.0003442190364,300B-1T
+Grok-1,314,6200,1.8474,1,Grok-1,2.9e+24,2023-11-04,xAI,Open weights (unrestricted),United States of America,1.847602263,0.0002022630975,300B-1T
+AMIE (Articulate Medical Intelligence Explorer),340,3598,1.8637,1,AMIE (Articulate Medical Intelligence Explorer),7.34e+24,2025-04-09,"Google DeepMind,Google Research",Unreleased,"United States of America,United States of America",1.86397869,0.0002786897493,300B-1T
+Nemotron-4 340B,340,9000,1.8354,1,Nemotron-4 340B,1.8e+25,2024-06-14,NVIDIA,Open weights (unrestricted),United States of America,1.835599482,0.0001994817632,300B-1T
+PaLM 2,340,3600,1.8637,1,PaLM 2,7.34e+24,2023-05-10,Google,API access,United States of America,1.863959189,0.0002591891345,300B-1T
+GLM-4.5,355,23100,1.8123,1,GLM-4.5,4.42e+24,2025-08-05,"Z.ai (Zhipu AI),Tsinghua University",Open weights (unrestricted),"China,China",1.812393135,9.313520424e-05,300B-1T
+GLM-4.6,357,23000,1.8123,1,GLM-4.6,4.42e+24,2025-09-30,"Z.ai (Zhipu AI),Tsinghua University",Open weights (unrestricted),"China,China",1.812391925,9.192538433e-05,300B-1T
+GLM-4.7,358,2057.7,1.884,1,GLM-4.7,4.42e+24,2025-12-22,Z.ai (Zhipu AI),Open weights (unrestricted),China,1.88435725,0.000357249537,300B-1T
+Hunyuan-Large,389,7000,1.8403,1,Hunyuan-Large,3.492e+24,2024-11-06,Tencent,Open weights (restricted use),China,1.840485797,0.0001857970049,300B-1T
+Arcee Trinity Large,398,555.3,1.9471,1,Arcee Trinity Large,1.326e+24,2026-02-19,"Prime Intellect,Arcee AI",Open weights (restricted use),"United States of America,United States of America",1.947585585,0.0004855845323,300B-1T
+Llama 4 Maverick,400,30000,1.8051,1,Llama 4 Maverick,2.244e+24,2025-04-05,Meta AI,Open weights (restricted use),United States of America,1.805225078,0.0001250776555,300B-1T
+Hermes 3 405B,405,0.3,3.4691,1,Hermes 3 405B,,2024-08-14,Nous Research,Open weights (restricted use),United States of America,3.473055655,0.003955655319,300B-1T
+Llama 3.1-405B,405,15600,1.8188,1,Llama 3.1-405B,3.8e+25,2024-07-23,Meta AI,Open weights (restricted use),United States of America,1.818940483,0.0001404832873,300B-1T
+MiniMax-M1-80k,456,7500,1.8359,1,MiniMax-M1-80k,4.324e+24,2025-06-13,MiniMax,Open weights (unrestricted),China,1.836044072,0.0001440716517,300B-1T
+MiniMax-M1-40k,456,7500,1.8359,1,MiniMax-M1-40k,4.186e+24,2025-06-13,MiniMax,Open weights (unrestricted),China,1.836044072,0.0001440716517,300B-1T
+MiniMax-Text-01,456,7200,1.837,1,MiniMax-Text-01,3.142e+24,2025-01-14,MiniMax,Open weights (restricted use),China,1.837217159,0.0002171588486,300B-1T
+Qwen3-Coder-480B-A35B,480,7500,1.8351,1,Qwen3-Coder-480B-A35B,1.575e+24,2025-07-22,Alibaba,Open weights (unrestricted),China,1.835280725,0.000180725162,300B-1T
+Arctic,480,133.1,2.0479,1,Arctic,3.835e+23,2024-04-24,Snowflake,Open weights (unrestricted),United States of America,2.04870392,0.0008039195238,300B-1T
+Doubao-pro,500,8350,1.8315,1,Doubao-pro,2.505e+25,2024-10-28,ByteDance,API access,China,1.831660748,0.0001607481206,300B-1T
+Microsoft MAI-1 (2024 unreleased),500,5.3,2.5084,1,Microsoft MAI-1 (2024 unreleased),1.603e+22,2024-05-06,Microsoft,Hosted access (no API),United States of America,2.510306167,0.001906166943,300B-1T
+MegaScale (530B),530,300,1.9824,1,MegaScale (530B),9.691e+23,2024-02-23,"ByteDance,Peking University",Unreleased,"China,China",1.983078632,0.0006786318723,300B-1T
+MegaScale (Production),530,1226.4,1.9008,1,MegaScale (Production),3.9e+24,2024-02-23,"ByteDance,Peking University",Unreleased,"China,China",1.901221244,0.0004212444719,300B-1T
+Megatron-Turing NLG 530B,530,270,1.9899,1,Megatron-Turing NLG 530B,8.586e+23,2021-10-11,"Microsoft,NVIDIA",Unreleased,"United States of America,United States of America",1.990600098,0.0007000976166,300B-1T
+U-PaLM (540B),540,1.3,2.8812,1,U-PaLM (540B),2.53e+24,2022-10-20,Google,Unreleased,United States of America,2.883980706,0.002780705776,300B-1T
+Flan-PaLM 540B,540,1.4,2.8576,1,Flan-PaLM 540B,2.54e+24,2022-10-20,Google,Unreleased,United States of America,2.860322804,0.002722803818,300B-1T
+Minerva (540B),540.4,26,2.2285,1,Minerva (540B),2.742e+24,2022-06-29,Google,Unreleased,United States of America,2.229797144,0.001297143997,300B-1T
+PaLM (540B),540.4,780,1.9234,1,PaLM (540B),2.527e+24,2022-04-04,Google Research,Unreleased,United States of America,1.923827913,0.0004279129351,300B-1T
+LongCat-Flash,560,23000,1.8055,1,LongCat-Flash,3.726e+24,2025-09-01,Meituan Inc,Open weights (unrestricted),China,1.805581489,8.148927888e-05,300B-1T
+Hunyuan-TurboS,560,16000,1.8134,1,Hunyuan-TurboS,5.4e+24,2025-03-11,Tencent,API access,China,1.813557416,0.0001574156894,300B-1T
+SenseChat 5.0,600,1835,1.8811,1,SenseChat 5.0,,2024-04-23,SenseTime,Hosted access (no API),Hong Kong,1.881414293,0.0003142932873,300B-1T
+GShard (600B),600,1000,1.909,1,GShard (600B),1.33e+22,2020-06-30,Google,Unreleased,United States of America,1.909450097,0.00045009747,300B-1T
+DeepSeek-V3.2-Exp,671,943.7,1.9105,1,DeepSeek-V3.2-Exp,4.18e+24,2025-09-29,DeepSeek,Open weights (unrestricted),China,1.910883155,0.000383154694,300B-1T
+DeepSeek-V3.1-Terminus,671,839,1.9165,1,DeepSeek-V3.1-Terminus,3.594e+24,2025-09-22,DeepSeek,Open weights (unrestricted),China,1.916985149,0.0004851486638,300B-1T
+DeepSeek-V3.1,671,840,1.9165,1,DeepSeek-V3.1,3.594e+24,2025-08-21,DeepSeek,Open weights (unrestricted),China,1.916922327,0.0004223272664,300B-1T
+DeepSeek-R1 (May 2025),671,14800,1.8128,1,DeepSeek-R1 (May 2025),4.02e+24,2025-05-28,DeepSeek,Open weights (unrestricted),China,1.812923852,0.0001238518702,300B-1T
+DeepSeek-V3 (Mar 2025),671,14800,1.8128,1,DeepSeek-V3 (Mar 2025),3.3e+24,2025-03-24,DeepSeek,Open weights (restricted use),China,1.812923852,0.0001238518702,300B-1T
+DeepSeek-R1,671,14800,1.8128,1,DeepSeek-R1,3.5e+24,2025-01-20,DeepSeek,Open weights (unrestricted),China,1.812923852,0.0001238518702,300B-1T
+DeepSeek-V3,671,14800,1.8128,1,DeepSeek-V3,3.3e+24,2024-12-24,DeepSeek,Open weights (restricted use),China,1.812923852,0.0001238518702,300B-1T
+Pangu Ultra MoE,718,717,1.9241,1,Pangu Ultra MoE,3.089e+24,2025-05-07,Huawei,Hosted access (no API),China,1.924577482,0.0004774822419,300B-1T
+GLM-5,744,1532.3,1.886,1,GLM-5,6.84e+24,2026-02-17,Z.ai (Zhipu AI),Open weights (unrestricted),China,1.886412223,0.0004122225111,300B-1T
+Kimi K2 Thinking,1000,700,1.9214,1,Kimi K2 Thinking,4.2e+24,2025-11-06,Moonshot,Open weights (restricted use),China,1.921873771,0.0004737708849,300B-1T
+Ling-1T,1000,20000,1.8011,1,Ling-1T,6e+24,2025-10-10,Ant Group,Open weights (unrestricted),China,1.801190516,9.051556482e-05,300B-1T
+Qwen3-Max,1000,36000,1.7894,1,Qwen3-Max,1.512e+25,2025-09-05,Alibaba,API access,China,1.789422041,2.204080775e-05,300B-1T
+Kimi K2,1000,15500,1.8068,1,Kimi K2,2.976e+24,2025-07-11,Moonshot,Open weights (restricted use),China,1.806927361,0.000127361265,300B-1T
+DLRM-2021,1000,0.1,4.0812,1,DLRM-2021,3e+20,2020-07-01,Meta AI,Unreleased,United States of America,4.086298348,0.00509834795,300B-1T
+M6-T,1002.7,111.8,2.054,1,M6-T,5.5e+21,2021-03-05,Alibaba,Unreleased,China,2.054871726,0.0008717264372,>1T
+Kimi K2.5,1040,929.5,1.9059,1,Kimi K2.5,5.8e+24,2026-02-02,Moonshot,Open weights (unrestricted),China,1.906298956,0.0003989564017,>1T
+PanGu-Σ,1085,329,1.967,1,PanGu-Σ,4.67e+23,2023-03-20,Huawei Noah's Ark Lab,Unreleased,China,1.967600989,0.0006009892052,>1T
+MoE-1.1T,1100,112,2.0528,1,MoE-1.1T,2.227e+22,2021-12-20,Meta AI,Open weights (non-commercial),United States of America,2.05365902,0.0008590202271,>1T
+GLaM,1200,600,1.9281,1,GLaM,3.636e+23,2021-12-13,Google,Unreleased,United States of America,1.928582735,0.0004827352717,>1T
+QMoE: compressed SwitchTransformer,1571,576,1.9277,1,QMoE: compressed SwitchTransformer,,2023-10-25,"Institute of Science and Technology Austria (ISTA),Neural Magic",Open weights (unrestricted),"Austria,United States of America",1.928180234,0.0004802338734,>1T
+Switch,1571,86.4,2.074,1,Switch,8.22e+22,2021-01-11,Google,Open weights (unrestricted),United States of America,2.074869116,0.0008691158583,>1T
+Wu Dao 2.0,1750,4900,1.8325,1,Wu Dao 2.0,1.544e+24,2021-05-31,Beijing Academy of Artificial Intelligence / BAAI,API access,China,1.832756959,0.000256959299,>1T
+GPT-4 (Mar 2023),1800,5416.7,1.8291,1,GPT-4 (Mar 2023),2.1e+25,2023-03-15,OpenAI,API access,United States of America,1.829308487,0.0002084865543,>1T
+GPT-4 (Jun 2023),1800,5416.7,1.8291,1,GPT-4 (Jun 2023),2.1e+25,2023-03-15,OpenAI,API access,United States of America,1.829308487,0.0002084865543,>1T
+Llama 4 Behemoth (preview),2000,30000,1.7857,1,Llama 4 Behemoth (preview),5.184e+25,2025-04-05,Meta AI,Unreleased,United States of America,1.785769216,6.921576568e-05,>1T
+Grok 4,3000,27777.8,1.7838,1,Grok 4,5e+26,2025-07-09,xAI,API access,United States of America,1.783837528,3.752785351e-05,>1T
+Grok 3,3000,19444.4,1.7912,1,Grok 3,3.5e+26,2025-02-17,xAI,API access,United States of America,1.79126665,6.665032526e-05,>1T
+DLRM-2022,3000,0.1,4.0707,1,DLRM-2022,1.1e+21,2021-09-15,Facebook,Unreleased,United States of America,4.075760322,0.005060321506,>1T
+M6-10T,10000,0.1,4.0628,1,M6-10T,5.53e+21,2021-10-08,Alibaba,Unreleased,China,4.067943155,0.005143155395,>1T

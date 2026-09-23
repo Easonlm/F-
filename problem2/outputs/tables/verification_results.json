@@ -1,0 +1,18 @@
+{
+  "all_passed": true,
+  "checks": {
+    "all_outputs_exist": true,
+    "B1_to_B10_audited": true,
+    "B1_primary_fit": true,
+    "group_cv": true,
+    "B4_B5_validation_only": true,
+    "quality_overlap_reported": true,
+    "parameter_constraints": true,
+    "Q1_reduces_to_classical": true,
+    "monotonicity": true,
+    "analytic_derivatives_match_code": true,
+    "exact_equivalence": true,
+    "core_tables_no_infinity": true,
+    "report_values_match_csv": true
+  }
+}

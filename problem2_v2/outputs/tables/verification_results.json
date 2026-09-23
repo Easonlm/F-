@@ -1,0 +1,17 @@
+{
+  "all_passed": true,
+  "checks": {
+    "V1_model_exists": true,
+    "V1_hashes_unchanged": true,
+    "B1_only_ND_training": true,
+    "B7_B8_not_fit_for_Q": true,
+    "B8_overlap_conflict_recorded": true,
+    "all_candidates_fit": true,
+    "Q1_reduces_to_ND": true,
+    "N_D_Q_monotone": true,
+    "equivalence_exact": true,
+    "p_bridge_reference_zero": true,
+    "reports_exist": true,
+    "no_nonfinite_core": true
+  }
+}
