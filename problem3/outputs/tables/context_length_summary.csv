@@ -1,0 +1,2 @@
+rows,valid,missing,minimum,median,p10,p25,p75,p90,p95,maximum,unique_values,modes,below_critical,above_critical,closest_below,closest_above,outlier_iqr_count
+45,45,0,2048,4096.0,2048.0,2048.0,32768.0,32768.0,32768.0,131072,"2048,4096,8192,32768,131072","2048:18,32768:11,4096:8,8192:7,131072:1",33,12,8192,32768,1

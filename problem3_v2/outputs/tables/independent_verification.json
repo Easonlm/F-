@@ -1,0 +1,23 @@
+{
+  "passed": 16,
+  "total": 16,
+  "all_passed": true,
+  "checks": {
+    "V1 SHA256 unchanged": true,
+    "required tables": true,
+    "observed p in support": true,
+    "loose p flagged": true,
+    "lambda zero and full range": true,
+    "six transitions": true,
+    "transition brackets independently checked": true,
+    "joint bootstrap replicate count": true,
+    "joint parameter vectors finite": true,
+    "bootstrap budget binding": true,
+    "three extrapolation levels": true,
+    "free budget binding": true,
+    "robust feasible all scenarios": true,
+    "robust regret improves repaired nominal": true,
+    "elimination and KKT": true,
+    "four reports": true
+  }
+}

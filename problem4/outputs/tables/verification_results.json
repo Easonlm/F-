@@ -1,0 +1,122 @@
+{
+  "C1 audited": {
+    "passed": true,
+    "detail": ""
+  },
+  "C2 audited": {
+    "passed": true,
+    "detail": ""
+  },
+  "C3 audited": {
+    "passed": true,
+    "detail": ""
+  },
+  "C4 audited": {
+    "passed": true,
+    "detail": ""
+  },
+  "C5 audited": {
+    "passed": true,
+    "detail": ""
+  },
+  "C6 audited": {
+    "passed": true,
+    "detail": ""
+  },
+  "C7 audited": {
+    "passed": true,
+    "detail": ""
+  },
+  "C8 parsed": {
+    "passed": true,
+    "detail": "{'json_files': 1958, 'model_directories': 1863, 'parsed_models': 1860, 'failed_models': 3, 'failed_files': 4, 'usable_task_model_pairs': 74344, 'eligible_aggregates': 1856, 'task_count': 40}"
+  },
+  "C8 task aggregation": {
+    "passed": true,
+    "detail": ""
+  },
+  "C8 failures recorded": {
+    "passed": true,
+    "detail": ""
+  },
+  "Open weight rule": {
+    "passed": true,
+    "detail": ""
+  },
+  "Type separated": {
+    "passed": true,
+    "detail": ""
+  },
+  "Time axis": {
+    "passed": true,
+    "detail": ""
+  },
+  "Origin from sample": {
+    "passed": true,
+    "detail": ""
+  },
+  "Forecast dates": {
+    "passed": true,
+    "detail": ""
+  },
+  "Shapley additivity": {
+    "passed": true,
+    "detail": ""
+  },
+  "Family CV leakage": {
+    "passed": true,
+    "detail": ""
+  },
+  "Rolling CV leakage": {
+    "passed": true,
+    "detail": ""
+  },
+  "Bridge monotonic": {
+    "passed": true,
+    "detail": ""
+  },
+  "Comparability strata": {
+    "passed": true,
+    "detail": ""
+  },
+  "Forecast bounded": {
+    "passed": true,
+    "detail": ""
+  },
+  "C4 compute/data/open weights used": {
+    "passed": true,
+    "detail": ""
+  },
+  "P3 V2 interface": {
+    "passed": true,
+    "detail": ""
+  },
+  "Two forecast paths": {
+    "passed": true,
+    "detail": ""
+  },
+  "Reports generated": {
+    "passed": true,
+    "detail": ""
+  },
+  "Figures generated": {
+    "passed": true,
+    "detail": ""
+  },
+  "Forecast finite and ordered": {
+    "passed": true,
+    "detail": ""
+  },
+  "12 month direct backtest": {
+    "passed": false,
+    "detail": "Unavailable: direct open-weight history has four quarters"
+  },
+  "24 month direct backtest": {
+    "passed": false,
+    "detail": "Unavailable: direct open-weight history has four quarters"
+  },
+  "Historical decomposition agrees with observed frontier": {
+    "passed": false,
+    "detail": "Disagreement makes contribution shares exploratory"
+  }
+}

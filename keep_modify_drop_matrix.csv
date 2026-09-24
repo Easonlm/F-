@@ -1,0 +1,20 @@
+模块,当前方案,保留/修改/删除,原因,证据
+P1质量指标方向和A1固定标尺,22项预处理,保留,覆盖必用数据且跨来源可比,quality_indicator_rules.csv及quality_extension_agreement.csv
+P1四组等权QA,可解释质量代理,保留但限称代理,没有人工真值但扩展域均值接近,manual_validation_results.csv为空及quality_extension_agreement.csv
+P1冲突惩罚,候选惩罚规则,保留为敏感性不升主模型,没有独立标签支持惩罚优越,problem1_v2_report.md
+P1二阶ALR Ridge,当前配比预测,保留,嵌套CV和1M检验优于V1,v2_nested_cv_summary.csv及v2_vs_v1_metrics.csv
+P1交互因果解释,二阶交互项,删除强结论保留预测特征,局部效应不能证明真实互补,problem1_report.md及v2_effect_stability_summary.csv
+P2经典ND,classic scaling,保留,复杂候选未稳定改善且BIC支持简式,nd_model_scorecard.csv
+P2 V1加性Q,Model A,保留作基线并退出最终模型,B7新点误差高于Model C,quality_model_scorecard.csv
+P2质量乘N,Model C,保留为半合成条件模型,B6按N留一和B7改善而B8仍失败,quality_model_scorecard.csv
+P2目标来源仿射校准,Model B,保留为有标签条件方案,需要目标源20%标签且非零样本泛化,source_calibration_holdout.csv
+P2单一QA到QB映射,当前仅场景,不加入拟合结论,缺同一质量标尺锚点,QA_QB_scenarios.csv及problem2_v2_report.md
+P3三项FLOPs成本,train加quality加attention,保留,单位和预算核验通过,problem3/core.py及verification_results.json
+P3 E0/E1/E2分层,外推边界情景,保留,能显示高预算结论对边界敏感,extrapolation_levels.csv
+P3 E1三倍上界,moderate标签,修改标签为假设边界,三倍不是实证估计且高预算只用22.4%预算,problem3_v2_report.md
+P3高预算零后悔,robust minimax,保留诊断并删除风险消失解释,全部场景共享上界角点,robust_optimization.csv
+P4 C8逐任务聚合,40叶任务百分位,保留,1860目录解析且与六维指标相关0.952,c8_parse_summary.json及c8_vs_leaderboard.csv
+P4严格开放权重口径,Open W1,保留为高可信审计样本,末季度n2不足以独撑前沿,quarterly_frontier.csv
+P4技术贡献31.5%和68.5%,结构回归Shapley,降级为探索性,模型预测上升6.84而观测下降2.80,scale_technology_contributions.csv
+P4 C6 logistic桥接,加权单调有界,保留但附误差及替代比较,分组CV RMSE 11.86且高可比仅7行,loss_benchmark_bridge_cv.csv
+P4 E1机制预测20.94,三倍边界求解,保留为情景并并列E0/E2,边界钳制导致12和24月相同,mechanistic_forecast.csv

@@ -1,0 +1,23 @@
+问题,结果,证据等级,理由,主要依据
+P1,A1到A3全量22指标处理,A,有实际记录和审计,quality_audit.json
+P1,QA在arxiv及github扩展记录均值稳定,B,同来源分布一致不是外部质量真值,quality_extension_agreement.csv
+P1,QA代表真实训练价值,D,人工盲评为空且无同配比异质量训练,manual_validation_results.csv
+P1,二阶ALR改善1M配比预测,A,嵌套CV和既定1M测试一致,v2_nested_cv_summary.csv及v2_vs_v1_metrics.csv
+P1,跨60M和1B绝对Loss预测,C,排序尚可但数值偏差很大,v2_vs_v1_metrics.csv
+P1,局部领域置换符号,B,13/16在9规格同号但非因果,v2_effect_stability_summary.csv
+P2,B1同族经典ND律,A,同族留N和外推误差小且复杂模型无稳定优势,nd_model_scorecard.csv
+P2,经典ND跨族绝对Loss通用性,D,B2 raw RMSE 1.243且来源口径混合,nd_model_scorecard.csv
+P2,质量乘N在B6/B7优于加性,B,半合成内部及扩展新点支持而B8冲突,quality_model_scorecard.csv
+P2,QA到QB精确换算,D,没有共享锚点,QA_QB_scenarios.csv
+P2,lambda_p等于1,C,默认规范化不是跨规模估计,problem2_to_problem3_v2.json
+P3,三项成本数值实现,A,预算消元和KKT独立核验,problem3_v2/outputs/tables/verification_results.json
+P3,中预算Q饱和,B,三成本和参数场景常见但成本系数题设假设,quality_transition_points_exact.csv
+P3,1e24 E2自由最优,C,N和D均超B1支持范围,extrapolation_levels.csv
+P3,E1三倍最优可作真实推荐,C,三倍边界人为且预算剩余77.6%,extrapolation_levels.csv
+P3,高预算regret为零说明风险为零,D,共同角点边界导致,robust_optimization.csv
+P4,C8任务解析与六维相关,A,逐任务74344对且Pearson约0.952,c8_parse_summary.json及c8_vs_leaderboard.csv
+P4,严格开放样本历史前沿,B,实体匹配严但末季只有2个,quarterly_frontier.csv
+P4,规模和技术贡献精确份额,C,结构模型与观测方向相反,scale_technology_contributions.csv
+P4,12和24月具体能力点预测,C,没有同期限回测且区间极宽,frontier_forecast_12m_24m.csv
+P4,Loss到Benchmark绝对桥接,B,组外RMSE 11.86且Loss可比性混合,loss_benchmark_bridge_cv.csv
+P4,E1机制预测20.94,C,高预算边界钳制且桥接误差大,mechanistic_forecast.csv

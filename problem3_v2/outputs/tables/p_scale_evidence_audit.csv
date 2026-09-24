@@ -1,0 +1,4 @@
+dataset,n_mixtures,centered_slope,ci_low,ci_high,spearman,source
+test_1B,64,0.2851466262,0.1953567206,0.3877900701,0.6621794872,"problem1 v1 alr_ridge saved predictions; exploratory, not selected v2 effect"
+test_1m,256,0.9001835487,0.706343252,1.087615901,0.4920219158,"problem1 v1 alr_ridge saved predictions; exploratory, not selected v2 effect"
+test_60m,256,0.6583446513,0.4900358568,0.8305564554,0.4632803559,"problem1 v1 alr_ridge saved predictions; exploratory, not selected v2 effect"

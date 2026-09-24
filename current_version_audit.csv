@@ -1,0 +1,5 @@
+问题,当前主版本,基线版本,最终模型,主入口,核心输出,是否存在旧接口风险
+问题一,质量评分V1加配比V2,配比V1,四组等权QA加二阶ALR Ridge,problem1/run_problem1.py及problem1/problem1_v2.py,problem1/outputs/models/mixture_v2.joblib及domain_quality_scores.csv,中：旧版效应表和V1图仍存在；后续p尺度诊断曾使用V1预测
+问题二,V2 Model C,V1 Model A,classic ND加质量乘N项加lambda_p配比差,problem2_v2/run_v2.py,problem2_v2/outputs/models/recommended_model.joblib及selection.json,中：V2从V1 artifact拷贝配比模型；旧problem2_to_problem3.json仍在V1目录
+问题三,V2证据约束版,V1优化版,Model C加三项成本和E0/E1/E2及稳健情景,problem3_v2/run_v2.py,problem3_v2/outputs/tables/extrapolation_levels.csv及robust_optimization.csv,中：V2依赖V1输出；problem3_to_problem4.json仍是V1产物
+问题四,当前唯一主实现V1,无独立V2,严格开放样本结构回归加C6 logistic桥接加E0/E1/E2机制情景,problem4/run_problem4.py,problem4/outputs/tables/final_project_summary.json及frontier_forecast_12m_24m.csv,中：重算P3 V2而非读取最优配置表；接口校验只有存在性及情景数

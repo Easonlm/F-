@@ -1,0 +1,25 @@
+hypothesis_id,proposed_work,priority,expected_scientific_gain,coding_effort,compute_cost,overfitting_risk,impact_on_final_conclusion,decision
+H1,完成预设140文本双人盲评,P1,High,Low,Low,Medium,High,执行但不得用同一评分集反复调Q
+H6,冻结来源校准后做新来源或独立族验证,P1,High,Medium,Low,Medium,High,有真正新标签才执行
+H7,核查B8生成口径与同点冲突,P1,High,Low,Low,Low,High,先做溯源不强行统一拟合
+H8,寻找QA到QB共同锚点,P1,High,High,High,Medium,High,无共同实验则维持情景
+H9,用最终P1 V2预测评估lambda_p跨规模,P1,High,Medium,Low,High,High,预留校准测试后执行
+H11,三倍边界阈值剖面,P1,Medium,Low,Low,Low,Medium,作敏感性而非估计三倍真值
+H16,开源筛选口径敏感性,P1,High,Low,Low,Medium,High,维持严格主样本并显示宽口径差异
+H17,最低样本规则和滚动前沿,P1,High,Medium,Low,High,High,预设定义后比较方向及短期回测
+H18,规模技术贡献诊断与降级,P1,High,Low,Low,Low,High,先降级精确比例再检验可否恢复
+H19,分任务及可比性桥接比较,P1,Medium,Medium,Low,High,High,仅族外改善超过折间波动才替换
+H20,长期预测不确定性分解,P1,Medium,Medium,Low,Low,Medium,报告条件区间及无法校准期限
+H21,E0/E1/E2机制情景并列,P1,High,Low,Low,Low,High,现有结果直接用于论文
+H22,模型哈希和接口值逐项核对,P1,High,Low,Low,Low,High,先冻结版本与路径
+H23,绘制运行DAG和只读复现核验,P1,Medium,Medium,Medium,Low,Medium,避免一键入口误读
+H24,能力和算力时间锚敏感性,P1,Medium,Low,Low,Medium,Medium,明确不同季度口径
+H2,冲突惩罚重新定权,P3,Low,Medium,Low,High,Low,等H1独立标签完成再考虑
+H3,重复开发去重流程,P3,Low,Low,Low,Low,Low,已解决不重复
+H4,增加同规则bootstrap次数,P3,Low,Low,Medium,Low,Low,不解决评分规则不确定性
+H5,新增更高阶配比模型,P3,Low,High,Low,High,Low,无新残差证据不做
+H10,重做参数联合bootstrap,P3,Low,High,Medium,Low,Low,V2已完成条件传播
+H12,进一步压低高预算regret,P3,Low,Medium,Low,Medium,Low,先解释共同边界
+H13,强行拟合lambda_p点估计,P3,Low,Medium,Low,High,Medium,缺联合实验不做
+H14,给三成本场景赋概率,P3,Low,Medium,Low,High,Medium,成本非观测不做
+H15,重复旧版独立抽样,P3,Low,Low,Low,Low,Low,V2已替代
