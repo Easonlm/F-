@@ -1,0 +1,4 @@
+﻿model,asof_date,last_complete_quarter,target_quarter,train_eligible_quarters,target_n,target_n_ge_5,quarters_from_anchor,anchor_p90_compute,slope_log_per_year,predicted_p90_compute,observed_p90_compute,predicted_over_observed,absolute_log_error,status
+last_complete_quarter,2025-01-31,2024Q4,2026Q1,15,3,False,5,3.4346589999999997e+24,0.0,3.4346589999999997e+24,6.631999999999999e+24,0.5178918878166465,0.6579887692844542,diagnostic only: one held-out quarter with n<5
+long_loglinear_2021,2025-01-31,2024Q4,2026Q1,15,3,False,5,3.4346589999999997e+24,1.301022727323662,1.7464950739064558e+25,6.631999999999999e+24,2.6334364805585886,0.9682896398701237,diagnostic only: one held-out quarter with n<5
+recent_loglinear_2023,2025-01-31,2024Q4,2026Q1,15,3,False,5,3.4346589999999997e+24,1.9823178722395176,4.092802306094967e+25,6.631999999999999e+24,6.171294188924861,1.819908571014943,diagnostic only: one held-out quarter with n<5

@@ -1,0 +1,13 @@
+{
+  "problem1/outputs/models/mixture_primary.joblib": "909b5879c5439035fd18cd8b107b4f86b0a8295a81a0962a76149d5368f5b9f1",
+  "problem1/outputs/models/mixture_v2.joblib": "cad60f7dede46b0a87b214713ef070a0f22a37b1fecd6082ac371de9e74b5841",
+  "problem1/outputs/tables/mixture_metadata.json": "0f0413195e9d227a6481f577db214be138649a172fcaa08d53288c6bfa01dab1",
+  "real_attachments/B_scaling_laws/supplementary_NQ_experiment.csv": "c7450ce0d67d8692535fef4709e60e2da60b2c184738bf96df160a4be0a33a7f",
+  "real_attachments/B_scaling_laws/supplementary_NQ_experiment_large.csv": "bda0d449f75c73bbd04141e5cffbf4bea7002073e34b7fa95a638570fa095ffe",
+  "real_attachments/A_data_value/regmix_tables/test_mixture_1m.csv": "197267b7d6f15367e2f46c881e564c35b0d34e51b1754bb09d07e650cf8e1ce8",
+  "real_attachments/A_data_value/regmix_tables/test_pile_loss_1m.csv": "e027b1674f60140a65a87b5e4a59ab5f09dc33e8fd02c080682678074b160f53",
+  "real_attachments/A_data_value/regmix_tables/test_mixture_60m.csv": "197267b7d6f15367e2f46c881e564c35b0d34e51b1754bb09d07e650cf8e1ce8",
+  "real_attachments/A_data_value/regmix_tables/test_pile_loss_60m.csv": "8fe69d59ab7dd4fae4736459f4265ec93c7ed1ad1eca407346052560edc72b5b",
+  "real_attachments/A_data_value/regmix_tables/test_mixture_1B.csv": "dd38052949c0a5f84165bdcb3ae3a331c7f07efd9bb83848bd579dfc4ce75a2c",
+  "real_attachments/A_data_value/regmix_tables/test_pile_loss_1B.csv": "b2451e2b7fa15400688edc39e4d32f21ccbe0fb356e07d62a0e9ccddf247114f"
+}

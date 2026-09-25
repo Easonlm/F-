@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="440" viewBox="0 0 1400 440">
+  <style>
+    text { font-family: 'Microsoft YaHei', 'SimHei', sans-serif; fill: #17243a; }
+    .title { font-size: 25px; font-weight: 700; }
+    .sub { font-size: 18px; }
+    .hint { font-size: 15px; fill: #50617b; }
+    .box { fill: #f4f7fb; stroke: #46617f; stroke-width: 2; rx: 15; }
+    .arrow { fill: none; stroke: #46617f; stroke-width: 3; marker-end: url(#arrow); }
+    .dash { stroke-dasharray: 10 7; }
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10" fill="#46617f"/></marker></defs>
+  <rect x="16" y="80" width="250" height="188" class="box"/>
+  <rect x="294" y="80" width="250" height="188" class="box"/>
+  <rect x="572" y="80" width="250" height="188" class="box"/>
+  <rect x="850" y="80" width="250" height="188" class="box"/>
+  <rect x="1128" y="80" width="250" height="188" class="box"/>
+  <text x="141" y="125" text-anchor="middle" class="title">问题一</text>
+  <text x="141" y="169" text-anchor="middle" class="sub">质量代理 Q_A</text>
+  <text x="141" y="202" text-anchor="middle" class="sub">17 域 ALR 配比</text>
+  <text x="141" y="237" text-anchor="middle" class="hint">A 组质量与配方试验</text>
+  <text x="419" y="125" text-anchor="middle" class="title">问题二</text>
+  <text x="419" y="169" text-anchor="middle" class="sub">N–D 主项</text>
+  <text x="419" y="202" text-anchor="middle" class="sub">Q_B × N 条件项</text>
+  <text x="419" y="237" text-anchor="middle" class="hint">B 组规模与质量样本</text>
+  <text x="697" y="125" text-anchor="middle" class="title">问题三</text>
+  <text x="697" y="169" text-anchor="middle" class="sub">三项 FLOPs 成本</text>
+  <text x="697" y="202" text-anchor="middle" class="sub">二维资源优化</text>
+  <text x="697" y="237" text-anchor="middle" class="hint">E0 / E1 / E2 边界</text>
+  <text x="975" y="125" text-anchor="middle" class="title">桥接</text>
+  <text x="975" y="169" text-anchor="middle" class="sub">Loss → 能力</text>
+  <text x="975" y="202" text-anchor="middle" class="sub">家族分组验证</text>
+  <text x="975" y="237" text-anchor="middle" class="hint">C6 成对记录</text>
+  <text x="1253" y="125" text-anchor="middle" class="title">问题四</text>
+  <text x="1253" y="169" text-anchor="middle" class="sub">六基准能力指数</text>
+  <text x="1253" y="202" text-anchor="middle" class="sub">历史前沿与情景</text>
+  <text x="1253" y="237" text-anchor="middle" class="hint">C 组开放模型记录</text>
+  <path d="M270 174 L290 174" class="arrow"/>
+  <path d="M548 174 L568 174" class="arrow"/>
+  <path d="M826 174 L846 174" class="arrow"/>
+  <path d="M1104 174 L1124 174" class="arrow"/>
+  <text x="280" y="305" text-anchor="middle" class="hint">配比差分直接嵌入</text>
+  <text x="697" y="305" text-anchor="middle" class="hint">标度参数直接读取</text>
+  <text x="975" y="305" text-anchor="middle" class="hint">条件 Loss 输入桥接</text>
+  <path d="M141 274 C141 375 420 375 420 274" class="arrow dash"/>
+  <text x="280" y="398" text-anchor="middle" class="hint">Q_A → Q_B 无共同锚点；λ_p 跨规模幅度为情景</text>
+</svg>

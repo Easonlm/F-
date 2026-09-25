@@ -1,0 +1,49 @@
+{
+  "frontier": {
+    "input": "problem4\\outputs\\tables\\analysis_dataset.csv",
+    "strict_cutoff": "2025-01-31",
+    "strict_complete_models": 45,
+    "eligible_quarters": [
+      "2024Q2",
+      "2024Q3",
+      "2024Q4",
+      "2025Q1"
+    ],
+    "baseline_p95_reproduced": true
+  },
+  "bridge": {
+    "input": "real_attachments\\C_efficiency_evolution\\loss_benchmark_bridge_expanded.csv",
+    "rows": 75,
+    "families": 23,
+    "high_rows": 7,
+    "high_families": 1,
+    "cv_folds": 5,
+    "baseline": "C6 weighted bounded logistic",
+    "baseline_fold_rmse_reproduced": true
+  },
+  "historical": {
+    "input": "problem4\\outputs\\tables\\historical_scale_sample.csv",
+    "rows": 32,
+    "families": 13,
+    "baseline_cv_reproduced": true,
+    "structural_time_coefficient_bootstrap_95": [
+      -0.3687955042687201,
+      0.2467136087566411,
+      2.534405321466522
+    ]
+  },
+  "seed": 20260924,
+  "input_sha256": {
+    "problem4\\outputs\\tables\\analysis_dataset.csv": "6f86b947e6567783224343cc8709054988bef1866e0017e046934d21ab4201ce",
+    "real_attachments\\C_efficiency_evolution\\loss_benchmark_bridge_expanded.csv": "e175462233c2b856e2878c603055b4ed70135f021300f912852af1bb485ba4fd",
+    "problem4\\outputs\\tables\\historical_scale_sample.csv": "716968df3c4d87a1a6c2f6385e20acb442a060aef3f3b3a89ec4b4709d8f7be0"
+  },
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.5.1"
+  },
+  "interpretation": "Descriptive sensitivity only; sparse strict frontier and mixed-comparability bridge."
+}

@@ -1,0 +1,5 @@
+﻿problem,baseline,selected,replacement,primary_evidence,limitation
+P1,V2 polynomial ridge mixture,ALR multitask ElasticNet,yes,nested OOF and pooled external RMSE improve,four 1B domains worsen
+P2,classic N-D plus Q by N,classic N-D plus Q by N,no,no challenger passes preregistered external gates,B8 mechanism shift
+P3,conditional minimax regret,conditional minimax regret,no,fair nominal and robust alternatives do not materially improve,3x cap conditional; high-budget extrapolation
+P4,"six-benchmark index, W1 p95, bounded logistic, structural scenarios",same core; compute-only historical comparator and persistence risk reference,no validated long-horizon upgrade,grouped CV and short rolling-origin checks,3 original evidence gates fail; no Final Freeze

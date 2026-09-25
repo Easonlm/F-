@@ -1,0 +1,8 @@
+parameter,estimate,source,model
+E,1.689797563,B1 real baseline; B6 semi-synthetic quality,additive
+A,0.3539803207,B1 real baseline; B6 semi-synthetic quality,additive
+alpha,0.3399765819,B1 real baseline; B6 semi-synthetic quality,additive
+B,1.240305584,B1 real baseline; B6 semi-synthetic quality,additive
+beta,0.2798781285,B1 real baseline; B6 semi-synthetic quality,additive
+G,0.3621750242,B1 real baseline; B6 semi-synthetic quality,additive
+kappa,0.9907350892,B1 real baseline; B6 semi-synthetic quality,additive

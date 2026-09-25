@@ -1,0 +1,26 @@
+START problem2_base
+END problem2_base exit=0 seconds=11.14
+START problem2_final
+END problem2_final exit=0 seconds=10.62
+START problem3_base
+END problem3_base exit=0 seconds=10.8
+START problem3_final
+END problem3_final exit=0 seconds=44.3
+START problem4_final
+END problem4_final exit=0 seconds=18.57
+{
+  "P1_selected_sha256": "be8afe5e37ff95583d94ebaa35df0d4c5b6ec85ebeb89664629015acd59ca00b",
+  "P2_recommended_sha256": "2bc911487cca1e026a31b18d9811e882041694c43b0d47a5056f4ef7a1e02012",
+  "P2_embeds_selected_P1_coefficients": true,
+  "P3_interface_sha256": "1b0056b36161de51933240d20dab2a17fd9281928eaffc4cf5dd797d9b54d0b5",
+  "P3_interface_model": "Model C: classic + quality_model",
+  "P3_robust_table_sha256": "54f78d7418e17375d4e03feb3b6a6e8da563982df825494ee3f18e8cf3d12aa1",
+  "P4_summary_sha256": "644f86a0ef8638a621f54ed60889d9baa95ab506868cc4818b8e2c142ada26b4",
+  "P4_verification_passed": 31,
+  "P4_verification_total": 34,
+  "P4_failed_evidence_gates": [
+    "12 month direct backtest",
+    "24 month direct backtest",
+    "Historical decomposition agrees with observed frontier"
+  ]
+}

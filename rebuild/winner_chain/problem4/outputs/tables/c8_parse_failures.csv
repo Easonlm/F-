@@ -1,0 +1,5 @@
+﻿folder,file,error
+DreadPoor_Winter_Dawn-8B-TIES,detailed_results\DreadPoor_Winter_Dawn-8B-TIES\results_2025-02-13T18-27-04.338360.json,Unterminated string starting at: line 1453 column 22 (char 65388)
+FINGU-AI_Chocolatine-Fusion-14B,detailed_results\FINGU-AI_Chocolatine-Fusion-14B\results_2025-02-13T18-27-04.338360.json,Unterminated string starting at: line 1162 column 22 (char 48159)
+Intel_neural-chat-7b-v3-3,detailed_results\Intel_neural-chat-7b-v3-3\results_2025-02-13T18-27-04.338360.json,Unterminated string starting at: line 1194 column 11 (char 49140)
+L-RAGE_3_PRYMMAL-ECE-7B-SLERP-V1,detailed_results\L-RAGE_3_PRYMMAL-ECE-7B-SLERP-V1\results_2025-02-13T18-27-04.338360.json,Expecting property name enclosed in double quotes: line 1090 column 4 (char 45805)

@@ -1,0 +1,2 @@
+method,E_low,E_high,rmse_min
+"within-B1 Gaussian profile LR, ignores source shift and trajectory correlation",1.689717563,1.689877563,0.0001464960899

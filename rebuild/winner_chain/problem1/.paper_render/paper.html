@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>问题一 数据质量评价 质量冲突消解与领域配比建模</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title"><strong>问题一 数据质量评价 质量冲突消解与领域配比建模</strong></h1>
+</header>
+<h1 id="摘要">摘要</h1>
+<p>针对训练语料质量信号量纲不一、质量指标相互冲突以及领域配比受单纯形约束的问题，本文将 22 项质量信号统一到“越高越好”的固定标尺，构建四组等权的综合质量代理 Q，并对冲突文本单独标记与分析；随后对 17 域配比采用加性对数比变换和二阶 Ridge 回归，预测 13 个验证域的交叉熵损失。质量评价使用 A1–A3 的全部 272,505 条记录，配比模型利用 A4/A5 的 512 组训练配方选型。A1 的任一预定义冲突率为 7.83%；非重合扩展记录与 A1 的 arxiv、github 域级 Q 均值分别相差 −0.0031、−0.0009。第二版配比模型在 A4/A5 的嵌套交叉验证中，将 RMSE 从第一版的 0.3951 降至 0.3340；在既定 1M 测试集上，将 RMSE 从 0.3415 降至 0.2702，13 个验证域均获得改善。由于缺少人工质量真值及同配比异质量的训练实验，Q 仍应解释为质量代理，而非训练价值或因果效应；跨规模绝对 Loss 预测仍存在明显偏移。</p>
+<p><strong>关键词：</strong>训练数据质量；质量冲突；组合数据；领域配比；加性对数比；交叉熵损失</p>
+<h1 id="问题分析与数据划分">1 问题分析与数据划分</h1>
+<p>问题一包含质量评价、质量冲突消解和领域配比建模三个任务。前两个任务以文本为分析单位，第三个任务以训练配方为分析单位。两类数据的领域分类体系不同，因此不能直接把质量样本的 Q 当作 17 域配比实验中已观测到的质量变量。本文先分别建立质量评价模型与配比预测模型，再讨论有限的跨域映射及其识别边界。</p>
+<p>表 1 给出各附件在本文中的用途。质量数据的三个文件均为压缩的 JSONL，逐行读取全部记录。配比表与对应 Loss 表通过 index 一一配对，所有配比行在入模前按行和归一。A1 与 A2 的 arxiv 记录有 1,419 个相同 ID，A1 与 A3 的 github 记录有 10,000 个相同 ID。因此扩展样本与 A1 的均值对比只使用扩展集中的非重合记录，避免将同一文本视作独立证据。</p>
+<p><strong>表 1 问题一数据划分及作用</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>附件</strong></th>
+<th><strong>内容</strong></th>
+<th><strong>规模或性质</strong></th>
+<th><strong>本文用途</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A1</td>
+<td>七个来源域的质量信号抽样集</td>
+<td>51,230 条文本</td>
+<td>确定统一标尺、构造 Q、定义冲突</td>
+</tr>
+<tr class="even">
+<td>A2</td>
+<td>arxiv 质量信号扩展集</td>
+<td>17,523 条文本</td>
+<td>域级质量与冲突的扩展检验</td>
+</tr>
+<tr class="odd">
+<td>A3</td>
+<td>github 质量信号扩展集</td>
+<td>203,752 条文本</td>
+<td>域级质量与冲突的扩展检验</td>
+</tr>
+<tr class="even">
+<td>A4/A5</td>
+<td>17 域训练配比和 13 域 Loss</td>
+<td>512 组 1M 配方</td>
+<td>模型训练与交叉验证</td>
+</tr>
+<tr class="odd">
+<td>A6/A7</td>
+<td>1M 配比和实测 Loss</td>
+<td>256 组</td>
+<td>既定同规模测试</td>
+</tr>
+<tr class="even">
+<td>A8–A11</td>
+<td>60M、1B 配比和实测 Loss</td>
+<td>256 组、64 组</td>
+<td>跨规模迁移检验</td>
+</tr>
+<tr class="odd">
+<td>A12–A15</td>
+<td>10B、70B 配比和估算 Loss</td>
+<td>非实测标签</td>
+<td>外推诊断，不参与拟合</td>
+</tr>
+<tr class="even">
+<td>A16</td>
+<td>两套领域体系的参考映射</td>
+<td>部分对应</td>
+<td>讨论 Q 与配比的有限衔接</td>
+</tr>
+</tbody>
+</table>
+<h1 id="质量指标预处理与综合评价">2 质量指标预处理与综合评价</h1>
+<h2 id="指标标量化与统一方向">2.1 指标标量化与统一方向</h2>
+<p>A1–A3 共有 22 项质量字段，其中部分字段为 logits 或多维列表。列表字段的类别语义按原数据来源的字段说明核对[3]。对二分类的 fluency_en 与 ad_en，先由两个 logits 计算正向类别概率；对六级 modernbert_*，计算 softmax 概率下的期望等级并除以 5；fineweb_edu 取单元素数值，qurater 的四个维度取等权均值。对于文档长度、句子数及字符重复比例等偏态字段，先作带符号的 log(1+|x|) 变换。各项效用函数由本文设定，而非直接采用来源文档中的建议权重。</p>
+<p>对每个标量化指标，仅使用 A1 的参考分布确定缩放参数，并将同一参数应用到 A2/A3。令 t_jk 为第 j 条文本第 k 项指标经必要变换后的数值，a_k、b_k 为 A1 中该指标的 1% 与 99% 分位点。一般正向指标定义为</p>
+<p>z_jk = clip[(t_jk - a_k)/(b_k - a_k), 0, 1]</p>
+<p>负向指标取上述结果的补数。对长度、句子数等可能“适中最好”的指标，采用由 A1 的 1%、20%、80%、99% 分位点确定的梯形效用：20% 至 80% 分位保持高效用，两端线性下降并截断到 [0,1]。缺失值用 A1 对应处理后指标的中位数补齐，同时记录缺失数。全部 z_jk 因而位于 [0,1]，数值越大表示<strong>按该指标的当前效用规则</strong>质量越高。具体字段方向和阈值见生成结果 quality_indicator_rules.csv。</p>
+<h2 id="分组综合质量代理">2.2 分组综合质量代理</h2>
+<p>22 项指标分为教育性、可读性、洁净度和文本结构四组。三个 DSIR 指标在样本中高度相关，先取组内均值作为一个子维度，避免在教育性组中重复计权。令 S_jg 表示第 j 条文本在第 g 组中的得分，教育性组为</p>
+<p>S_j,edu = [z_j,fineweb + z_j,reasoning + z_j,professionalism + z_j,qurater + (z_j,dsir_books + z_j,dsir_wiki + z_j,dsir_math)/3]/5</p>
+<p>其余三组使用组内均值，综合质量代理定义为</p>
+<p>Q_j = (S_j,edu + S_j,read + S_j,clean + S_j,structure)/4, Q_j ∈ [0,1]</p>
+<p>该结构保留四类质量信号的解释性。四组等权和部分指标的效用方向是建模假设；尽管本文比较了 CRITIC 权重和鲁棒聚合，其权重变化目前没有外部标签可校准，因此主分析保留透明的等权 Q。来源域 d 的质量水平取域内样本均值 Q_d=n_d^-1∑_j∈ dQ_j，并使用域内非参数 bootstrap 给出抽样区间。该区间不包含指标定义与权重选择的不确定性。</p>
+<h2 id="质量评价结果">2.3 质量评价结果</h2>
+<p>表 2 显示 A1 的七域结果。arxiv 的平均 Q 为 0.7647，github 为 0.5750。二者的差异描述的是本文定义下的文本质量代理，不表示 arxiv 在所有预训练目标中必然优于代码语料。A2 中非重合的 16,104 条 arxiv 记录均值为 0.7616，比 A1 同域低 0.0031；A3 中非重合的 193,752 条 github 记录均值为 0.5741，比 A1 同域低 0.0009。同一标尺下，这两个域的扩展对照基本保持原有水平。</p>
+<p><strong>表 2 A1 七个来源域的综合质量代理</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>来源域</strong></th>
+<th><strong>样本数</strong></th>
+<th><strong>平均 Q</strong></th>
+<th><strong>95% bootstrap 区间</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>arxiv</td>
+<td>1,419</td>
+<td>0.7647</td>
+<td>[0.7627, 0.7669]</td>
+</tr>
+<tr class="even">
+<td>commoncrawl</td>
+<td>9,640</td>
+<td>0.7092</td>
+<td>[0.7078, 0.7106]</td>
+</tr>
+<tr class="odd">
+<td>stackexchange</td>
+<td>10,000</td>
+<td>0.6959</td>
+<td>[0.6945, 0.6974]</td>
+</tr>
+<tr class="even">
+<td>c4</td>
+<td>10,000</td>
+<td>0.6894</td>
+<td>[0.6877, 0.6911]</td>
+</tr>
+<tr class="odd">
+<td>wikipedia</td>
+<td>10,000</td>
+<td>0.6477</td>
+<td>[0.6462, 0.6495]</td>
+</tr>
+<tr class="even">
+<td>book</td>
+<td>171</td>
+<td>0.6201</td>
+<td>[0.6082, 0.6310]</td>
+</tr>
+<tr class="odd">
+<td>github</td>
+<td>10,000</td>
+<td>0.5750</td>
+<td>[0.5736, 0.5766]</td>
+</tr>
+</tbody>
+</table>
+<p><img src="media\image1.png" style="width:5.82677in;height:3.2371in" /></p>
+<p>图 1 A1 来源域的质量代理及 A2/A3 扩展集对照。误差线表示给定评分规则下的域内 bootstrap 区间。</p>
+<h1 id="质量冲突定义与处理">3 质量冲突定义与处理</h1>
+<h2 id="冲突判定及扩展检验">3.1 冲突判定及扩展检验</h2>
+<p>不同评分器关注的属性并不相同，同一文本可能在某一维度得分较高而在另一维度得分较低。为使冲突可复核，本文以 A1 的 25% 与 75% 分位点为低、高阈值，预先定义三类冲突：教育性高而无广告概率低，流畅度高而洁净度低，教育组得分高而可读性组得分低。另用四组得分的极差 I_j=max_g S_jg-min_g S_jg 度量连续冲突强度。</p>
+<p>A1 中任一预定义冲突的比例为 7.83%。阈值改为 20%/80% 时为 3.93%，改为 30%/70% 时为 13.62%，表明冲突率依赖判定口径。A1 的 arxiv 与 github 冲突率分别为 5.07% 与 11.87%，A2 的 arxiv 和 A3 的 github 分别为 5.72% 与 11.15%；扩展集呈现相近模式。由于 A1 与扩展集有重复 ID，扩展比较用于稳健性检查，不视为完全独立验证。</p>
+<p><img src="media\image2.png" style="width:5.82677in;height:3.32958in" /></p>
+<p>图 2 按 A1 25%/75% 阈值判定的任一质量冲突率。A2/A3 仅分别覆盖 arxiv/github。</p>
+<h2 id="冲突处理规则及证据边界">3.2 冲突处理规则及证据边界</h2>
+<p>对冲突样本，本文同时保留原质量分、冲突类型和强度，不将低分维度的信息隐含地平均掉。作为候选处理，比较连续惩罚 Q_j^pen=[Q_j-0.1I_j]_[0,1]；另对无广告概率低于 A1 第 10 分位的文本，比较 Q_j^hard=0.85Q_j。连续惩罚使 A1 平均 Q 下降 0.0368，域级排序未改变；但这仅说明规则造成的数值变化，不能证明其更符合人工质量判断或更有利于训练。因此主结果仍报告未惩罚 Q，对冲突文本单独标记，并以分层抽样的 140 条文本准备两人独立盲评。盲评尚未完成，本文不将任何惩罚模型称为已验证的最优消解方案。</p>
+<h1 id="领域配比与-loss-的预测模型">4 领域配比与 Loss 的预测模型</h1>
+<h2 id="单纯形约束与特征构造">4.1 单纯形约束与特征构造</h2>
+<p>设第 s 个配方的 17 域比例为 p_s=(p_s1,…,p_s17)，其中 p_si≥0 且 ∑_i p_si=1。先按行和归一，再在各分量加入正数 ε，以参考域 r 构造 16 个加性对数比特征：</p>
+<p>x_si = ln[(p_si + ε)/(p_sr + ε)], i ≠ r</p>
+<p>对数比表示相对配比，能够处理总和为 1 的约束，其组合数据分析背景见[1]。配比到 Loss 的回归思路与 RegMix 的代理模型研究相近[2]，但本文的特征与选型由附件数据重新确定。参考域和零替换会影响带正则化模型的预测，因此两者进入训练集内的候选比较。采用二阶映射 φ( x)，包含 16 个一次项、16 个平方项和 120 个两两交互项，共 152 个特征。对映射后的特征标准化，拟合同时输出 13 个验证域 Loss 的 Ridge 模型：</p>
+<p>L̂_s = b + B·std[φ(x_s)]; min Σ_s ||L_s − L̂_s||² + α||B||²_F</p>
+<p>在 A4/A5 上进行两次五折交叉验证，从原始比例、ALR、CLR、ILR、二阶 ALR 与 RBF 模型中按总体 RMSE 选择模型和参数。选出的第二版模型采用二阶 ALR Ridge，参考域为 pile_cc，ε=0.000249501，α=10。二阶项用于刻画预测曲面中的非线性和交互，交互系数本身不直接解释为训练领域间的真实互补。</p>
+<h2 id="嵌套交叉验证与既定测试集比较">4.2 嵌套交叉验证与既定测试集比较</h2>
+<p>候选模型较多时，直接报告选型所用交叉验证误差可能偏乐观。为检验完整选型流程，本文在 A4/A5 中设置外层五折、内层三折：每个外层训练部分重新选择模型，再在未参与该次选择的外层验证部分计算误差。第一版与第二版的外层预测拼接 RMSE 分别为 0.3951 和 0.3340，第二版在 5 个外层折中均较低。</p>
+<p>A6/A7 是原赛题指定的 1M 检验集。第二版的 RMSE 为 0.2702，较第一版的 0.3415 下降 20.9%；MAE 从 0.2526 降至 0.1890，13 个验证域的 RMSE 均下降。按 256 个测试配方重抽样，第一版减第二版 RMSE 的 95% bootstrap 区间为 [0.055, 0.088]。该区间只描述既定测试配方上的抽样波动，不包含重新选型的不确定性。由于 A6–A11 的结果曾用于第一版评估，它们不是第二版的全新封存盲测，尽管第二版未使用其标签拟合或选择参数。</p>
+<p><strong>表 3 第一版与第二版的同口径误差比较</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>数据集</strong></th>
+<th><strong>标签性质</strong></th>
+<th><strong>第一版 RMSE</strong></th>
+<th><strong>第二版 RMSE</strong></th>
+<th><strong>第二版变化</strong></th>
+<th><strong>第二版域内平均 Spearman</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A4/A5 嵌套外层</td>
+<td>实测训练内验证</td>
+<td>0.3951</td>
+<td>0.3340</td>
+<td>−15.5%</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>A6/A7，1M</td>
+<td>实测测试</td>
+<td>0.3415</td>
+<td>0.2702</td>
+<td>−20.9%</td>
+<td>0.945</td>
+</tr>
+<tr class="odd">
+<td>A8/A9，60M</td>
+<td>实测跨规模</td>
+<td>1.6093</td>
+<td>1.5959</td>
+<td>−0.8%</td>
+<td>0.941</td>
+</tr>
+<tr class="even">
+<td>A10/A11，1B</td>
+<td>实测跨规模</td>
+<td>2.9820</td>
+<td>2.7021</td>
+<td>−9.4%</td>
+<td>0.877</td>
+</tr>
+<tr class="odd">
+<td>A12/A13，10B</td>
+<td>估算标签</td>
+<td>3.6054</td>
+<td>3.6212</td>
+<td>+0.4%</td>
+<td>0.633</td>
+</tr>
+<tr class="even">
+<td>A14/A15，70B</td>
+<td>估算标签</td>
+<td>3.9927</td>
+<td>4.0090</td>
+<td>+0.4%</td>
+<td>0.554</td>
+</tr>
+</tbody>
+</table>
+<p><img src="media\image3.png" style="width:5.82677in;height:3.88451in" /></p>
+<p>图 3 两版模型在 A6/A7 的 13 个验证域上的 RMSE。第二版均更低，但数学验证域的绝对误差仍较大。</p>
+<p>60M 与 1B 的绝对 Loss 均存在明显系统偏移，说明 1M 配方实验不能单独确定规模项。虽然第二版在这两个规模上的 RMSE 略低，仍不能作为已经完成规模校准的证据；1B 的域内平均 Spearman 还略低于第一版。10B 和 70B 的 Loss 为估算标签，其比较结果只用于讨论外推边界，不能作为真实大模型训练验证。</p>
+<h2 id="领域置换与质量配比衔接">4.3 领域置换与质量配比衔接</h2>
+<p>为描述领域关联，在训练配比均值 p 附近，从 pile_cc 转出 1 个百分点到目标领域 i，比较预测平均 Loss 的变化 Δ_i=13^-1∑_k[ L_k( p+0.01 e_i-0.01 e_pile_cc)- L_k( p)]。对三个参考域和三个零替换值组成的九种规格重复计算，16 个目标领域中有 13 个的效应符号一致。gutenberg_pg_19、pubmed_abstracts 与 pubmed_central 的方向随规格改变，不作为稳定结论。所有 Δ_i 均属于拟合模型在局部的条件预测，不是重新训练模型得到的因果效应。</p>
+<p>质量数据与配比数据只在六个领域上有较可靠的直接或近直接映射。对这些领域的已映射比例集合 M，可定义 Q_mapped( p)=∑_i∈ Mp_iQ_i/∑_i∈ Mp_i，并同时记录已映射配比质量的覆盖量 ∑_i∈ Mp_i。第一版的探索性实验显示，加入该量后 1M RMSE 略降，但 Q_i 对每个领域固定，新增变量仍由 p 决定。缺少同配比、不同质量的训练结果时，无法识别 Q 对 Loss 的独立贡献。本文因此将质量代理与配比效应分别报告，供问题二进一步讨论，而不赋予虚假的独立质量系数。</p>
+<h1 id="结论与局限">5 结论与局限</h1>
+<p>本文完成了 A1–A3 全量质量信号的统一方向处理和样本级、域级 Q 构造，给出了可复核的冲突定义、扩展集对照与候选处理规则；同时建立了满足配比约束的 17 域到 13 域 Loss 预测模型。第二版模型在训练集嵌套交叉验证和既定 1M 测试集上均优于第一版，说明二阶对数比特征改善了当前数据条件下的配比预测。</p>
+<p>现阶段，Q 仍是依赖指标方向与权重假设的质量代理，冲突惩罚尚无人工标签或训练实验验证；跨模型规模的绝对 Loss 预测仍存在系统偏移，估算标签也不能替代实测数据。后续应完成双人盲评与评审一致性分析，并在预先划分的规模校准数据或新训练实验上评估 Q 与规模因素的独立作用。</p>
+<h1 id="参考文献">参考文献</h1>
+<p>[1] Aitchison J. The Statistical Analysis of Compositional Data. Journal of the Royal Statistical Society Series B, 1982, 44(2): 139–160. https://doi.org/10.1111/j.2517-6161.1982.tb01195.x</p>
+<p>[2] Liu Q, Zheng X, Muennighoff N, et al. RegMix: Data Mixture as Regression for Language Model Pre-training. ICLR, 2025. https://openreview.net/forum?id=5BjQOUXq7i</p>
+<p>[3] OpenDataLab. SlimPajama Meta rater dataset card. https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater</p>
+</body>
+</html>

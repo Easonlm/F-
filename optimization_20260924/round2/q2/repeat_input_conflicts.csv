@@ -1,0 +1,2 @@
+exact_input_pairs,nonzero_loss_conflicts,mean_B8_minus_B6,min_B8_minus_B6,max_B8_minus_B6,rmse_irreducible_equal_source_weight,source
+160,160,-1.15361,-2.5769,0.0569,0.697680362008,B6_vs_B8

@@ -1,0 +1,5 @@
+﻿candidate,quantile,targets,mae,min_target_n
+linear_quantile_regression,0.9,2,3.5636566563067955,2
+linear_quantile_regression,0.95,2,5.485607601397296,2
+quarterly_persistence,0.9,2,3.351211635596554,2
+quarterly_persistence,0.95,2,3.947039393966522,2

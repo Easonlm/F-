@@ -1,0 +1,19 @@
+{
+  "four_question_tournaments_complete": true,
+  "selected_downstream_lineage_verified": true,
+  "selected_source_challenges_rerun": true,
+  "paper_numbers_copied_from_selected_chain_csv": true,
+  "figures_copied_from_selected_chain_or_selected_csv": true,
+  "prior_25_stage_one_command_clean_run_passed": true,
+  "current_extended_one_command_path_clean_tested": false,
+  "problem1_verification_passed": true,
+  "problem2_verification_passed": true,
+  "problem3_verification_passed": true,
+  "problem4_original_verification_passed": false,
+  "problem4_original_checks_passed": 31,
+  "problem4_original_checks_total": 34,
+  "final_freeze_passed": false,
+  "archive_created": false,
+  "final_project_created": false,
+  "original_models_deleted_or_replaced": false
+}

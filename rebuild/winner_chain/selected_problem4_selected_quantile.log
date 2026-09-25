@@ -1,0 +1,5 @@
+                 candidate  quantile  targets      mae  min_target_n
+linear_quantile_regression      0.90        2 3.563657             2
+linear_quantile_regression      0.95        2 5.485608             2
+     quarterly_persistence      0.90        2 3.351212             2
+     quarterly_persistence      0.95        2 3.947039             2

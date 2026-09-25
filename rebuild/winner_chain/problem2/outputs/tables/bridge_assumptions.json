@@ -1,0 +1,14 @@
+{
+  "model": "separable bridge",
+  "reference_p": "uniform 17-domain simplex; training centroid not saved in problem1 model",
+  "lambda_p": 1.0,
+  "lambda_sensitivity": [
+    0.5,
+    0.75,
+    1,
+    1.25,
+    1.5
+  ],
+  "Q_B": "B6 quality mechanism scale",
+  "Q_A": "problem1 proxy; no empirical anchor to Q_B"
+}

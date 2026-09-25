@@ -1,0 +1,22 @@
+{
+  "records": 272505,
+  "source_counts": {
+    "A3": 203752,
+    "A1": 51230,
+    "A2": 17523
+  },
+  "domain_counts": {
+    "A1/arxiv": 1419,
+    "A1/book": 171,
+    "A1/c4": 10000,
+    "A1/commoncrawl": 9640,
+    "A1/github": 10000,
+    "A1/stackexchange": 10000,
+    "A1/wikipedia": 10000,
+    "A2/arxiv": 17523,
+    "A3/github": 203752
+  },
+  "duplicate_id_within_source": 0,
+  "A1_A2_id_overlap": 1419,
+  "A1_A3_id_overlap": 10000
+}

@@ -1,0 +1,10 @@
+{
+  "json_files": 1958,
+  "model_directories": 1863,
+  "parsed_models": 1860,
+  "failed_models": 3,
+  "failed_files": 4,
+  "usable_task_model_pairs": 74344,
+  "eligible_aggregates": 1856,
+  "task_count": 40
+}

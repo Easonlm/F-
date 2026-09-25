@@ -1,0 +1,37 @@
+{
+  "B1": {
+    "path": "C:\\Users\\hyt29\\Desktop\\math\\F题\\real_attachments\\B_scaling_laws\\pythia_training_log_existing.csv",
+    "sha256": "529a59644b0f57bf3a76037838b614bfedc35e58bb26b93052e34ffc63e454c2",
+    "rows": 1176
+  },
+  "B2": {
+    "path": "C:\\Users\\hyt29\\Desktop\\math\\F题\\real_attachments\\B_scaling_laws\\cerebras_training_log.csv",
+    "sha256": "178f878cad2cb31e4ec104c670553de23818197876d824a113fdb911125951a6",
+    "rows": 1029
+  },
+  "B4": {
+    "path": "C:\\Users\\hyt29\\Desktop\\math\\F题\\real_attachments\\B_scaling_laws\\scaling_baseline.csv",
+    "sha256": "2272983ded93de35e05f9acbf95ebceedf43f283345e4be72b54fee94080391e",
+    "rows": 57
+  },
+  "B5": {
+    "path": "C:\\Users\\hyt29\\Desktop\\math\\F题\\real_attachments\\B_scaling_laws\\published_scaling_data.csv",
+    "sha256": "dd858c5e48610e28589340d5db023d6abfb31df597506789ccdfc6a546731bbd",
+    "rows": 44
+  },
+  "B6": {
+    "path": "C:\\Users\\hyt29\\Desktop\\math\\F题\\real_attachments\\B_scaling_laws\\supplementary_NQ_experiment.csv",
+    "sha256": "c7450ce0d67d8692535fef4709e60e2da60b2c184738bf96df160a4be0a33a7f",
+    "rows": 360
+  },
+  "B7": {
+    "path": "C:\\Users\\hyt29\\Desktop\\math\\F题\\real_attachments\\B_scaling_laws\\supplementary_NQ_experiment_expanded.csv",
+    "sha256": "880fd265ca3e1d9bc93b4559af7ed7c18f89040634266c50bae03d88486e0f3a",
+    "rows": 450
+  },
+  "B8": {
+    "path": "C:\\Users\\hyt29\\Desktop\\math\\F题\\real_attachments\\B_scaling_laws\\supplementary_NQ_experiment_large.csv",
+    "sha256": "bda0d449f75c73bbd04141e5cffbf4bea7002073e34b7fa95a638570fa095ffe",
+    "rows": 1704
+  }
+}

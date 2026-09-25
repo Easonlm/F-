@@ -1,0 +1,2 @@
+seed,model_selection,baseline,B7,B8
+20260924,Candidate classes fixed before evaluation; only B8 correction ridge alpha chosen by calibration-only GroupKFold,P2 V2 classic N-D and quality_model refitted on B1 and B6,exact-key new rows relative to B6,"exact-key new rows relative to B7; source correction uses two (N,D) calibration cells per N and tests disjoint cells; B6/B8 exact overlaps held out from B8 calibration"

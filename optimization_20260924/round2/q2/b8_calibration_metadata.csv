@@ -1,0 +1,2 @@
+calibration_rows,calibration_ND_groups,heldout_rows,heldout_ND_groups,ridge_alpha,coefficient_intercept,standardized_coefficients,feature_names
+200,30,1280,120,0.001,-1.1308369091,"[1.0328904370380365, 0.021036469746978776, 0.11056114606903307, -0.10257901702275456, -0.1975866066484999]","Qcenter,logN,logD,Qcenter*logN,Qcenter*logD"

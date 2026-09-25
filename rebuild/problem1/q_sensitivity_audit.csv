@@ -1,0 +1,6 @@
+﻿method,n_A1,n_domains,sample_spearman_vs_Q,domain_spearman_vs_Q,lower_three_domain_overlap,numerical_converged,has_external_truth,eligible_to_replace_Q,note
+Q_baseline,51230,7,1.0,1.0,3,True,False,False,Sensitivity only: no completed manual labels or independent quality outcome
+PCA_1,51230,7,0.6752148583926395,0.25,2,True,False,False,Sensitivity only: no completed manual labels or independent quality outcome
+FA_1,51230,7,0.28784389883465605,-0.07142857142857144,1,False,False,False,FA did not converge; descriptive only
+entropy_22,51230,7,0.8502447640550557,0.9285714285714288,3,True,False,False,Sensitivity only: no completed manual labels or independent quality outcome
+group_equal_rank_aggregate,51230,7,0.8984134122567835,0.8928571428571429,3,True,False,False,Sensitivity only: no completed manual labels or independent quality outcome

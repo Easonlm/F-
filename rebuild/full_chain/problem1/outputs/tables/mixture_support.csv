@@ -1,0 +1,6 @@
+dataset,n,training_loo_95pct_distance,median_nearest_train_distance,p95_nearest_train_distance,outside_training_local_support_rate,exact_training_mixture_match_rate,axis_of_extrapolation
+test_1m,256,2.601687124392034,2.12277884746344,2.6171989080891698,0.05859375,0.0,mixture-space
+test_60m,256,2.601687124392034,2.12277884746344,2.6171989080891698,0.05859375,0.0,parameter-scale
+test_1B,64,2.601687124392034,2.114377878567719,2.3988690381556346,0.0,0.0,parameter-scale
+est_10b,63,2.601687124392034,0.0,0.0,0.0,1.0,parameter-scale; labels estimated
+est_70b,63,2.601687124392034,0.0,0.0,0.0,1.0,parameter-scale; labels estimated

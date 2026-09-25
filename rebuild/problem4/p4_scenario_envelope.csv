@@ -1,0 +1,3 @@
+﻿horizon_months,target_date,scenario_median_min,scenario_median_max,conditional_p95_min,conditional_p95_max,scenario_count,anchor_n,interpretation
+12,2026-01-31,33.468996589353914,50.8107408172926,17.83837988513654,91.60815977626784,9,2,scenario span; conditional intervals are uncalibrated
+24,2027-01-31,36.8802611158063,71.12792046096644,16.67470783770965,99.6464720776032,9,2,scenario span; conditional intervals are uncalibrated

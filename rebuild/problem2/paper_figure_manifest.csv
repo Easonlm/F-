@@ -1,0 +1,6 @@
+file,role,caption,evidence
+figures/p2_nd_source_shift.png,main,N-D same-source group CV and zero-shot source shift,B1/B2/B4/B5 from nd_scorecard.csv
+figures/p2_quality_tournament.png,main,Q candidate leave-N and B7-new comparison,B6/B7 from quality_scorecard.csv
+figures/p2_b8_mechanism.png,main,B6-B8 identical-input disagreement and reversed Q direction,diagnostic only; B6_B8_exact_overlap.csv
+figures/p2_labeled_source_application.png,appendix,Conditional calibration requiring target-source loss labels,source_conditional_holdout.csv; not zero shot
+figures/p2_quality_by_scale.png,appendix,Selected Q-by-N response inside B6 N/D range,scenario curve from selection.json

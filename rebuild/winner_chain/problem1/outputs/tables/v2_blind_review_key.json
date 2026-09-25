@@ -1,0 +1,1262 @@
+[
+  {
+    "review_id": "V2-001",
+    "A1_row_1based": 13644,
+    "id": "BkiUdUPxK7ICUuXek5je",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.633799567199377,
+    "conflict_any": true,
+    "content_chars_shown": 2593
+  },
+  {
+    "review_id": "V2-002",
+    "A1_row_1based": 31303,
+    "id": "BkiUdHE5qWTA_7kewsvG",
+    "domain": "stackexchange",
+    "Q_baseline": 0.7121561496475107,
+    "conflict_any": false,
+    "content_chars_shown": 1473
+  },
+  {
+    "review_id": "V2-003",
+    "A1_row_1based": 12195,
+    "id": "BkiUbg7xK3xgpbERByz7",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.7617949794437319,
+    "conflict_any": false,
+    "content_chars_shown": 3691
+  },
+  {
+    "review_id": "V2-004",
+    "A1_row_1based": 4766,
+    "id": "BkiUdrfxaKgT1SKe0hIH",
+    "domain": "c4",
+    "Q_baseline": 0.6275848277968281,
+    "conflict_any": false,
+    "content_chars_shown": 527
+  },
+  {
+    "review_id": "V2-005",
+    "A1_row_1based": 29912,
+    "id": "BkiUdJw5qoYAlE7mUg8n",
+    "domain": "github",
+    "Q_baseline": 0.566632335352988,
+    "conflict_any": false,
+    "content_chars_shown": 805
+  },
+  {
+    "review_id": "V2-006",
+    "A1_row_1based": 338,
+    "id": "BkiUeZE4eIOjRwMTjvC0",
+    "domain": "arxiv",
+    "Q_baseline": 0.7503545493260823,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-007",
+    "A1_row_1based": 15940,
+    "id": "BkiUgWnxK3xgpfdGR3KS",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.7850146378190865,
+    "conflict_any": false,
+    "content_chars_shown": 878
+  },
+  {
+    "review_id": "V2-008",
+    "A1_row_1based": 26924,
+    "id": "BkiUcebxK7Tt6AlxDGm-",
+    "domain": "github",
+    "Q_baseline": 0.786154072258445,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-009",
+    "A1_row_1based": 39963,
+    "id": "BkiUbHM5qdmB6zIPxTY6",
+    "domain": "stackexchange",
+    "Q_baseline": 0.5614780474888814,
+    "conflict_any": true,
+    "content_chars_shown": 1604
+  },
+  {
+    "review_id": "V2-010",
+    "A1_row_1based": 50872,
+    "id": "BkiUdsk4eIOjSJ68K75q",
+    "domain": "wikipedia",
+    "Q_baseline": 0.7513717734894519,
+    "conflict_any": false,
+    "content_chars_shown": 1552
+  },
+  {
+    "review_id": "V2-011",
+    "A1_row_1based": 908,
+    "id": "BkiUbSPxaKPQoka4Q2Uk",
+    "domain": "arxiv",
+    "Q_baseline": 0.8241524180700316,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-012",
+    "A1_row_1based": 27064,
+    "id": "BkiUbbTxaL3SuiVmgrH2",
+    "domain": "github",
+    "Q_baseline": 0.5827710453918395,
+    "conflict_any": false,
+    "content_chars_shown": 783
+  },
+  {
+    "review_id": "V2-013",
+    "A1_row_1based": 42631,
+    "id": "BkiUcVfxK7Ehm9ic_uUO",
+    "domain": "wikipedia",
+    "Q_baseline": 0.5827885114321956,
+    "conflict_any": true,
+    "content_chars_shown": 976
+  },
+  {
+    "review_id": "V2-014",
+    "A1_row_1based": 503,
+    "id": "BkiUd_DxaJiQnwHQjHCw",
+    "domain": "arxiv",
+    "Q_baseline": 0.7678132242012624,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-015",
+    "A1_row_1based": 610,
+    "id": "BkiUdRI25V5jBFwBtjDt",
+    "domain": "arxiv",
+    "Q_baseline": 0.7926178960065612,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-016",
+    "A1_row_1based": 30400,
+    "id": "BkiUbG85qWTD6essZLul",
+    "domain": "github",
+    "Q_baseline": 0.5734462306435972,
+    "conflict_any": false,
+    "content_chars_shown": 698
+  },
+  {
+    "review_id": "V2-017",
+    "A1_row_1based": 5449,
+    "id": "BkiUc7s5qhLA5d-DFTtC",
+    "domain": "c4",
+    "Q_baseline": 0.7812426094507846,
+    "conflict_any": true,
+    "content_chars_shown": 441
+  },
+  {
+    "review_id": "V2-018",
+    "A1_row_1based": 39410,
+    "id": "BkiUeGs5qsNCPep76-_K",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6434452846164261,
+    "conflict_any": false,
+    "content_chars_shown": 664
+  },
+  {
+    "review_id": "V2-019",
+    "A1_row_1based": 38092,
+    "id": "BkiUa-w5qsMAIxuM4FkB",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6686058499377219,
+    "conflict_any": true,
+    "content_chars_shown": 2143
+  },
+  {
+    "review_id": "V2-020",
+    "A1_row_1based": 37374,
+    "id": "BkiUdvo4eIXgu2wFKSIb",
+    "domain": "stackexchange",
+    "Q_baseline": 0.7140042252895369,
+    "conflict_any": false,
+    "content_chars_shown": 1408
+  },
+  {
+    "review_id": "V2-021",
+    "A1_row_1based": 7879,
+    "id": "BkiUbfHxK1Thg98UeWyV",
+    "domain": "c4",
+    "Q_baseline": 0.718442569325265,
+    "conflict_any": false,
+    "content_chars_shown": 816
+  },
+  {
+    "review_id": "V2-022",
+    "A1_row_1based": 1492,
+    "id": "BkiUfBvxK4tBVicoEgK5",
+    "domain": "book",
+    "Q_baseline": 0.670208386724794,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-023",
+    "A1_row_1based": 27517,
+    "id": "BkiUdA05qoYAsbqIRV14",
+    "domain": "github",
+    "Q_baseline": 0.6034671075118951,
+    "conflict_any": false,
+    "content_chars_shown": 1431
+  },
+  {
+    "review_id": "V2-024",
+    "A1_row_1based": 4169,
+    "id": "BkiUdNQ241xiETwG-Dl0",
+    "domain": "c4",
+    "Q_baseline": 0.6895253244985843,
+    "conflict_any": false,
+    "content_chars_shown": 1504
+  },
+  {
+    "review_id": "V2-025",
+    "A1_row_1based": 24889,
+    "id": "BkiUc_Q5qYVBTBbD-Z15",
+    "domain": "github",
+    "Q_baseline": 0.5990534559319795,
+    "conflict_any": false,
+    "content_chars_shown": 218
+  },
+  {
+    "review_id": "V2-026",
+    "A1_row_1based": 44479,
+    "id": "BkiUbEs5qsBB3HnuUvD-",
+    "domain": "wikipedia",
+    "Q_baseline": 0.6372080194503984,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-027",
+    "A1_row_1based": 37549,
+    "id": "BkiUcXTxK03BfMLyp47b",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6635688997094626,
+    "conflict_any": false,
+    "content_chars_shown": 1014
+  },
+  {
+    "review_id": "V2-028",
+    "A1_row_1based": 50581,
+    "id": "BkiUbmA5qX_AYzDLsXU5",
+    "domain": "wikipedia",
+    "Q_baseline": 0.7278409848078577,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-029",
+    "A1_row_1based": 1549,
+    "id": "BkiUfELxK3YB9m4AAhev",
+    "domain": "book",
+    "Q_baseline": 0.5943011189575733,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-030",
+    "A1_row_1based": 33950,
+    "id": "BkiUe9_xK0iCl2n2Abfo",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6715590334294765,
+    "conflict_any": false,
+    "content_chars_shown": 1403
+  },
+  {
+    "review_id": "V2-031",
+    "A1_row_1based": 32465,
+    "id": "BkiUfok241xiMHY2apFW",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6759220755655664,
+    "conflict_any": true,
+    "content_chars_shown": 3498
+  },
+  {
+    "review_id": "V2-032",
+    "A1_row_1based": 1586,
+    "id": "BkiUbdDxK0wg09KOVXDi",
+    "domain": "book",
+    "Q_baseline": 0.5205975508117388,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-033",
+    "A1_row_1based": 43269,
+    "id": "BkiUdc44dbgg4JMhnjNh",
+    "domain": "wikipedia",
+    "Q_baseline": 0.4485669572925147,
+    "conflict_any": false,
+    "content_chars_shown": 298
+  },
+  {
+    "review_id": "V2-034",
+    "A1_row_1based": 10589,
+    "id": "BkiUdqw4eIOjRxJW9LHa",
+    "domain": "c4",
+    "Q_baseline": 0.8642352857981012,
+    "conflict_any": true,
+    "content_chars_shown": 2768
+  },
+  {
+    "review_id": "V2-035",
+    "A1_row_1based": 25654,
+    "id": "BkiUgXjxK7IDLyvTIZrT",
+    "domain": "github",
+    "Q_baseline": 0.6291373305845563,
+    "conflict_any": true,
+    "content_chars_shown": 805
+  },
+  {
+    "review_id": "V2-036",
+    "A1_row_1based": 1499,
+    "id": "BkiUbI05qhDACtS7ffDR",
+    "domain": "book",
+    "Q_baseline": 0.534279062381154,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-037",
+    "A1_row_1based": 3717,
+    "id": "BkiUa9g5qsNCPe9kG9Cy",
+    "domain": "c4",
+    "Q_baseline": 0.8292048002544294,
+    "conflict_any": true,
+    "content_chars_shown": 1988
+  },
+  {
+    "review_id": "V2-038",
+    "A1_row_1based": 1470,
+    "id": "BkiUcSXxK2li-DeXzSpl",
+    "domain": "book",
+    "Q_baseline": 0.5417039495177899,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-039",
+    "A1_row_1based": 9213,
+    "id": "BkiUfG7xK1yAgWt8AIpj",
+    "domain": "c4",
+    "Q_baseline": 0.7678673647007503,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-040",
+    "A1_row_1based": 86,
+    "id": "BkiUbuo5qoaAwmU2sBb7",
+    "domain": "arxiv",
+    "Q_baseline": 0.7074550158707769,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-041",
+    "A1_row_1based": 44586,
+    "id": "BkiUfno241xiMtsGBzTN",
+    "domain": "wikipedia",
+    "Q_baseline": 0.6859089031886245,
+    "conflict_any": false,
+    "content_chars_shown": 1104
+  },
+  {
+    "review_id": "V2-042",
+    "A1_row_1based": 11397,
+    "id": "BkiUdFQ4eIfiUSg2fTqF",
+    "domain": "c4",
+    "Q_baseline": 0.7192197453036854,
+    "conflict_any": true,
+    "content_chars_shown": 1722
+  },
+  {
+    "review_id": "V2-043",
+    "A1_row_1based": 28034,
+    "id": "BkiUfL_xK7kjXLlzeA-3",
+    "domain": "github",
+    "Q_baseline": 0.6104981205082537,
+    "conflict_any": false,
+    "content_chars_shown": 1920
+  },
+  {
+    "review_id": "V2-044",
+    "A1_row_1based": 46343,
+    "id": "BkiUdmU4eIZjpBzzwant",
+    "domain": "wikipedia",
+    "Q_baseline": 0.6165392540675886,
+    "conflict_any": true,
+    "content_chars_shown": 712
+  },
+  {
+    "review_id": "V2-045",
+    "A1_row_1based": 20375,
+    "id": "BkiUdgw5qU2ApzQrTn4v",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.7995556693450485,
+    "conflict_any": false,
+    "content_chars_shown": 1514
+  },
+  {
+    "review_id": "V2-046",
+    "A1_row_1based": 7227,
+    "id": "BkiUdYw4eILhQFSF1fbF",
+    "domain": "c4",
+    "Q_baseline": 0.7111339212099574,
+    "conflict_any": false,
+    "content_chars_shown": 1314
+  },
+  {
+    "review_id": "V2-047",
+    "A1_row_1based": 4361,
+    "id": "BkiUcjTxK0zjCrsN_MC9",
+    "domain": "c4",
+    "Q_baseline": 0.7399074334795985,
+    "conflict_any": false,
+    "content_chars_shown": 510
+  },
+  {
+    "review_id": "V2-048",
+    "A1_row_1based": 17120,
+    "id": "BkiUbXw4uzki01MTG21d",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.7554660409738512,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-049",
+    "A1_row_1based": 399,
+    "id": "BkiUeZ7xK0wg0_74_xvo",
+    "domain": "arxiv",
+    "Q_baseline": 0.7693509277762082,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-050",
+    "A1_row_1based": 16969,
+    "id": "BkiUeWE5qoTAi5Vb6lqR",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.5415986568545231,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-051",
+    "A1_row_1based": 38122,
+    "id": "BkiUbg7xaJJQnJ5kTKgO",
+    "domain": "stackexchange",
+    "Q_baseline": 0.7510518447247444,
+    "conflict_any": false,
+    "content_chars_shown": 2612
+  },
+  {
+    "review_id": "V2-052",
+    "A1_row_1based": 1488,
+    "id": "BkiUbq3xK02iP15ve52A",
+    "domain": "book",
+    "Q_baseline": 0.6610429897418703,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-053",
+    "A1_row_1based": 1479,
+    "id": "BkiUc5M4eIZjfagW4M7W",
+    "domain": "book",
+    "Q_baseline": 0.610246661419703,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-054",
+    "A1_row_1based": 33226,
+    "id": "BkiUbR05qoaAwnodzVIX",
+    "domain": "stackexchange",
+    "Q_baseline": 0.7171773948330386,
+    "conflict_any": false,
+    "content_chars_shown": 2062
+  },
+  {
+    "review_id": "V2-055",
+    "A1_row_1based": 4725,
+    "id": "BkiUaVfxK4sA-5fmugu6",
+    "domain": "c4",
+    "Q_baseline": 0.8352313187614782,
+    "conflict_any": true,
+    "content_chars_shown": 3830
+  },
+  {
+    "review_id": "V2-056",
+    "A1_row_1based": 6772,
+    "id": "BkiUdGQ5qsBDFMGksb_G",
+    "domain": "c4",
+    "Q_baseline": 0.5341914451756479,
+    "conflict_any": false,
+    "content_chars_shown": 404
+  },
+  {
+    "review_id": "V2-057",
+    "A1_row_1based": 1508,
+    "id": "BkiUfsE5qhDCbXrR5kuF",
+    "domain": "book",
+    "Q_baseline": 0.6914142376036538,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-058",
+    "A1_row_1based": 37190,
+    "id": "BkiUdoM4eIOjR8Kl4Ktf",
+    "domain": "stackexchange",
+    "Q_baseline": 0.7956656896154078,
+    "conflict_any": false,
+    "content_chars_shown": 3483
+  },
+  {
+    "review_id": "V2-059",
+    "A1_row_1based": 30055,
+    "id": "BkiUdg05qdmDAvH307pU",
+    "domain": "github",
+    "Q_baseline": 0.6722360541276737,
+    "conflict_any": true,
+    "content_chars_shown": 2157
+  },
+  {
+    "review_id": "V2-060",
+    "A1_row_1based": 11976,
+    "id": "BkiUdrU4eIZjuQleCbhl",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.5055407452449856,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-061",
+    "A1_row_1based": 1258,
+    "id": "BkiUdYU4uzlhdExj6vJN",
+    "domain": "arxiv",
+    "Q_baseline": 0.7800269722904036,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-062",
+    "A1_row_1based": 1200,
+    "id": "BkiUe2XxK1ThhAqzYM81",
+    "domain": "arxiv",
+    "Q_baseline": 0.8129407026583458,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-063",
+    "A1_row_1based": 424,
+    "id": "BkiUdYc5qoTAjvd_fRt6",
+    "domain": "arxiv",
+    "Q_baseline": 0.7357788755236564,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-064",
+    "A1_row_1based": 46944,
+    "id": "BkiUdvo4ubng8Lrd2t62",
+    "domain": "wikipedia",
+    "Q_baseline": 0.7689315000651824,
+    "conflict_any": true,
+    "content_chars_shown": 2518
+  },
+  {
+    "review_id": "V2-065",
+    "A1_row_1based": 1512,
+    "id": "BkiUd6s5qg5A51O-MP7n",
+    "domain": "book",
+    "Q_baseline": 0.6398118435702537,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-066",
+    "A1_row_1based": 30264,
+    "id": "BkiUbYU4dbjiU7SsVbmF",
+    "domain": "github",
+    "Q_baseline": 0.6516449066436377,
+    "conflict_any": true,
+    "content_chars_shown": 1566
+  },
+  {
+    "review_id": "V2-067",
+    "A1_row_1based": 38550,
+    "id": "BkiUdYPxK03BfL1dVUyP",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6035816477751845,
+    "conflict_any": false,
+    "content_chars_shown": 476
+  },
+  {
+    "review_id": "V2-068",
+    "A1_row_1based": 32929,
+    "id": "BkiUdfQ5qdmC89dsdHdp",
+    "domain": "stackexchange",
+    "Q_baseline": 0.7550193652506538,
+    "conflict_any": false,
+    "content_chars_shown": 1341
+  },
+  {
+    "review_id": "V2-069",
+    "A1_row_1based": 17276,
+    "id": "BkiUetDxK0-nUh8iKhgb",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.7432758864259383,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-070",
+    "A1_row_1based": 28158,
+    "id": "BkiUdI05qWTBFbb2e_bG",
+    "domain": "github",
+    "Q_baseline": 0.6382745566845542,
+    "conflict_any": true,
+    "content_chars_shown": 1049
+  },
+  {
+    "review_id": "V2-071",
+    "A1_row_1based": 41337,
+    "id": "BkiUbUs4dbjiU7SsVXf8",
+    "domain": "wikipedia",
+    "Q_baseline": 0.5502436088499533,
+    "conflict_any": false,
+    "content_chars_shown": 2099
+  },
+  {
+    "review_id": "V2-072",
+    "A1_row_1based": 1453,
+    "id": "BkiUa-HxK1UJ-2RwUnYM",
+    "domain": "book",
+    "Q_baseline": 0.6727836622296014,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-073",
+    "A1_row_1based": 22109,
+    "id": "BkiUejzxK7Ehm4VQwNHU",
+    "domain": "github",
+    "Q_baseline": 0.6466668502705797,
+    "conflict_any": false,
+    "content_chars_shown": 1078
+  },
+  {
+    "review_id": "V2-074",
+    "A1_row_1based": 1399,
+    "id": "BkiUbsTxK4sA-46xMmzU",
+    "domain": "arxiv",
+    "Q_baseline": 0.7141085881981655,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-075",
+    "A1_row_1based": 1520,
+    "id": "BkiUflc25V5jgmwVpc2j",
+    "domain": "book",
+    "Q_baseline": 0.6139417184324506,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-076",
+    "A1_row_1based": 16196,
+    "id": "BkiUc2M5qhLA33KHLvpm",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.6873525945123419,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-077",
+    "A1_row_1based": 4968,
+    "id": "BkiUbq45qsBB3TGfagGZ",
+    "domain": "c4",
+    "Q_baseline": 0.6996429372080245,
+    "conflict_any": false,
+    "content_chars_shown": 1037
+  },
+  {
+    "review_id": "V2-078",
+    "A1_row_1based": 996,
+    "id": "BkiUbkW6NNjgBvv4NR3v",
+    "domain": "arxiv",
+    "Q_baseline": 0.7985613409597774,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-079",
+    "A1_row_1based": 3173,
+    "id": "BkiUdMU4dbgg9iX1Ijsq",
+    "domain": "c4",
+    "Q_baseline": 0.5235014185942813,
+    "conflict_any": false,
+    "content_chars_shown": 316
+  },
+  {
+    "review_id": "V2-080",
+    "A1_row_1based": 1556,
+    "id": "BkiUdrc4eILhQJztnsjO",
+    "domain": "book",
+    "Q_baseline": 0.6501117794569303,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-081",
+    "A1_row_1based": 20857,
+    "id": "BkiUdh85qhDBWAzXsb6d",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.5317053788687431,
+    "conflict_any": false,
+    "content_chars_shown": 2349
+  },
+  {
+    "review_id": "V2-082",
+    "A1_row_1based": 14704,
+    "id": "BkiUeSvxK6mkyCfODRyM",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.8233303934934845,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-083",
+    "A1_row_1based": 13600,
+    "id": "BkiUbBA5qdmB63dEyzCV",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.7155492925574178,
+    "conflict_any": false,
+    "content_chars_shown": 1826
+  },
+  {
+    "review_id": "V2-084",
+    "A1_row_1based": 192,
+    "id": "BkiUfTHxK0fkXPSOrRn8",
+    "domain": "arxiv",
+    "Q_baseline": 0.7866791368231283,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-085",
+    "A1_row_1based": 11427,
+    "id": "BkiUeRDxK0wg09FXWwgY",
+    "domain": "c4",
+    "Q_baseline": 0.6785926701066101,
+    "conflict_any": false,
+    "content_chars_shown": 1777
+  },
+  {
+    "review_id": "V2-086",
+    "A1_row_1based": 43097,
+    "id": "BkiUdMc4eIXhwh1BxCpz",
+    "domain": "wikipedia",
+    "Q_baseline": 0.6280963534385706,
+    "conflict_any": false,
+    "content_chars_shown": 260
+  },
+  {
+    "review_id": "V2-087",
+    "A1_row_1based": 20541,
+    "id": "BkiUdDE4uBhi6bG9lDhw",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.7050282427186193,
+    "conflict_any": true,
+    "content_chars_shown": 1136
+  },
+  {
+    "review_id": "V2-088",
+    "A1_row_1based": 49679,
+    "id": "BkiUd3c5qWTD6hUhkuNC",
+    "domain": "wikipedia",
+    "Q_baseline": 0.5171367206387424,
+    "conflict_any": false,
+    "content_chars_shown": 1221
+  },
+  {
+    "review_id": "V2-089",
+    "A1_row_1based": 27352,
+    "id": "BkiUdk85qoYA1LW_Xmn6",
+    "domain": "github",
+    "Q_baseline": 0.5712633284241816,
+    "conflict_any": false,
+    "content_chars_shown": 1715
+  },
+  {
+    "review_id": "V2-090",
+    "A1_row_1based": 1474,
+    "id": "BkiUbVY4uzki01MTG05Q",
+    "domain": "book",
+    "Q_baseline": 0.737858781457742,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-091",
+    "A1_row_1based": 379,
+    "id": "BkiUdlE5qWTD6faZ3JJ_",
+    "domain": "arxiv",
+    "Q_baseline": 0.7838791032727792,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-092",
+    "A1_row_1based": 1434,
+    "id": "BkiUeazxK0fkXQzmMao3",
+    "domain": "book",
+    "Q_baseline": 0.6501415657396686,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-093",
+    "A1_row_1based": 40052,
+    "id": "BkiUd5A5qoYAxznJySnu",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6899537564608337,
+    "conflict_any": false,
+    "content_chars_shown": 511
+  },
+  {
+    "review_id": "V2-094",
+    "A1_row_1based": 43029,
+    "id": "BkiUdf_xK6EuNA_gOB4f",
+    "domain": "wikipedia",
+    "Q_baseline": 0.771679996004319,
+    "conflict_any": true,
+    "content_chars_shown": 1350
+  },
+  {
+    "review_id": "V2-095",
+    "A1_row_1based": 694,
+    "id": "BkiUbbE5qoTDtozcqomu",
+    "domain": "arxiv",
+    "Q_baseline": 0.6591570325477365,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-096",
+    "A1_row_1based": 34051,
+    "id": "BkiUe1s5qhDCHWDRFZws",
+    "domain": "stackexchange",
+    "Q_baseline": 0.7173923712439965,
+    "conflict_any": false,
+    "content_chars_shown": 1573
+  },
+  {
+    "review_id": "V2-097",
+    "A1_row_1based": 48643,
+    "id": "BkiUejLxK7IAB1deVguE",
+    "domain": "wikipedia",
+    "Q_baseline": 0.5992209884849364,
+    "conflict_any": true,
+    "content_chars_shown": 122
+  },
+  {
+    "review_id": "V2-098",
+    "A1_row_1based": 25976,
+    "id": "BkiUafzxK19JmejM65z9",
+    "domain": "github",
+    "Q_baseline": 0.482998508436577,
+    "conflict_any": false,
+    "content_chars_shown": 397
+  },
+  {
+    "review_id": "V2-099",
+    "A1_row_1based": 34540,
+    "id": "BkiUar_xK0iCl7UGVHjO",
+    "domain": "stackexchange",
+    "Q_baseline": 0.7609139257252113,
+    "conflict_any": false,
+    "content_chars_shown": 894
+  },
+  {
+    "review_id": "V2-100",
+    "A1_row_1based": 34521,
+    "id": "BkiUcCXxK2li-LJsuyGT",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6546301312525922,
+    "conflict_any": false,
+    "content_chars_shown": 1699
+  },
+  {
+    "review_id": "V2-101",
+    "A1_row_1based": 1295,
+    "id": "BkiUdJQ4uBhi65FQgC9u",
+    "domain": "arxiv",
+    "Q_baseline": 0.7129436964547304,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-102",
+    "A1_row_1based": 45190,
+    "id": "BkiUfMzxK7IAHQ7RZ0zJ",
+    "domain": "wikipedia",
+    "Q_baseline": 0.47645148336156795,
+    "conflict_any": false,
+    "content_chars_shown": 298
+  },
+  {
+    "review_id": "V2-103",
+    "A1_row_1based": 25095,
+    "id": "BkiUdVE4eIZjtO0fWu0q",
+    "domain": "github",
+    "Q_baseline": 0.416028280451877,
+    "conflict_any": false,
+    "content_chars_shown": 57
+  },
+  {
+    "review_id": "V2-104",
+    "A1_row_1based": 13729,
+    "id": "BkiUdcM5qsFAfyQRZ9tl",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.8220570984406044,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-105",
+    "A1_row_1based": 47272,
+    "id": "BkiUcTjxK1yAgYaM1j_h",
+    "domain": "wikipedia",
+    "Q_baseline": 0.6870976292488358,
+    "conflict_any": false,
+    "content_chars_shown": 1011
+  },
+  {
+    "review_id": "V2-106",
+    "A1_row_1based": 3447,
+    "id": "BkiUd3E5qhLBU3f_QOdc",
+    "domain": "c4",
+    "Q_baseline": 0.5317053729728934,
+    "conflict_any": false,
+    "content_chars_shown": 796
+  },
+  {
+    "review_id": "V2-107",
+    "A1_row_1based": 1568,
+    "id": "BkiUa_TxaJJQnMJkWSnC",
+    "domain": "book",
+    "Q_baseline": 0.6469317251150588,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-108",
+    "A1_row_1based": 784,
+    "id": "BkiUa6TxK7Ehm4qsygnW",
+    "domain": "arxiv",
+    "Q_baseline": 0.7479598050853202,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-109",
+    "A1_row_1based": 210,
+    "id": "BkiUeJk25YjgKNDlWMnH",
+    "domain": "arxiv",
+    "Q_baseline": 0.8333383382988115,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-110",
+    "A1_row_1based": 40547,
+    "id": "BkiUbGs5qrqCyi1yEq3b",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6420407943514388,
+    "conflict_any": false,
+    "content_chars_shown": 1006
+  },
+  {
+    "review_id": "V2-111",
+    "A1_row_1based": 14298,
+    "id": "BkiUeFfxK7kjXMEc97Zg",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.7616504431791027,
+    "conflict_any": false,
+    "content_chars_shown": 3404
+  },
+  {
+    "review_id": "V2-112",
+    "A1_row_1based": 24771,
+    "id": "BkiUcKLxK1ThhCdy7YdW",
+    "domain": "github",
+    "Q_baseline": 0.6066330738766613,
+    "conflict_any": true,
+    "content_chars_shown": 1199
+  },
+  {
+    "review_id": "V2-113",
+    "A1_row_1based": 1502,
+    "id": "BkiUc_g4eIZjkiQT3F92",
+    "domain": "book",
+    "Q_baseline": 0.7244920313177599,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-114",
+    "A1_row_1based": 1428,
+    "id": "BkiUbL_xK5YsWR0Khr1A",
+    "domain": "book",
+    "Q_baseline": 0.5431296367735143,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-115",
+    "A1_row_1based": 15607,
+    "id": "BkiUdATxK4sA-7sDe5TL",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.5756321347027337,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-116",
+    "A1_row_1based": 42304,
+    "id": "BkiUdgY4eIXhu5p8hsj_",
+    "domain": "wikipedia",
+    "Q_baseline": 0.6992224745764194,
+    "conflict_any": false,
+    "content_chars_shown": 650
+  },
+  {
+    "review_id": "V2-117",
+    "A1_row_1based": 40936,
+    "id": "BkiUdVQ4uzlh5xHhy5ab",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6274020557947784,
+    "conflict_any": false,
+    "content_chars_shown": 1117
+  },
+  {
+    "review_id": "V2-118",
+    "A1_row_1based": 4301,
+    "id": "BkiUddHxK0wg09lKChzu",
+    "domain": "c4",
+    "Q_baseline": 0.6597621671563381,
+    "conflict_any": false,
+    "content_chars_shown": 3069
+  },
+  {
+    "review_id": "V2-119",
+    "A1_row_1based": 1374,
+    "id": "BkiUdpo5qX_Bo8oPOv6D",
+    "domain": "arxiv",
+    "Q_baseline": 0.8215548438877935,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-120",
+    "A1_row_1based": 1429,
+    "id": "BkiUdmM4dbghNqLlNfOL",
+    "domain": "book",
+    "Q_baseline": 0.6506974862080435,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-121",
+    "A1_row_1based": 24852,
+    "id": "BkiUarTxK7kjXMEc6txX",
+    "domain": "github",
+    "Q_baseline": 0.5170710121866307,
+    "conflict_any": false,
+    "content_chars_shown": 448
+  },
+  {
+    "review_id": "V2-122",
+    "A1_row_1based": 22081,
+    "id": "BkiUc-w5qdmC8Q-W65Mz",
+    "domain": "github",
+    "Q_baseline": 0.559508128553089,
+    "conflict_any": false,
+    "content_chars_shown": 3095
+  },
+  {
+    "review_id": "V2-123",
+    "A1_row_1based": 16948,
+    "id": "BkiUdZ45qhLA8SA3CHvq",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.6953320512304418,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-124",
+    "A1_row_1based": 47424,
+    "id": "BkiUerzxK6wB9k0iM8O4",
+    "domain": "wikipedia",
+    "Q_baseline": 0.697052087719526,
+    "conflict_any": false,
+    "content_chars_shown": 523
+  },
+  {
+    "review_id": "V2-125",
+    "A1_row_1based": 45648,
+    "id": "BkiUcl7xK6wB9mn4-ciy",
+    "domain": "wikipedia",
+    "Q_baseline": 0.7494435075731181,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-126",
+    "A1_row_1based": 43031,
+    "id": "BkiUa0HxK1yAgWt78G0r",
+    "domain": "wikipedia",
+    "Q_baseline": 0.5987005537366241,
+    "conflict_any": false,
+    "content_chars_shown": 2135
+  },
+  {
+    "review_id": "V2-127",
+    "A1_row_1based": 5388,
+    "id": "BkiUbJ85qsMAIxWHCbjT",
+    "domain": "c4",
+    "Q_baseline": 0.7782698471989913,
+    "conflict_any": false,
+    "content_chars_shown": 553
+  },
+  {
+    "review_id": "V2-128",
+    "A1_row_1based": 17742,
+    "id": "BkiUbSg4uzki0w6oMuIJ",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.8027811963724649,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-129",
+    "A1_row_1based": 22548,
+    "id": "BkiUd8g5qYVBc0citKVH",
+    "domain": "github",
+    "Q_baseline": 0.5204898294783602,
+    "conflict_any": false,
+    "content_chars_shown": 1373
+  },
+  {
+    "review_id": "V2-130",
+    "A1_row_1based": 1164,
+    "id": "BkiUbT3xK19JmejM7pJe",
+    "domain": "arxiv",
+    "Q_baseline": 0.761552687368805,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-131",
+    "A1_row_1based": 4741,
+    "id": "BkiUdNM5qoTAjvd_fG00",
+    "domain": "c4",
+    "Q_baseline": 0.836037920168728,
+    "conflict_any": false,
+    "content_chars_shown": 1006
+  },
+  {
+    "review_id": "V2-132",
+    "A1_row_1based": 1472,
+    "id": "BkiUdSLxK7IAD7XMJWdu",
+    "domain": "book",
+    "Q_baseline": 0.5991175197269637,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-133",
+    "A1_row_1based": 1501,
+    "id": "BkiUdn45qU2Ap2aRyEUz",
+    "domain": "book",
+    "Q_baseline": 0.7421879280608534,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-134",
+    "A1_row_1based": 13030,
+    "id": "BkiUdjE5qoaAwj4XORpo",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.734351235655909,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-135",
+    "A1_row_1based": 1002,
+    "id": "BkiUdZDxK02iP5rWKp4R",
+    "domain": "arxiv",
+    "Q_baseline": 0.8173512996354585,
+    "conflict_any": true,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-136",
+    "A1_row_1based": 30297,
+    "id": "BkiUdw45qoTBFq8c9Lpq",
+    "domain": "github",
+    "Q_baseline": 0.6395048968153483,
+    "conflict_any": false,
+    "content_chars_shown": 4000
+  },
+  {
+    "review_id": "V2-137",
+    "A1_row_1based": 6153,
+    "id": "BkiUfYA5qhLB2E5MOVLf",
+    "domain": "c4",
+    "Q_baseline": 0.7103639209103713,
+    "conflict_any": false,
+    "content_chars_shown": 1240
+  },
+  {
+    "review_id": "V2-138",
+    "A1_row_1based": 49877,
+    "id": "BkiUfhXxK0zjCxN_vYr9",
+    "domain": "wikipedia",
+    "Q_baseline": 0.724505433295515,
+    "conflict_any": false,
+    "content_chars_shown": 2675
+  },
+  {
+    "review_id": "V2-139",
+    "A1_row_1based": 17832,
+    "id": "BkiUdRTxK6EuM_Ubq2jY",
+    "domain": "commoncrawl",
+    "Q_baseline": 0.6746647923884561,
+    "conflict_any": true,
+    "content_chars_shown": 1576
+  },
+  {
+    "review_id": "V2-140",
+    "A1_row_1based": 38210,
+    "id": "BkiUa23xK3YB9m8SUi9B",
+    "domain": "stackexchange",
+    "Q_baseline": 0.6695543103198714,
+    "conflict_any": true,
+    "content_chars_shown": 1724
+  }
+]

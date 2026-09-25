@@ -1,0 +1,21 @@
+{
+  "existing_problem2_v2_checks_passed": 13,
+  "existing_problem2_v2_checks_total": 13,
+  "new_source_calibration_tests_passed": 6,
+  "new_source_calibration_tests_total": 6,
+  "canonical_model_sha256_before": "2dbde20bb7da6bceace26bea2fecae9f175564a3c64d5084fe967ce9020b3de8",
+  "canonical_model_sha256_after": "2dbde20bb7da6bceace26bea2fecae9f175564a3c64d5084fe967ce9020b3de8",
+  "canonical_model_unchanged": true,
+  "calibration_rows": 200,
+  "evaluation_rows": 1280,
+  "calibration_ND_cells": 30,
+  "evaluation_ND_cells": 120,
+  "calibration_and_evaluation_ids_disjoint": true,
+  "calibration_and_evaluation_ND_cells_disjoint": true,
+  "q_only_100_calibration_rows": 100,
+  "q_only_100_evaluation_rows": 1380,
+  "q_only_100_heldout_rmse": 0.238699064631,
+  "q_only_unseen_Q_calibration_rows": 51,
+  "q_only_unseen_Q_evaluation_rows": 777,
+  "q_only_unseen_Q_heldout_rmse": 0.220724690106
+}

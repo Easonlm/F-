@@ -1,0 +1,74 @@
+{
+  "model_type": "additive",
+  "parameters": {
+    "E": 1.68979756291035,
+    "A": 0.3539803206693151,
+    "alpha": 0.3399765818933857,
+    "B": 1.240305583558574,
+    "beta": 0.2798781285416731,
+    "G": 0.3621750241649841,
+    "kappa": 0.9907350892250987
+  },
+  "parameter_intervals": [
+    {
+      "parameter": "E",
+      "ci_low": 1.6896831904510625,
+      "ci_high": 1.6899255073176362,
+      "median": 1.6898107565411533
+    },
+    {
+      "parameter": "A",
+      "ci_low": 0.35385030761673153,
+      "ci_high": 0.3541011911380949,
+      "median": 0.35395869794888085
+    },
+    {
+      "parameter": "alpha",
+      "ci_low": 0.3398564453995578,
+      "ci_high": 0.34009781016341284,
+      "median": 0.3399897764615632
+    },
+    {
+      "parameter": "B",
+      "ci_low": 1.240153184660474,
+      "ci_high": 1.2404360094875193,
+      "median": 1.2403173645502816
+    },
+    {
+      "parameter": "beta",
+      "ci_low": 0.279827214286681,
+      "ci_high": 0.2799281339595043,
+      "median": 0.279873552324361
+    },
+    {
+      "parameter": "G",
+      "ci_low": 0.3621648290063451,
+      "ci_high": 0.36218353488389443,
+      "median": 0.36217418496143805
+    },
+    {
+      "parameter": "kappa",
+      "ci_low": 0.9906556738602393,
+      "ci_high": 0.9908301772317458,
+      "median": 0.990742885782388
+    }
+  ],
+  "p_correction": "lambda_p * [mean_13_domain_loss_v2(p)-mean_13_domain_loss_v2(uniform_p)]",
+  "lambda_p": 1,
+  "Q_range": [
+    0.1,
+    1
+  ],
+  "Q_scale": "B6 semi-synthetic; not directly equal to problem1 Q proxy",
+  "N_B_fit_range": [
+    0.070542,
+    11.965825
+  ],
+  "D_B_fit_range": [
+    0.134,
+    299.893
+  ],
+  "recommended_extrapolation": "100B+ diagnostic only; compare B10 estimated losses, not observations",
+  "prediction_function": "problem2/generalized_scaling.py:predict_generalized",
+  "equivalence_function": "problem2/generalized_scaling.py:equivalent_parameters"
+}

@@ -1,0 +1,13 @@
+{
+  "input": "real_attachments\\C_efficiency_evolution\\loss_benchmark_bridge_expanded.csv",
+  "input_sha256": "e175462233c2b856e2878c603055b4ed70135f021300f912852af1bb485ba4fd",
+  "rows": 75,
+  "families": 23,
+  "high_rows": 7,
+  "high_families": 1,
+  "N_complete_rows": 75,
+  "D_complete_rows": 7,
+  "fixed_fold_baseline_reproduced": true,
+  "all_candidates_bounded_monotone_at_fixed_N": true,
+  "seed": 20260924
+}

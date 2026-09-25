@@ -1,0 +1,51 @@
+[
+  {
+    "stage": "problem1_base",
+    "script": "problem1/run_problem1.py",
+    "exit_code": 0,
+    "seconds": 134.56,
+    "log": "problem1_base.log"
+  },
+  {
+    "stage": "problem1_mixture",
+    "script": "problem1/problem1_v2.py",
+    "exit_code": 0,
+    "seconds": 15.9,
+    "log": "problem1_mixture.log"
+  },
+  {
+    "stage": "problem2_base",
+    "script": "problem2/run_problem2.py",
+    "exit_code": 0,
+    "seconds": 11.56,
+    "log": "problem2_base.log"
+  },
+  {
+    "stage": "problem2_final",
+    "script": "problem2_v2/run_v2.py",
+    "exit_code": 0,
+    "seconds": 10.82,
+    "log": "problem2_final.log"
+  },
+  {
+    "stage": "problem3_base",
+    "script": "problem3/run_problem3.py",
+    "exit_code": 0,
+    "seconds": 11.82,
+    "log": "problem3_base.log"
+  },
+  {
+    "stage": "problem3_final",
+    "script": "problem3_v2/run_v2.py",
+    "exit_code": 0,
+    "seconds": 45.9,
+    "log": "problem3_final.log"
+  },
+  {
+    "stage": "problem4_final",
+    "script": "problem4/run_problem4.py",
+    "exit_code": 0,
+    "seconds": 37.37,
+    "log": "problem4_final.log"
+  }
+]

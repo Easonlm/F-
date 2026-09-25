@@ -1,0 +1,5 @@
+﻿candidate,n,families,c8_spearman,cluster_ci_low,cluster_ci_high,independent_validation,note
+six_benchmark_mean,1854,1055,0.9526596118019761,0.9412139013899943,0.9574654374064092,False,C8 task data are related to the leaderboard; consistency check only
+robust_standardized_mean,1854,1055,0.9737744087827288,0.9655490505835348,0.9769099989969598,False,C8 task data are related to the leaderboard; consistency check only
+PCA_latent,1854,1055,0.974968587105573,0.9633860008415244,0.9779243797525766,False,C8 task data are related to the leaderboard; consistency check only
+C8_detailed_tasks,1854,1055,1.0,0.9999999999999998,1.0,False,C8 task data are related to the leaderboard; consistency check only

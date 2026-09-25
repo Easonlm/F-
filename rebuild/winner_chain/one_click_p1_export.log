@@ -1,0 +1,5 @@
+{'selected_model_sha256': 'be8afe5e37ff95583d94ebaa35df0d4c5b6ec85ebeb89664629015acd59ca00b', 'family': 'poly_alr', 'original_family': 'alr_elasticnet', 'reference_index': 11, 'eps': 0.000249500998003992, 'source_challenger_sha256': 'afc236cc687a53e7f94a47ad834005aa74609fc60b7d46081d271f4624ac0021'}
+ dataset             version  n_mixtures  mean_loss_spearman  centered_slope  slope_ci_low  slope_ci_high  mean_loss_bias                                        evidence_status
+ test_1m elasticnet_selected         256            0.730563        0.863518      0.770451       0.966656        0.043612 retrospective_test_diagnostic_not_new_blind_validation
+test_60m elasticnet_selected         256            0.689126        0.635568      0.552747       0.733056        1.502982 retrospective_test_diagnostic_not_new_blind_validation
+ test_1B elasticnet_selected          64            0.657738        0.208798      0.157984       0.269122        2.612864 retrospective_test_diagnostic_not_new_blind_validation

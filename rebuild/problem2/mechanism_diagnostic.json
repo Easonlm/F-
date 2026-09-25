@@ -1,0 +1,20 @@
+{
+  "B6": {
+    "groups": 45,
+    "fraction_loss_declines_with_Q": 1.0
+  },
+  "B7_full": {
+    "groups": 45,
+    "fraction_loss_declines_with_Q": 1.0
+  },
+  "B8_new": {
+    "groups": 118,
+    "fraction_loss_declines_with_Q": 0.0
+  },
+  "B6_B8_exact_overlap": {
+    "n": 160,
+    "mean_difference": -1.15361,
+    "q01_mean": -2.158315,
+    "q1_mean": -0.012519999999999976
+  }
+}

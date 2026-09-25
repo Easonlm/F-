@@ -1,0 +1,20 @@
+{
+  "all_passed": true,
+  "checks": {
+    "raw_inputs_unchanged": true,
+    "B7_new_only": true,
+    "B8_new_only": true,
+    "B1_group_oof_complete": true,
+    "B6_leave_N_oof_complete": true,
+    "B1_champion_CV_recomputed": true,
+    "B6_champion_CV_recomputed": true,
+    "B7_champion_new_recomputed": true,
+    "Q_equals_one_reduces_to_ND": true,
+    "NDQ_monotone_on_B6_domain": true,
+    "B8_mechanism_conflict": true,
+    "source_transfer_B5_fully_heldout": true,
+    "lambda_scenarios_not_claimed_identified": true,
+    "preregistered_winners": true,
+    "all_tournament_metrics_finite": true
+  }
+}

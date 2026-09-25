@@ -1,0 +1,12 @@
+{
+  "selection_rule": "A4/A5 2x5 repeated CV minimum sqrt(mean fold MSE); 12 spline candidates",
+  "selected": {
+    "eps_mult": 0.25,
+    "n_knots": 4,
+    "alpha": 1.0
+  },
+  "cv_rmse": 0.24619754212608175,
+  "model_artifact": "outputs/models/mixture_v3_1m.joblib",
+  "upstream_v2_sha256": "cad60f7dede46b0a87b214713ef070a0f22a37b1fecd6082ac371de9e74b5841",
+  "no_test_labels_used_for_selection": true
+}

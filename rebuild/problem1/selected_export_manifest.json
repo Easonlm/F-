@@ -1,0 +1,8 @@
+{
+  "selected_model_sha256": "be8afe5e37ff95583d94ebaa35df0d4c5b6ec85ebeb89664629015acd59ca00b",
+  "family": "poly_alr",
+  "original_family": "alr_elasticnet",
+  "reference_index": 11,
+  "eps": 0.000249500998003992,
+  "source_challenger_sha256": "afc236cc687a53e7f94a47ad834005aa74609fc60b7d46081d271f4624ac0021"
+}

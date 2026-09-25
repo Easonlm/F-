@@ -1,0 +1,3 @@
+﻿candidate,family_cv_rmse,family_cv_mae,n,families,parameter_count,min_loss_slope
+bounded_logistic,11.86412981770644,9.496312629314499,75,23,2,2.023819044350869
+partial_pool_multitask,11.785675764217144,9.447785946673429,75,23,7,1.2586552424631714

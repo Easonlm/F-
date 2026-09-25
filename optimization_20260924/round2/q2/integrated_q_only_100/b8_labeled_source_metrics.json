@@ -1,0 +1,38 @@
+{
+  "protocol": "B8 observed-label calibration on explicit N-D cells; disjoint held-out N-D cells",
+  "mode": "q_only",
+  "canonical_model_sha256_before": "2dbde20bb7da6bceace26bea2fecae9f175564a3c64d5084fe967ce9020b3de8",
+  "canonical_model_sha256_after": "2dbde20bb7da6bceace26bea2fecae9f175564a3c64d5084fe967ce9020b3de8",
+  "canonical_model_unchanged": true,
+  "calibration_index_sha256": "a996e3bfe82455797a3f5ebf2acc82f5f62278362795935b12983a7ecf0fafaf",
+  "evaluation_index_sha256": "a3e2506ec02475a70d4055c3e5b3c258785fea0cee899fdc8dfd89ccc97344a1",
+  "calibration_rows": 100,
+  "calibration_ND_cells": 15,
+  "calibration_N_groups": 15,
+  "calibration_Q_levels": 12,
+  "evaluation_rows": 1380,
+  "evaluation_ND_cells": 135,
+  "evaluation_N_groups": 15,
+  "evaluation_Q_levels": 12,
+  "calibration_fraction_of_selected_rows": 0.06756756756756757,
+  "alpha": 0.1,
+  "calibration_group_cv_rmse": 0.1625873480681424,
+  "metrics": {
+    "zero_shot_Model_C": {
+      "n": 1380,
+      "rmse": 1.3290842019442983,
+      "mae": 1.100663075898648
+    },
+    "source_intercept_control": {
+      "n": 1380,
+      "rmse": 0.7607588001972843,
+      "mae": 0.6614682806020555
+    },
+    "source_q_only": {
+      "n": 1380,
+      "rmse": 0.2386990646311067,
+      "mae": 0.16383464976735246
+    }
+  },
+  "limitation": "B8 data_type includes calibrated and extrapolated attachment labels; this is supervised within-source adaptation, not zero-shot cross-source generalization"
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "stage": "baseline_p1_quality",
+    "script": "problem1/run_problem1.py",
+    "exit_code": 0,
+    "seconds": 93.71,
+    "log": "one_click_baseline_p1_quality.log"
+  },
+  {
+    "stage": "baseline_p1_mixture",
+    "script": "problem1/problem1_v2.py",
+    "exit_code": 0,
+    "seconds": 14.48,
+    "log": "one_click_baseline_p1_mixture.log"
+  },
+  {
+    "stage": "baseline_p2",
+    "script": "problem2/run_problem2.py",
+    "exit_code": 0,
+    "seconds": 11.02,
+    "log": "one_click_baseline_p2.log"
+  },
+  {
+    "stage": "baseline_p2_model_c",
+    "script": "problem2_v2/run_v2.py",
+    "exit_code": 0,
+    "seconds": 10.5,
+    "log": "one_click_baseline_p2_model_c.log"
+  },
+  {
+    "stage": "baseline_p3",
+    "script": "problem3/run_problem3.py",
+    "exit_code": 0,
+    "seconds": 10.84,
+    "log": "one_click_baseline_p3.log"
+  },
+  {
+    "stage": "baseline_p3_robust",
+    "script": "problem3_v2/run_v2.py",
+    "exit_code": 0,
+    "seconds": 44.21,
+    "log": "one_click_baseline_p3_robust.log"
+  },
+  {
+    "stage": "baseline_p4",
+    "script": "problem4/run_problem4.py",
+    "exit_code": 0,
+    "seconds": 18.54,
+    "log": "one_click_baseline_p4.log"
+  },
+  {
+    "stage": "p1_challenge",
+    "script": "rebuild/problem1/run_tournament.py",
+    "exit_code": 0,
+    "seconds": 144.13,
+    "log": "one_click_p1_challenge.log"
+  },
+  {
+    "stage": "p1_export",
+    "script": "rebuild/problem1/export_selected.py",
+    "exit_code": 0,
+    "seconds": 4.42,
+    "log": "one_click_p1_export.log"
+  },
+  {
+    "stage": "p1_verify",
+    "script": "rebuild/problem1/verify_tournament.py",
+    "exit_code": 0,
+    "seconds": 3.87,
+    "log": "one_click_p1_verify.log"
+  },
+  {
+    "stage": "p1_q_sensitivity",
+    "script": "rebuild/problem1/run_q_sensitivity.py",
+    "exit_code": 0,
+    "seconds": 15.21,
+    "log": "one_click_p1_q_sensitivity.log"
+  },
+  {
+    "stage": "p1_assets",
+    "script": "rebuild/problem1/build_paper_assets.py",
+    "exit_code": 0,
+    "seconds": 2.89,
+    "log": "one_click_p1_assets.log"
+  },
+  {
+    "stage": "p2_challenge",
+    "script": "rebuild/problem2/run_tournament.py",
+    "exit_code": 0,
+    "seconds": 12.25,
+    "log": "one_click_p2_challenge.log"
+  },
+  {
+    "stage": "p2_verify",
+    "script": "rebuild/problem2/verify_tournament.py",
+    "exit_code": 0,
+    "seconds": 3.33,
+    "log": "one_click_p2_verify.log"
+  },
+  {
+    "stage": "p2_assets",
+    "script": "rebuild/problem2/build_deliverables.py",
+    "exit_code": 0,
+    "seconds": 3.44,
+    "log": "one_click_p2_assets.log"
+  },
+  {
+    "stage": "p3_challenge",
+    "script": "rebuild/problem3/run_decision_tournament.py",
+    "exit_code": 0,
+    "seconds": 28.75,
+    "log": "one_click_p3_challenge.log"
+  },
+  {
+    "stage": "p3_verify",
+    "script": "rebuild/problem3/verify_tournament.py",
+    "exit_code": 0,
+    "seconds": 2.8,
+    "log": "one_click_p3_verify.log"
+  },
+  {
+    "stage": "p3_assets",
+    "script": "rebuild/problem3/build_paper_assets.py",
+    "exit_code": 0,
+    "seconds": 6.52,
+    "log": "one_click_p3_assets.log"
+  },
+  {
+    "stage": "p4_frontier_bridge",
+    "script": "rebuild/problem4/run_frontier_bridge.py",
+    "exit_code": 0,
+    "seconds": 11.96,
+    "log": "one_click_p4_frontier_bridge.log"
+  },
+  {
+    "stage": "p4_bridge_structures",
+    "script": "rebuild/problem4/run_bridge_structures.py",
+    "exit_code": 0,
+    "seconds": 15.19,
+    "log": "one_click_p4_bridge_structures.log"
+  },
+  {
+    "stage": "p4_ability_multitask",
+    "script": "rebuild/problem4/run_ability_multitask.py",
+    "exit_code": 0,
+    "seconds": 5.87,
+    "log": "one_click_p4_ability_multitask.log"
+  },
+  {
+    "stage": "p4_quantile_frontier",
+    "script": "rebuild/problem4/run_quantile_frontier.py",
+    "exit_code": 0,
+    "seconds": 3.68,
+    "log": "one_click_p4_quantile_frontier.log"
+  },
+  {
+    "stage": "p4_forecast",
+    "script": "rebuild/problem4/run_forecast_backtest.py",
+    "exit_code": 0,
+    "seconds": 3.69,
+    "log": "one_click_p4_forecast.log"
+  },
+  {
+    "stage": "p4_select",
+    "script": "rebuild/problem4/select_models.py",
+    "exit_code": 0,
+    "seconds": 1.81,
+    "log": "one_click_p4_select.log"
+  },
+  {
+    "stage": "selected_dependency_chain",
+    "script": "run_selected.py",
+    "exit_code": 0,
+    "seconds": 99.45,
+    "log": "one_click_selected_dependency_chain.log"
+  }
+]

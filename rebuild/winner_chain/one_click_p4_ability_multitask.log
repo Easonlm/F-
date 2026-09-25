@@ -1,0 +1,12 @@
+{
+  "input_sha256": "e175462233c2b856e2878c603055b4ed70135f021300f912852af1bb485ba4fd",
+  "n": 75,
+  "families": 23,
+  "high_rows": 7,
+  "baseline_reproduced": true,
+  "paired_family_bootstrap_gain_95": [
+    -0.043065742570932784,
+    0.2005169413779129
+  ],
+  "note": "Bootstrapped OOF residuals; no retraining in bootstrap. High-comparability observations come from one family."
+}

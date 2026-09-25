@@ -1,0 +1,6 @@
+﻿family,n_targets,n_bootstrap_fits,stable_sign_targets_ge_0_9,mean_sign_consistency,active_features_full,active_features_bootstrap_median
+v2_champion,16,40,9,0.8640625,152,152.0
+alr_elasticnet,16,40,9,0.8796875,136,139.0
+ilr_ridge,16,40,10,0.8453125,152,152.0
+alr_pls,16,40,13,0.9265625,12,12.0
+clr_spline,16,40,11,0.8984375,85,85.0

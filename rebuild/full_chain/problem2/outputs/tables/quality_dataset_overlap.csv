@@ -1,0 +1,4 @@
+left,right,overlap_points,left_rows,right_rows
+B6,B7,360,360,450
+B7,B8,224,450,1704
+B6,B8,160,360,1704

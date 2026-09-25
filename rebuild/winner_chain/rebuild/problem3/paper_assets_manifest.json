@@ -1,0 +1,56 @@
+{
+  "source_sha256": {
+    "rebuild/problem3/problem3_decision_tournament.csv": "e14629019ac31a195ade4790481ae2d78a35e8f5d0f1c62543a4526fe35018ee",
+    "rebuild/problem3/policies.csv": "3f7e65e6c4bb470dc14da23b157159a4889a2a6ac00154d99419de8f67eb921c",
+    "rebuild/problem3/nominal_cap_profile.csv": "ef77fde25adb576efc332cd49dfe369b55d99708d204775c55e29879386bdf22",
+    "rebuild/problem3/verification_results.json": "9a801e63e21bb9c9264254031501a082e54133b9757a6c2efb17b1d261d5fb8c",
+    "rebuild/problem3/run_metadata.json": "3ce8dd7fdd4800135b89d2787887feab71a983ef60422f368435f63b0f1c4f52",
+    "problem3_v2/outputs/tables/extrapolation_levels.csv": "13f99c3f21cee6515bf720d1d33b8ce905f8deffa8cc8ecf95616768983bf280",
+    "problem3_v2/outputs/tables/quality_transition_points_exact.csv": "b994948565f3927698fcaf5b462f5994343737cd6d547bea445ff1363ffc77ad",
+    "problem3_v2/outputs/tables/mixture_support_diagnostics.csv": "ed8f55548310a0308b173b2897473e7c29a03cfddd208bf842479894b6c9fae2"
+  },
+  "p2_model_sha256": "2bc911487cca1e026a31b18d9811e882041694c43b0d47a5056f4ef7a1e02012",
+  "derived_from_frozen_p3_v2": true,
+  "derived_from_current_tournament": true,
+  "figures": [
+    "p3_cap_tradeoff.pdf",
+    "p3_cap_tradeoff.png",
+    "p3_cost_budget.pdf",
+    "p3_cost_budget.png",
+    "p3_evidence_levels.pdf",
+    "p3_evidence_levels.png",
+    "p3_fair_policy_regret.pdf",
+    "p3_fair_policy_regret.png",
+    "p3_quality_transitions.pdf",
+    "p3_quality_transitions.png"
+  ],
+  "paper_tables": [
+    "p3_cap_regret_comparison.csv",
+    "p3_cost_budget.csv",
+    "p3_evidence_levels.csv",
+    "p3_fair_policy_comparison.csv",
+    "p3_free_nominal_kkt.csv",
+    "p3_mixture_support.csv",
+    "p3_quality_transitions.csv"
+  ],
+  "output_sha256": {
+    "figures/p3_cap_tradeoff.pdf": "2478b4ff53b33b6a4931d53499e1b20fa6ded3fd0c91c2a6e3bfffc0c4994acc",
+    "figures/p3_cap_tradeoff.png": "07ae22f377c1752c888062bd3af2b105621d57e187b87f6759d6ee216b81fa9b",
+    "figures/p3_cost_budget.pdf": "3d148c80937f915a08efa9e56d93383798442e729da532e9b4a88a85bab0ac56",
+    "figures/p3_cost_budget.png": "8fee4ad84b157f2bd08f39480df90571df9d6fc1ce587bb0e6ff1fffabdf8db1",
+    "figures/p3_evidence_levels.pdf": "bb374af8f5f6462bb7f257554d5d4a46c0cecb6318d63517120963c6d311e7b5",
+    "figures/p3_evidence_levels.png": "f1946a8805d9b097fc8b31908f7b829c4683d08643d88fc2194a579abc6feb19",
+    "figures/p3_fair_policy_regret.pdf": "6b6ba5494f4a2d3a9cb3f85dd170de6e598761e52cf6038762cf7f8438ca87ff",
+    "figures/p3_fair_policy_regret.png": "48ad3c25242450ac999333276f970d49b1a52b047cad1ded2fca5c56890e52dd",
+    "figures/p3_quality_transitions.pdf": "f124b495efc4657508702c1c3ba54c2c12330a1c4617ea677ee5da63eea77986",
+    "figures/p3_quality_transitions.png": "61b5322eded33461c481af9dab146264e3753af0dbe29fc1d8984c4b3373425f",
+    "paper_tables/p3_cap_regret_comparison.csv": "550b8ca32bd5479f927fe09aab526a5ae5b409964e07a7d74160323cd2aac74a",
+    "paper_tables/p3_cost_budget.csv": "8108e3ab989cb94cd0f8cdbc803abc77d4aa9690ec551f2d6424e4beef19e8f9",
+    "paper_tables/p3_evidence_levels.csv": "61d4f2a2d0aa19866d273aa10ae01d0e90a642a31c24f9ca44e359d95e2c9d09",
+    "paper_tables/p3_fair_policy_comparison.csv": "705ff9599abe822369e1e81c8c24a61e37e70e07b17dbd09322c3e53a5afec6e",
+    "paper_tables/p3_free_nominal_kkt.csv": "4d96a46fa3725012ee01d561a460ff1724c064b4c6ec0fdc28a6c48bf6f6b08e",
+    "paper_tables/p3_mixture_support.csv": "84b07a723d7a2074c7d882d8a00f735f8697b2d8001083668d2e70a2e4b0f281",
+    "paper_tables/p3_quality_transitions.csv": "b994948565f3927698fcaf5b462f5994343737cd6d547bea445ff1363ffc77ad",
+    "问题三最终详解.md": "2dacfb5f958101ea7168773f201c4964aa910d328b699c15f3f13f5bd4270cab"
+  }
+}

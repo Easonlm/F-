@@ -1,0 +1,24 @@
+number,value,unit,dataset,split,source_file,meaning
+E,1.68979756292,model_parameter,B1,full_fit,selection.json,N-D winner parameter
+A,0.353980320667,model_parameter,B1,full_fit,selection.json,N-D winner parameter
+alpha,0.339976581895,model_parameter,B1,full_fit,selection.json,N-D winner parameter
+B,1.24030558355,model_parameter,B1,full_fit,selection.json,N-D winner parameter
+beta,0.279878128543,model_parameter,B1,full_fit,selection.json,N-D winner parameter
+G,0.356807358366,model_parameter,B6,full_fit,selection.json,Q winner parameter
+kappa,0.991543389142,model_parameter,B6,full_fit,selection.json,Q winner parameter
+eta_N,0.162072910971,model_parameter,B6,full_fit,selection.json,Q winner parameter
+B1_leave_N_RMSE,0.000151179778804,loss_RMSE,B1,leave_N,nd_scorecard.csv,selected classic N-D
+B2_raw_RMSE,1.24308486658,loss_RMSE,B2,zero_shot_raw,nd_scorecard.csv,selected classic N-D
+B4_raw_RMSE,0.292666677546,loss_RMSE,B4,zero_shot_raw,nd_scorecard.csv,selected classic N-D
+B5_raw_RMSE,0.197595074037,loss_RMSE,B5,zero_shot_raw,nd_scorecard.csv,selected classic N-D
+B6_leave_N_RMSE,0.0523464434166,loss_RMSE,B6,leave_N,quality_scorecard.csv,selected Q-by-N
+B7_new_RMSE,0.042127055973,loss_RMSE,B7,new_points,quality_scorecard.csv,selected Q-by-N
+B8_diagnostic_RMSE,1.34175547803,loss_RMSE,B8,mechanism_only,quality_scorecard.csv,selected Q-by-N
+Q_by_ND_B7_new_RMSE,0.0411674971554,loss_RMSE,B7,new_points,quality_scorecard.csv,unselected Q-by-N-D
+Q_by_ND_B7_gain_CI_low,-0.00110987926083,loss_RMSE_difference,B7,N_cluster_bootstrap,quality_scorecard.csv,champion RMSE minus challenger RMSE
+Q_by_ND_B7_gain_CI_high,0.00262283616677,loss_RMSE_difference,B7,N_cluster_bootstrap,quality_scorecard.csv,champion RMSE minus challenger RMSE
+B6_B8_exact_overlap_n,160,rows,B6+B8,exact_N_D_Q_overlap,mechanism_diagnostic.json,conflicting loss labels
+B6_B8_overlap_mean_difference,-1.15361,loss,B6+B8,exact_N_D_Q_overlap,mechanism_diagnostic.json,B8 minus B6
+B2_source_logD_20pct_conditional_RMSE,0.367362480373,loss_RMSE,B2,early_20pct_labeled_late_80pct_holdout,source_conditional_holdout.csv,descriptive labeled application; not zero shot
+B4_source_affine_20pct_conditional_RMSE,0.091646138992,loss_RMSE,B4,early_20pct_labeled_late_80pct_holdout,source_conditional_holdout.csv,descriptive labeled application; not zero shot
+B5_source_affine_20pct_conditional_RMSE,0.161881892595,loss_RMSE,B5,early_20pct_labeled_late_80pct_holdout,source_conditional_holdout.csv,descriptive labeled application; not zero shot

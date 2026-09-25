@@ -1,0 +1,4 @@
+dataset,file,records,invalid_json
+A1,real_attachments\A_data_value\slimpajama_quality_signal_sample.jsonl.xz,51230,0
+A2,real_attachments\A_data_value\slimpajama_quality_extended\arxiv_part-6777d8857c6e-000486.jsonl.xz,17523,0
+A3,real_attachments\A_data_value\slimpajama_quality_extended\github_part-6777d8857c6e-000275.jsonl.xz,203752,0

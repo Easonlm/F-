@@ -1,0 +1,5 @@
+criterion,threshold,C_crit,previous_C,observed,note
+Q_start,not_applicable,3.9810717055349857e+18,3.1622776601683794e+18,True,grid crossing; not a fitted physical phase transition
+Q_saturation,not_applicable,1.5848931924611108e+20,1.2589254117941713e+20,True,grid crossing; not a fitted physical phase transition
+share_jump_tau_0.05,0.05,5.011872336272715e+18,3.9810717055349857e+18,True,grid crossing; not a fitted physical phase transition
+share_jump_tau_0.10,0.1,not_applicable,not_applicable,False,grid crossing; not a fitted physical phase transition

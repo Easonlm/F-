@@ -1,0 +1,112 @@
+{
+  "ND_winner": "classic",
+  "Q_winner": "Q_by_N",
+  "ND_parameters": [
+    1.689797562916039,
+    0.3539803206670608,
+    0.33997658189494157,
+    1.2403055835542833,
+    0.2798781285432646
+  ],
+  "Q_parameters": [
+    0.35680735836638855,
+    0.9915433891421505,
+    0.16207291097091847
+  ],
+  "N_unit": "billion_parameters",
+  "D_unit": "billion_tokens",
+  "Q_semantics": "B6/B7 synthetic mechanism only",
+  "p_bridge": "lambda_p=1 scenario convention, no independently identified scale law",
+  "source_calibration": "optional application layer requiring target-source labeled loss",
+  "ND_challenger_checks": {
+    "interaction": {
+      "conditions": {
+        "group_cv_5pct": false,
+        "paired_group_ci_positive": false,
+        "external_no_2pct_harm": true,
+        "bic_no_material_harm": true,
+        "jacobian_condition_reasonable": true
+      },
+      "passed": false
+    },
+    "broken_N": {
+      "conditions": {
+        "group_cv_5pct": false,
+        "paired_group_ci_positive": false,
+        "external_no_2pct_harm": true,
+        "bic_no_material_harm": true,
+        "jacobian_condition_reasonable": false
+      },
+      "passed": false
+    }
+  },
+  "Q_challenger_checks": {
+    "additive": {
+      "conditions": {
+        "leave_N_5pct": false,
+        "B7_5pct": false,
+        "B7_paired_ci_positive": false,
+        "new_exponent_identified": false,
+        "bic_no_material_harm": false,
+        "jacobian_condition_reasonable": true
+      },
+      "passed": false
+    },
+    "effective_tokens": {
+      "conditions": {
+        "leave_N_5pct": false,
+        "B7_5pct": false,
+        "B7_paired_ci_positive": false,
+        "new_exponent_identified": false,
+        "bic_no_material_harm": false,
+        "jacobian_condition_reasonable": true
+      },
+      "passed": false
+    },
+    "Q_by_D": {
+      "conditions": {
+        "leave_N_5pct": false,
+        "B7_5pct": false,
+        "B7_paired_ci_positive": false,
+        "new_exponent_identified": true,
+        "bic_no_material_harm": false,
+        "jacobian_condition_reasonable": true
+      },
+      "passed": false
+    },
+    "Q_by_ND": {
+      "conditions": {
+        "leave_N_5pct": false,
+        "B7_5pct": false,
+        "B7_paired_ci_positive": false,
+        "new_exponent_identified": true,
+        "bic_no_material_harm": true,
+        "jacobian_condition_reasonable": true
+      },
+      "passed": false
+    }
+  },
+  "B7_new_rows": 90,
+  "B8_new_rows": 1480,
+  "B8_mechanism": {
+    "B6": {
+      "groups": 45,
+      "fraction_loss_declines_with_Q": 1.0
+    },
+    "B7_full": {
+      "groups": 45,
+      "fraction_loss_declines_with_Q": 1.0
+    },
+    "B8_new": {
+      "groups": 118,
+      "fraction_loss_declines_with_Q": 0.0
+    },
+    "B6_B8_exact_overlap": {
+      "n": 160,
+      "mean_difference": -1.15361,
+      "q01_mean": -2.158315,
+      "q1_mean": -0.012519999999999976
+    }
+  },
+  "selection_caveat": "B2/B4/B5/B7 seen in prior studies; repeated independent calculation, not fresh blind validation"
+}

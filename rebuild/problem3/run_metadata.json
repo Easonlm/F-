@@ -1,0 +1,50 @@
+{
+  "model_artifact": "problem2_v2\\outputs\\models\\recommended_model.joblib",
+  "model_artifact_sha256": "2dbde20bb7da6bceace26bea2fecae9f175564a3c64d5084fe967ce9020b3de8",
+  "bootstrap_parameters_sha256": "a9b11c61ef8d73d7f5943eb001a442eff19a3f48bdce72e481e256d40f146f43",
+  "b1_sha256": "529a59644b0f57bf3a76037838b614bfedc35e58bb26b93052e34ffc63e454c2",
+  "training_parameter_replicates": [
+    172,
+    124,
+    88
+  ],
+  "heldout_parameter_replicates": [
+    8,
+    12,
+    13,
+    29,
+    53,
+    68,
+    101,
+    102,
+    125,
+    129,
+    184,
+    199
+  ],
+  "seed": 20260924,
+  "budgets": [
+    1e+19,
+    1e+22,
+    1e+24
+  ],
+  "caps": [
+    "1x",
+    "2x",
+    "3x",
+    "5x",
+    "free"
+  ],
+  "policies": [
+    "nominal_shared",
+    "minimax_regret",
+    "balanced_mean_regret",
+    "cvar90_regret",
+    "worst_case_loss"
+  ],
+  "scenario_probabilities_identified": false,
+  "heldout_is_external_data": false,
+  "champion": "3x minimax_regret retained conditionally",
+  "any_challenger_upgrade_eligible": false,
+  "note": "All scenario oracles and policies reoptimized in this run; shared feasibility across structural scenarios"
+}

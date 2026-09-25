@@ -1,0 +1,11 @@
+source,setting,top_mixture_effect,max_relative_parameter_change
+lambda_p,0.5,-0.007732189504,
+lambda_p,0.75,-0.01159828426,
+lambda_p,1,-0.01546437901,
+lambda_p,1.25,-0.01933047376,
+lambda_p,1.5,-0.02319656851,
+Q_form,exponential,,
+Q_form,power,,
+Q_form,additive,,
+B1_fit,robust_soft_l1,,1.619727371e-11
+B1_fit,equal_model_weight,,0

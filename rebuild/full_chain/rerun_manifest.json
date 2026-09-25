@@ -1,0 +1,60 @@
+{
+  "completed_at_utc": "2026-09-24T17:57:10.757663+00:00",
+  "stages": [
+    {
+      "stage": "problem1_base",
+      "script": "problem1/run_problem1.py",
+      "exit_code": 0,
+      "seconds": 134.56,
+      "log": "problem1_base.log"
+    },
+    {
+      "stage": "problem1_mixture",
+      "script": "problem1/problem1_v2.py",
+      "exit_code": 0,
+      "seconds": 15.9,
+      "log": "problem1_mixture.log"
+    },
+    {
+      "stage": "problem2_base",
+      "script": "problem2/run_problem2.py",
+      "exit_code": 0,
+      "seconds": 11.56,
+      "log": "problem2_base.log"
+    },
+    {
+      "stage": "problem2_final",
+      "script": "problem2_v2/run_v2.py",
+      "exit_code": 0,
+      "seconds": 10.82,
+      "log": "problem2_final.log"
+    },
+    {
+      "stage": "problem3_base",
+      "script": "problem3/run_problem3.py",
+      "exit_code": 0,
+      "seconds": 11.82,
+      "log": "problem3_base.log"
+    },
+    {
+      "stage": "problem3_final",
+      "script": "problem3_v2/run_v2.py",
+      "exit_code": 0,
+      "seconds": 45.9,
+      "log": "problem3_final.log"
+    },
+    {
+      "stage": "problem4_final",
+      "script": "problem4/run_problem4.py",
+      "exit_code": 0,
+      "seconds": 37.37,
+      "log": "problem4_final.log"
+    }
+  ],
+  "artifacts": {
+    "problem1/outputs/models/mixture_v2.joblib": "cad60f7dede46b0a87b214713ef070a0f22a37b1fecd6082ac371de9e74b5841",
+    "problem2_v2/outputs/models/recommended_model.joblib": "2dbde20bb7da6bceace26bea2fecae9f175564a3c64d5084fe967ce9020b3de8",
+    "problem3_v2/outputs/tables/robust_optimization.csv": "54f78d7418e17375d4e03feb3b6a6e8da563982df825494ee3f18e8cf3d12aa1",
+    "problem4/outputs/tables/final_project_summary.json": "63e078512d5132a165f35dc2a45cce68946144efa2c45ffc10aad7027a8c71c5"
+  }
+}

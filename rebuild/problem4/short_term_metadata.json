@@ -1,0 +1,10 @@
+{
+  "original_backtest_rows": 3,
+  "strict_frontier_quarters": 4,
+  "baseline_predictions_reproduced": true,
+  "candidate_factors_set_before_scoring": {
+    "half_damped_time": 0.5,
+    "persistence": 0.0
+  },
+  "long_horizon_backtest_available": false
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "artifact_sha256": {
+    "problem1/outputs/models/mixture_v2.joblib": "cad60f7dede46b0a87b214713ef070a0f22a37b1fecd6082ac371de9e74b5841",
+    "problem2_v2/outputs/models/recommended_model.joblib": "2dbde20bb7da6bceace26bea2fecae9f175564a3c64d5084fe967ce9020b3de8",
+    "problem2_v2/outputs/tables/problem2_to_problem3_v2.json": "1b0056b36161de51933240d20dab2a17fd9281928eaffc4cf5dd797d9b54d0b5",
+    "problem3_v2/outputs/tables/extrapolation_levels.csv": "13f99c3f21cee6515bf720d1d33b8ce905f8deffa8cc8ecf95616768983bf280",
+    "problem4/outputs/tables/mechanistic_forecast.csv": "c70039cdb5a0452c63b8d5211932754096cebde9af8bb373b0fba2fe65ad631e"
+  },
+  "p1_to_p2_training_prediction_max_abs_difference": 0.0,
+  "p2_to_p3_p4_parameter_max_abs_difference": 0.0,
+  "p4_mechanism_loss_max_abs_difference": 4.440892098500626e-16,
+  "p4_reference_rows_checked": 18,
+  "p4_budget_violations": 0,
+  "quality_scale_link_identified": false,
+  "lambda_p_cross_scale_identified": false
+}

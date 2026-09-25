@@ -1,0 +1,209 @@
+[
+  {
+    "number": "E",
+    "value": 1.689797562916039,
+    "unit": "model_parameter",
+    "dataset": "B1",
+    "split": "full_fit",
+    "source_file": "selection.json",
+    "meaning": "N-D winner parameter"
+  },
+  {
+    "number": "A",
+    "value": 0.3539803206670608,
+    "unit": "model_parameter",
+    "dataset": "B1",
+    "split": "full_fit",
+    "source_file": "selection.json",
+    "meaning": "N-D winner parameter"
+  },
+  {
+    "number": "alpha",
+    "value": 0.33997658189494157,
+    "unit": "model_parameter",
+    "dataset": "B1",
+    "split": "full_fit",
+    "source_file": "selection.json",
+    "meaning": "N-D winner parameter"
+  },
+  {
+    "number": "B",
+    "value": 1.2403055835542833,
+    "unit": "model_parameter",
+    "dataset": "B1",
+    "split": "full_fit",
+    "source_file": "selection.json",
+    "meaning": "N-D winner parameter"
+  },
+  {
+    "number": "beta",
+    "value": 0.2798781285432646,
+    "unit": "model_parameter",
+    "dataset": "B1",
+    "split": "full_fit",
+    "source_file": "selection.json",
+    "meaning": "N-D winner parameter"
+  },
+  {
+    "number": "G",
+    "value": 0.35680735836638855,
+    "unit": "model_parameter",
+    "dataset": "B6",
+    "split": "full_fit",
+    "source_file": "selection.json",
+    "meaning": "Q winner parameter"
+  },
+  {
+    "number": "kappa",
+    "value": 0.9915433891421505,
+    "unit": "model_parameter",
+    "dataset": "B6",
+    "split": "full_fit",
+    "source_file": "selection.json",
+    "meaning": "Q winner parameter"
+  },
+  {
+    "number": "eta_N",
+    "value": 0.16207291097091847,
+    "unit": "model_parameter",
+    "dataset": "B6",
+    "split": "full_fit",
+    "source_file": "selection.json",
+    "meaning": "Q winner parameter"
+  },
+  {
+    "number": "B1_leave_N_RMSE",
+    "value": 0.000151179778804,
+    "unit": "loss_RMSE",
+    "dataset": "B1",
+    "split": "leave_N",
+    "source_file": "nd_scorecard.csv",
+    "meaning": "selected classic N-D"
+  },
+  {
+    "number": "B2_raw_RMSE",
+    "value": 1.24308486658,
+    "unit": "loss_RMSE",
+    "dataset": "B2",
+    "split": "zero_shot_raw",
+    "source_file": "nd_scorecard.csv",
+    "meaning": "selected classic N-D"
+  },
+  {
+    "number": "B4_raw_RMSE",
+    "value": 0.292666677546,
+    "unit": "loss_RMSE",
+    "dataset": "B4",
+    "split": "zero_shot_raw",
+    "source_file": "nd_scorecard.csv",
+    "meaning": "selected classic N-D"
+  },
+  {
+    "number": "B5_raw_RMSE",
+    "value": 0.197595074037,
+    "unit": "loss_RMSE",
+    "dataset": "B5",
+    "split": "zero_shot_raw",
+    "source_file": "nd_scorecard.csv",
+    "meaning": "selected classic N-D"
+  },
+  {
+    "number": "B6_leave_N_RMSE",
+    "value": 0.0523464434166,
+    "unit": "loss_RMSE",
+    "dataset": "B6",
+    "split": "leave_N",
+    "source_file": "quality_scorecard.csv",
+    "meaning": "selected Q-by-N"
+  },
+  {
+    "number": "B7_new_RMSE",
+    "value": 0.042127055973,
+    "unit": "loss_RMSE",
+    "dataset": "B7",
+    "split": "new_points",
+    "source_file": "quality_scorecard.csv",
+    "meaning": "selected Q-by-N"
+  },
+  {
+    "number": "B8_diagnostic_RMSE",
+    "value": 1.34175547803,
+    "unit": "loss_RMSE",
+    "dataset": "B8",
+    "split": "mechanism_only",
+    "source_file": "quality_scorecard.csv",
+    "meaning": "selected Q-by-N"
+  },
+  {
+    "number": "Q_by_ND_B7_new_RMSE",
+    "value": 0.0411674971554,
+    "unit": "loss_RMSE",
+    "dataset": "B7",
+    "split": "new_points",
+    "source_file": "quality_scorecard.csv",
+    "meaning": "unselected Q-by-N-D"
+  },
+  {
+    "number": "Q_by_ND_B7_gain_CI_low",
+    "value": -0.00110987926083,
+    "unit": "loss_RMSE_difference",
+    "dataset": "B7",
+    "split": "N_cluster_bootstrap",
+    "source_file": "quality_scorecard.csv",
+    "meaning": "champion RMSE minus challenger RMSE"
+  },
+  {
+    "number": "Q_by_ND_B7_gain_CI_high",
+    "value": 0.00262283616677,
+    "unit": "loss_RMSE_difference",
+    "dataset": "B7",
+    "split": "N_cluster_bootstrap",
+    "source_file": "quality_scorecard.csv",
+    "meaning": "champion RMSE minus challenger RMSE"
+  },
+  {
+    "number": "B6_B8_exact_overlap_n",
+    "value": 160.0,
+    "unit": "rows",
+    "dataset": "B6+B8",
+    "split": "exact_N_D_Q_overlap",
+    "source_file": "mechanism_diagnostic.json",
+    "meaning": "conflicting loss labels"
+  },
+  {
+    "number": "B6_B8_overlap_mean_difference",
+    "value": -1.15361,
+    "unit": "loss",
+    "dataset": "B6+B8",
+    "split": "exact_N_D_Q_overlap",
+    "source_file": "mechanism_diagnostic.json",
+    "meaning": "B8 minus B6"
+  },
+  {
+    "number": "B2_source_logD_20pct_conditional_RMSE",
+    "value": 0.367362480373,
+    "unit": "loss_RMSE",
+    "dataset": "B2",
+    "split": "early_20pct_labeled_late_80pct_holdout",
+    "source_file": "source_conditional_holdout.csv",
+    "meaning": "descriptive labeled application; not zero shot"
+  },
+  {
+    "number": "B4_source_affine_20pct_conditional_RMSE",
+    "value": 0.091646138992,
+    "unit": "loss_RMSE",
+    "dataset": "B4",
+    "split": "early_20pct_labeled_late_80pct_holdout",
+    "source_file": "source_conditional_holdout.csv",
+    "meaning": "descriptive labeled application; not zero shot"
+  },
+  {
+    "number": "B5_source_affine_20pct_conditional_RMSE",
+    "value": 0.161881892595,
+    "unit": "loss_RMSE",
+    "dataset": "B5",
+    "split": "early_20pct_labeled_late_80pct_holdout",
+    "source_file": "source_conditional_holdout.csv",
+    "meaning": "descriptive labeled application; not zero shot"
+  }
+]

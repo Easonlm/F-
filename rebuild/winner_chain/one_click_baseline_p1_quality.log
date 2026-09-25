@@ -1,0 +1,37 @@
+Running quality_pipeline.py
+{"records": 272505, "source_counts": {"A3": 203752, "A1": 51230, "A2": 17523}, "domain_counts": {"A1/arxiv": 1419, "A1/book": 171, "A1/c4": 10000, "A1/commoncrawl": 9640, "A1/github": 10000, "A1/stackexchange": 10000, "A1/wikipedia": 10000, "A2/arxiv": 17523, "A3/github": 203752}, "duplicate_id_within_source": 0, "A1_A2_id_overlap": 1419, "A1_A3_id_overlap": 10000}
+Running data_audit.py
+Audited 15 files
+Running evaluate_quality.py
+{"records_A1": 51230, "spearman_domain_mean_vs_median": 1.0, "method_rank": [{"method": "Q_baseline", "rank_spearman_vs_baseline": 1.0, "mean_absolute_sample_difference": 0.0, "range_of_domain_means": 0.1897080606686279}, {"method": "Q_critic", "rank_spearman_vs_baseline": 0.9285714285714288, "mean_absolute_sample_difference": 0.027928504796161883, "range_of_domain_means": 0.18551334675199904}, {"method": "Q_robust", "rank_spearman_vs_baseline": 0.9642857142857145, "mean_absolute_sample_difference": 0.0323419071680943, "range_of_domain_means": 0.1991299847912722}, {"method": "Q_penalty", "rank_spearman_vs_baseline": 1.0, "mean_absolute_sample_difference": 0.03684840895286071, "range_of_domain_means": 0.20072943226928652}, {"method": "Q_hard", "rank_spearman_vs_baseline": 0.9642857142857145, "mean_absolute_sample_difference": 0.009714539424729253, "range_of_domain_means": 0.19024004637082303}], "extension": [{"domain": "arxiv", "A1_n": 1419, "extended_total_n": 17523, "extended_nonoverlap_n": 16104, "A1_mean_Q": 0.7646787201897518, "nonoverlap_mean_Q": 0.7615908572916686, "difference_nonoverlap_minus_A1": -0.00308786289808316}, {"domain": "github", "A1_n": 10000, "extended_total_n": 203752, "extended_nonoverlap_n": 193752, "A1_mean_Q": 0.5749706595211239, "nonoverlap_mean_Q": 0.5740726504250949, "difference_nonoverlap_minus_A1": -0.0008980090960289955}], "limitations": "No independent human-labeled quality ground truth; excerpt inspection is qualitative only."}
+Running sensitivity.py
+Condition number of Spearman matrix: 9604.28
+Running mixture_pipeline.py
+C:\Users\hyt29\Desktop\math\F题\rebuild\winner_chain\problem1\mixture_pipeline.py:77: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  v=spearmanr(y[:,j],pred[:,j]).statistic
+C:\Users\hyt29\Desktop\math\F题\rebuild\winner_chain\problem1\mixture_pipeline.py:77: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  v=spearmanr(y[:,j],pred[:,j]).statistic
+C:\Users\hyt29\Desktop\math\F题\rebuild\winner_chain\problem1\mixture_pipeline.py:77: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  v=spearmanr(y[:,j],pred[:,j]).statistic
+C:\Users\hyt29\Desktop\math\F题\rebuild\winner_chain\problem1\mixture_pipeline.py:77: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  v=spearmanr(y[:,j],pred[:,j]).statistic
+C:\Users\hyt29\Desktop\math\F题\rebuild\winner_chain\problem1\mixture_pipeline.py:77: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  v=spearmanr(y[:,j],pred[:,j]).statistic
+{"selected_model_by_train_cv": "alr_ridge", "alr_zero_pseudocount": 0.000499001996007984, "reference_domain": "train_the_pile_uspto_backgrounds", "train_rows": 512, "mean_train_loss": 5.344656776171178, "test_scale_shift_expected": true}
+Running effect_bootstrap.py
+Bootstrap complete; reference=pile_cc, delta=0.01
+Running mixture_support.py
+ dataset  outside_training_local_support_rate  exact_training_mixture_match_rate
+ test_1m                             0.058594                                0.0
+test_60m                             0.058594                                0.0
+ test_1B                             0.000000                                0.0
+ est_10b                             0.000000                                1.0
+ est_70b                             0.000000                                1.0
+Running quality_mixture_link.py
+       model  alpha  cv_rmse  test_1m_rmse  mapped_domains  test_60m_rmse  test_1B_rmse
+ALR+mapped_Q    1.0 0.390204      0.337395               6       1.607019      2.984729
+ALR+mapped_Q    0.1 0.390296           NaN               6            NaN           NaN
+ALR+mapped_Q   10.0 0.391455           NaN               6            NaN           NaN
+    ALR_only    1.0 0.393721      0.341455               6       1.609271      2.982004
+Running build_report.py
+Wrote report (13,169 chars) and summary

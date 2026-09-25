@@ -1,0 +1,7 @@
+{
+  "legacy_slot": "problem1/outputs/models/mixture_v2.joblib",
+  "meaning": "P1 selected ALR MultiTask ElasticNet, not old V2 Ridge",
+  "old_slot_sha256": "cad60f7dede46b0a87b214713ef070a0f22a37b1fecd6082ac371de9e74b5841",
+  "selected_model_sha256": "be8afe5e37ff95583d94ebaa35df0d4c5b6ec85ebeb89664629015acd59ca00b",
+  "selected_scale_source_sha256": "f5b1e7d0f79a1c4db6959b93a7bda859bce62f868dd1d3844c1a625f3df12ce7"
+}

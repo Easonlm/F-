@@ -1,0 +1,15 @@
+{
+  "selection_rule": "lowest pooled RMSE in 2x5 repeated CV on A4/A5 only",
+  "selected": {
+    "family": "poly_alr",
+    "eps": 0.000249500998003992,
+    "reference_index": 11,
+    "alpha": 10.0,
+    "gamma": null,
+    "cv_rmse_pooled": 0.32925360643054197,
+    "cv_rmse_fold_sd": 0.012492079722819275,
+    "folds": 10
+  },
+  "candidate_count": 172,
+  "no_test_labels_used_for_selection": true
+}

@@ -1,0 +1,7 @@
+solution_type,budget,N_extrapolation,D_extrapolation,Q_extrapolation,strong_extrapolation
+unconstrained_scaling,1e+19,in_domain,in_domain,in_domain,False
+unconstrained_scaling,1e+22,in_domain,in_domain,in_domain,False
+unconstrained_scaling,1e+24,strong_extrapolation,strong_extrapolation,in_domain,True
+empirical_range,1e+19,in_domain,in_domain,in_domain,False
+empirical_range,1e+22,in_domain,in_domain,in_domain,False
+empirical_range,1e+24,in_domain,in_domain,in_domain,False

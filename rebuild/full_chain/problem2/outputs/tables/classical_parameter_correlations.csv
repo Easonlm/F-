@@ -1,0 +1,11 @@
+parameter_i,parameter_j,correlation
+E,A,-0.7064599173
+E,alpha,0.6887881853
+E,B,-0.6685194803
+E,beta,0.6865922039
+A,alpha,-0.9841888452
+A,B,3.249924988e-09
+A,beta,-4.669968018e-09
+alpha,B,-2.859988776e-09
+alpha,beta,4.282237874e-09
+B,beta,-0.8748094521

@@ -1,0 +1,4 @@
+dataset,n_mixtures,centered_slope,ci_low,ci_high,spearman,mean_loss_bias,evidence_status,source
+test_1m,256,0.8635176309,0.7704508707,0.9666557918,0.730563344,0.04361165241,selected_ALR_ElasticNet_retrospective_not_blind,problem1 v2 final artifact; retrospective existing test labels; not identified lambda_p(N)
+test_60m,256,0.6355678031,0.5527473624,0.733056218,0.6891258011,1.502982441,selected_ALR_ElasticNet_retrospective_not_blind,problem1 v2 final artifact; retrospective existing test labels; not identified lambda_p(N)
+test_1B,64,0.208798318,0.1579841962,0.2691224756,0.6577380952,2.612864364,selected_ALR_ElasticNet_retrospective_not_blind,problem1 v2 final artifact; retrospective existing test labels; not identified lambda_p(N)

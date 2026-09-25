@@ -1,0 +1,14 @@
+{
+  "model_A": "V1 classic + additive",
+  "model_B": "V2 quality_model + prespecified source affine calibration (20% source labels)",
+  "model_C": "classic + quality_model",
+  "recommended_ND": "classic",
+  "recommended_Q": "quality_model",
+  "B8_direction_consistent_fraction": {
+    "B6": 1.0,
+    "B7_full": 1.0,
+    "B8_new": 0.0
+  },
+  "B6_B8_overlap_mean_difference": -1.15361,
+  "selection_note": "B2/B4/B5/B7 are comparative development evaluations, not fresh final tests; B8 used for diagnosis only; no external labels enter B1/B6 parameter fitting"
+}

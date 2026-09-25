@@ -1,0 +1,24 @@
+experiment,model,source,split,n,rmse,mae,bias
+N-D law,classic_current,B1,leave_N_out,1176,0.000151179778685,0.000107878170009,7.3514649915e-06
+N-D law,classic_current,B2,raw_no_target_labels,1029,1.24308486658,1.17844181249,-1.17844181249
+N-D law,classic_current,B4,raw_no_target_labels,57,0.292666677545,0.227263293267,-0.221008532663
+N-D law,classic_current,B5,raw_no_target_labels,44,0.197595074038,0.170721531463,-0.020569863148
+N-D law,generalized_ND_new,B1,leave_N_out,1176,0.000152483909119,0.000108297757075,7.74340095239e-06
+N-D law,generalized_ND_new,B2,raw_no_target_labels,1029,1.24308482953,1.17844176569,-1.17844176569
+N-D law,generalized_ND_new,B4,raw_no_target_labels,57,0.292666804716,0.227263470794,-0.221008793568
+N-D law,generalized_ND_new,B5,raw_no_target_labels,44,0.197594916562,0.170721422132,-0.0205700509466
+quality law,quality_compute_new,B6,leave_N_out,360,0.0591438113414,0.0461513389207,6.61471376389e-05
+quality law,quality_compute_new,B7_new,never_fit_on_target,90,0.0463560310496,0.0361885088241,3.26642965555e-05
+quality law,quality_compute_new,B8_new,never_fit_on_target,1480,1.35798334312,1.12107328007,1.11865169382
+quality law,quality_joint_nd_new,B6,leave_N_out,360,0.051060694395,0.0400012024725,0.0011400608235
+quality law,quality_joint_nd_new,B7_new,never_fit_on_target,90,0.0411674971604,0.0321777300084,6.34532824444e-05
+quality law,quality_joint_nd_new,B8_new,never_fit_on_target,1480,1.34226342099,1.10925257311,1.10683098687
+quality law,quality_model_current,B6,leave_N_out,360,0.0523464439588,0.040886213759,0.00112854201158
+quality law,quality_model_current,B7_new,never_fit_on_target,90,0.0421270559856,0.0323950292533,0.000101307711111
+quality law,quality_model_current,B8_new,never_fit_on_target,1480,1.34175547485,1.10976497378,1.10734338754
+source-conditioned transfer,quality_model_current_raw,B8_new,heldout_ND_after_2_cells_per_N_calibration,1280,1.33505300458,1.10618785375,1.1036725248
+source-conditioned transfer,quality_model_current_raw,B8_overlap_B6,exact_inputs_heldout_from_B8_calibration,160,1.39246529307,1.15623742886,1.15313590442
+source-conditioned transfer,source_intercept_control,B8_new,heldout_ND_after_2_cells_per_N_calibration,1280,0.751672393289,0.66126580226,-0.0271643842997
+source-conditioned transfer,source_intercept_control,B8_overlap_B6,exact_inputs_heldout_from_B8_calibration,160,0.780854931172,0.708670490519,0.0222989953242
+source-conditioned transfer,source_quality_interaction_new,B8_new,heldout_ND_after_2_cells_per_N_calibration,1280,0.133570642789,0.105784305931,0.0311328742632
+source-conditioned transfer,source_quality_interaction_new,B8_overlap_B6,exact_inputs_heldout_from_B8_calibration,160,0.0652159024953,0.0547402346178,0.0237277766367

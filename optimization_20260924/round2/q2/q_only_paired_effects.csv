@@ -1,0 +1,5 @@
+protocol,baseline,candidate,n_rows,n_ND_cells,baseline_rmse,candidate_rmse,delta_new_minus_baseline,delta_lo95,delta_median,delta_hi95,bootstrap_share_improving
+one_ND_cell_per_N_100_1380,zero_shot_Model_C,source_q_only,1380,135,1.32908420194,0.238699064631,-1.09038513731,-1.13071309016,-1.08994392996,-1.05106954534,1
+one_ND_cell_per_N_100_1380,source_intercept_control,source_q_only,1380,135,0.760758800197,0.238699064631,-0.522059735566,-0.551229479311,-0.521949435827,-0.493458822461,1
+one_ND_cell_per_N_unseen_Q_51_777,zero_shot_Model_C,source_q_only,777,111,1.2744755918,0.220724690106,-1.0537509017,-1.09263279323,-1.05366177877,-1.01389606958,1
+one_ND_cell_per_N_unseen_Q_51_777,source_intercept_control,source_q_only,777,111,0.808034881671,0.220724690106,-0.587310191566,-0.611542323735,-0.587280534247,-0.562066164587,1

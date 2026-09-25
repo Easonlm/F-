@@ -1,0 +1,20 @@
+outer fold 1/5 finished
+outer fold 2/5 finished
+outer fold 3/5 finished
+outer fold 4/5 finished
+outer fold 5/5 finished
+full selection alr_elasticnet: {'alpha': 0.01, 'l1_ratio': 0.7}
+full selection ilr_ridge: {'eps_mult': 0.25, 'alpha': 10.0}
+full selection alr_pls: {'n_components': 12}
+full selection clr_spline: {'eps_mult': 0.25, 'n_knots': 4, 'alpha': 1.0}
+substitution bootstrap v2_champion finished
+substitution bootstrap alr_elasticnet finished
+substitution bootstrap ilr_ridge finished
+substitution bootstrap alr_pls finished
+substitution bootstrap clr_spline finished
+        family            role  primary_test_1m_rmse  nested_oof_rmse  test_60m_rmse  test_1B_rmse  test_1m_mae  test_1m_spearman_mean  test_1B_mixture_mean_spearman  active_features  stable_1pp_targets                                  selected_spec  effect_sign_agreement_with_v2  effect_rank_spearman_with_v2  primary_gain_ci_low  primary_gain_ci_high  scale_60m_gain_ci_high  scale_1B_gain_ci_high  eligible_to_replace                    decision
+   v2_champion frozen_champion              0.270179         0.334010       1.595903      2.702111     0.188957               0.945224                       0.566667              152                   9                                {"alpha": 10.0}                             16                      1.000000                  NaN                   NaN                     NaN                    NaN                False                    REPLACED
+alr_elasticnet      challenger              0.254346         0.318377       1.592424      2.688705     0.178845               0.949352                       0.657738              136                   9               {"alpha": 0.01, "l1_ratio": 0.7}                             15                      0.973529             0.010465              0.021037                0.008716               0.018795                 True NEW_CROSS_QUESTION_CHAMPION
+     ilr_ridge      challenger              0.282204         0.351029       1.594570      2.656762     0.196830               0.938959                       0.499084              152                  10              {"alpha": 10.0, "eps_mult": 0.25}                             15                      0.976471            -0.020448             -0.003614                0.009075               0.056810                False  REJECT_CROSS_SCALE_UPGRADE
+       alr_pls      challenger              0.480686         0.542107       1.628226      3.156230     0.371720               0.691574                       0.528800               12                  13                           {"n_components": 12}                             14                      0.888235            -0.229180             -0.191124               -0.007688              -0.426047                False  REJECT_CROSS_SCALE_UPGRADE
+    clr_spline      challenger              0.208173         0.252219       1.561406      2.735706     0.146720               0.964587                       0.663004               85                  11 {"alpha": 1.0, "eps_mult": 0.25, "n_knots": 4}                             10                      0.882353             0.044420              0.078965                0.060730              -0.006291                False  REJECT_CROSS_SCALE_UPGRADE

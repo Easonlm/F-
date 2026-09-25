@@ -1,0 +1,11 @@
+{
+  "overlap_points": 160,
+  "overlap_mean_b8_minus_b6": -1.15361,
+  "overlap_rmse_difference": 1.3953607240154784,
+  "overlap_q01_mean_difference": -2.158315,
+  "overlap_q10_mean_difference": -0.012519999999999976,
+  "b6_fraction_negative_q_slope": 1.0,
+  "b8_fraction_negative_q_slope": 0.0,
+  "b6_nd_groups": 45,
+  "b8_nd_groups": 150
+}

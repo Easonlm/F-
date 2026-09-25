@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": {
+    "test_1m/v2_champion": 0.2701792457048059,
+    "test_1m/alr_elasticnet": 0.2543455703215431,
+    "test_60m/v2_champion": 1.595903245636194,
+    "test_60m/alr_elasticnet": 1.5924237703692474,
+    "test_1B/v2_champion": 2.702111047518439,
+    "test_1B/alr_elasticnet": 2.6887053228972597
+  }
+}

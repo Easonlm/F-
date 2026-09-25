@@ -1,0 +1,4 @@
+scenario,Q_A_start,Q_A_end,Q_B_start,Q_B_end,quality_scale_multiplier,empirical_anchor
+conservative,0.6,0.7,0.6,0.65,0.5,False
+neutral,0.6,0.7,0.6,0.7,1,False
+optimistic,0.6,0.7,0.6,0.8,2,False

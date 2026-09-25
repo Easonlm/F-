@@ -1,0 +1,6 @@
+left,right,overlap_points,left_rows,right_rows,note
+B6,B7,360,360,450,
+B7,B8,224,450,1704,
+B6,B8,160,360,1704,
+B1,B3,,1176,4000,B3 interpolates Pythia checkpoints; not independent
+B1,B4/B5,,1176,101,Validation loss evaluator and corpus not documented as identical; raw comparisons are distribution shift diagnostics

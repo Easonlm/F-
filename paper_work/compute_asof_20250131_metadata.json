@@ -1,0 +1,12 @@
+{
+  "input": "real_attachments\\C_efficiency_evolution\\epoch_all_ai_models.csv",
+  "input_sha256": "0b98a01bcb8d96958745b6fbe505416c38f719948d9029b38ff6233425c0e1c1",
+  "origin": "2025-01-31",
+  "last_complete_quarter": "2024Q4",
+  "target_quarter": "2026Q1",
+  "target_n": 3,
+  "target_n_ge_5": false,
+  "recent_slope_reproduced": true,
+  "ability_scores_used": false,
+  "interpretation": "C4 compute-only held-out diagnostic; not a benchmark-ability validation"
+}

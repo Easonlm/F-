@@ -1,0 +1,36 @@
+{
+  "original_logistic": {
+    "kind": "logistic",
+    "a": 1.9166408662662309,
+    "b": -1.6395641957937623
+  },
+  "monotone_kink": {
+    "kind": "monotone_kink",
+    "intercept": -1.3750959096011075,
+    "left_slope": 0.9410187087769961,
+    "right_slope": 2.864161693804488,
+    "knot": 2.1
+  },
+  "loss_plus_scale": {
+    "kind": "loss_plus_scale",
+    "intercept": -1.4910119952469998,
+    "loss_slope": 0.00033546265051578563,
+    "scale_coefficient": 0.8915209068473021
+  },
+  "fixed_loss_plus_scale": {
+    "kind": "fixed_loss_plus_scale",
+    "intercept": 1.871407421619827,
+    "loss_slope": 1.6395641957937623,
+    "scale_coefficient": 0.4204131158976944
+  },
+  "scale_only_diagnostic": {
+    "kind": "scale_only_diagnostic",
+    "intercept": -1.4917106386364127,
+    "scale_coefficient": 0.891629076805138
+  },
+  "gompertz": {
+    "kind": "gompertz",
+    "intercept": -1.156872651378273,
+    "loss_slope": 0.8054539623587892
+  }
+}

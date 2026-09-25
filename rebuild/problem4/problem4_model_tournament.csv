@@ -1,0 +1,26 @@
+﻿problem,module,candidate,dataset,split,primary_metric,value,sample,decision,note
+problem4,ability,six_benchmark_mean,C1_C8,related_task_consistency,spearman,0.952659611801976,"n=1854, families=1055",retain_champion,C8 derives from related benchmark tasks; no independent criterion for index upgrade
+problem4,ability,robust_standardized_mean,C1_C8,related_task_consistency,spearman,0.9737744087827288,"n=1854, families=1055",sensitivity_only,C8 derives from related benchmark tasks; no independent criterion for index upgrade
+problem4,ability,PCA_latent,C1_C8,related_task_consistency,spearman,0.974968587105573,"n=1854, families=1055",sensitivity_only,C8 derives from related benchmark tasks; no independent criterion for index upgrade
+problem4,ability,C8_detailed_tasks,C1_C8,related_task_consistency,spearman,1.0,"n=1854, families=1055",sensitivity_only,C8 derives from related benchmark tasks; no independent criterion for index upgrade
+problem4,scale_technology,compute_only,C1_C4_strict,organization_group_cv,rmse,7.051623634352704,"n=32, families=13",predictive_reference,Time contribution not independently identified; structural time coefficient CI crosses zero
+problem4,scale_technology,structural,C1_C4_strict,organization_group_cv,rmse,7.102751304827432,"n=32, families=13",scenario_only,Time contribution not independently identified; structural time coefficient CI crosses zero
+problem4,scale_technology,time_only,C1_C4_strict,organization_group_cv,rmse,11.09758174632136,"n=32, families=13",reject,Time contribution not independently identified; structural time coefficient CI crosses zero
+problem4,bridge,isotonic,C6,family_group_cv,rmse,11.451301462623118,"n=75, families=23",reject,Candidate gain bootstrap CI crosses zero or extrapolation is unstable
+problem4,bridge,clipped_linear,C6,family_group_cv,rmse,11.70362623676243,"n=75, families=23",reject,Candidate gain bootstrap CI crosses zero or extrapolation is unstable
+problem4,bridge,probit,C6,family_group_cv,rmse,11.824997204698947,"n=75, families=23",reject,Candidate gain bootstrap CI crosses zero or extrapolation is unstable
+problem4,bridge,logistic,C6,family_group_cv,rmse,11.86412981770644,"n=75, families=23",retain_champion,Candidate gain bootstrap CI crosses zero or extrapolation is unstable
+problem4,bridge,log_loss_logistic,C6,family_group_cv,rmse,11.9727676869373,"n=75, families=23",reject,Candidate gain bootstrap CI crosses zero or extrapolation is unstable
+problem4,bridge,scale_only_diagnostic,C6,family_group_cv,rmse,10.451277607595454,"n=75, families=23",diagnostic_only,Loss+scale gain dominated by scale with degenerate Loss slope; no robust family gain
+problem4,bridge,loss_plus_scale,C6,family_group_cv,rmse,10.55992866956248,"n=75, families=23",diagnostic_only,Loss+scale gain dominated by scale with degenerate Loss slope; no robust family gain
+problem4,bridge,fixed_loss_plus_scale,C6,family_group_cv,rmse,11.576452297599502,"n=75, families=23",reject,Loss+scale gain dominated by scale with degenerate Loss slope; no robust family gain
+problem4,bridge,gompertz,C6,family_group_cv,rmse,11.768512060269376,"n=75, families=23",reject,Loss+scale gain dominated by scale with degenerate Loss slope; no robust family gain
+problem4,bridge,monotone_kink,C6,family_group_cv,rmse,11.849386810203873,"n=75, families=23",reject,Loss+scale gain dominated by scale with degenerate Loss slope; no robust family gain
+problem4,bridge,partial_pool_multitask,C6_six_tasks,family_group_cv,rmse,11.785675764217144,"n=75, families=23",reject,Seven parameters; family bootstrap gain 95% interval includes zero
+problem4,frontier,linear_quantile_regression_q0.9,strict_W1,rolling_origin,mae,3.5636566563067955,"targets=2, min_target_n=2",sensitivity_only,"Only two out-of-time targets, one with n>=5; no stable selection"
+problem4,frontier,linear_quantile_regression_q0.95,strict_W1,rolling_origin,mae,5.485607601397296,"targets=2, min_target_n=2",sensitivity_only,"Only two out-of-time targets, one with n>=5; no stable selection"
+problem4,frontier,quarterly_persistence_q0.9,strict_W1,rolling_origin,mae,3.351211635596554,"targets=2, min_target_n=2",sensitivity_only,"Only two out-of-time targets, one with n>=5; no stable selection"
+problem4,frontier,quarterly_persistence_q0.95,strict_W1,rolling_origin,mae,3.947039393966522,"targets=2, min_target_n=2",sensitivity_only,"Only two out-of-time targets, one with n>=5; no stable selection"
+problem4,forecast,existing_direct_time,strict_W1,rolling_origin_3m,mae,6.476634874175316,"targets=2, min_target_n=2",scenario_only,"No direct 12/24m target; 3m has only two targets, one with n>=5"
+problem4,forecast,half_damped_time,strict_W1,rolling_origin_3m,mae,5.197948633763856,"targets=2, min_target_n=2",scenario_only,"No direct 12/24m target; 3m has only two targets, one with n>=5"
+problem4,forecast,persistence,strict_W1,rolling_origin_3m,mae,3.9470393939665183,"targets=2, min_target_n=2",short_horizon_reference,"No direct 12/24m target; 3m has only two targets, one with n>=5"

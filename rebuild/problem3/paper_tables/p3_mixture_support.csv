@@ -1,0 +1,5 @@
+strategy,delta_p,support_class,observed_training_row
+P0_reference,0.0,in-support,-1
+P1_observed_support,-0.502243797638,in-support,71
+P2_continuous_support,-0.568650809983,in-support,-1
+P3_loose_simplex,-1.19506525986,extrapolative,-1

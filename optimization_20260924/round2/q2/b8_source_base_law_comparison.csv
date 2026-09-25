@@ -1,0 +1,11 @@
+protocol,base_quality_law,source_correction,calibration_rows,heldout_rows,rmse,mae,alpha,calibration_group_cv_rmse
+ND_cells_disjoint,quality_model_current,Q_logN_logD_with_Q_interactions,200,1280,0.133570642789,0.105784305931,0.001,0.149060991971
+ND_cells_disjoint,quality_joint_nd_new,Q_logN_logD_with_Q_interactions,200,1280,0.131843520835,0.104800858116,0.001,0.148609858786
+one_ND_cell_per_N,quality_model_current,Q_logN_logD_with_Q_interactions,100,1380,0.755008730165,0.5696180259,0.001,0.149627416935
+one_ND_cell_per_N,quality_joint_nd_new,Q_logN_logD_with_Q_interactions,100,1380,0.775910478165,0.584827302632,0.001,0.149875495044
+one_ND_cell_per_N_Q_disjoint,quality_model_current,Q_logN_logD_with_Q_interactions,51,777,0.719230775093,0.550993182903,0.001,0.156865999194
+one_ND_cell_per_N_Q_disjoint,quality_joint_nd_new,Q_logN_logD_with_Q_interactions,51,777,0.738957051037,0.564718790412,0.001,0.157263219337
+ND_and_Q_values_disjoint,quality_model_current,Q_logN_logD_with_Q_interactions,102,728,0.127891424318,0.102474191413,0.001,0.153364011318
+ND_and_Q_values_disjoint,quality_joint_nd_new,Q_logN_logD_with_Q_interactions,102,728,0.126776118419,0.101829906274,0.001,0.152922754158
+calibrated_to_extrapolated_N,quality_model_current,Q_logN_logD_with_Q_interactions,56,720,0.185790330232,0.152705042096,0.001,0.106041747743
+calibrated_to_extrapolated_N,quality_joint_nd_new,Q_logN_logD_with_Q_interactions,56,720,0.187509061489,0.154064163021,0.001,0.105091097025

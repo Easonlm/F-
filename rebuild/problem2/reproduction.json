@@ -1,0 +1,27 @@
+{
+  "deterministic": true,
+  "verified_files": {
+    "input_manifest.json": "cbd9a14f398c5b1a6760a3e52960ffee1371b99cc85321db7199eb5331b0d66c",
+    "nd_scorecard.csv": "c4706f6f29662d80dc55254b2c3f0b6f58799df64293624917a55297ab55150e",
+    "nd_group_oof.csv": "395d6a79dd257dd9cc81627882497375fa69620c0b7affde4e97996a543ce260",
+    "nd_external_raw.csv": "3a77e46c7eeb51fd6fe9f0f540da3427d6578a4779ee078bf2334ae2e2cf6e73",
+    "nd_extrapolation.csv": "4d6c4ef3c660933b04ca1bb3aca76c89d55dc750cfef3461d800399fcd2ee07b",
+    "nd_parameters.csv": "4aea0765b22644d69a3cb44f4d724e9669aa02308ea2603d0df26ebae4b5d305",
+    "quality_scorecard.csv": "63edc8bf00c252a0b2fe7937ad3e23f29b461ba5697a7af43b12146421339dd9",
+    "quality_leave_N_oof.csv": "d9fcb3ad11bdf143b187df6bdb94a461bd620b58d3945f2dfb82e84747060609",
+    "quality_transfer.csv": "fc858b40d1b94e931921cebf3ef6461136cb1def66235a2f1104ce5a0099cfbb",
+    "quality_cluster_bootstrap.csv": "38120221bf67236b75f80c081c8669fe4c3110a7ad4cd1b5d3c5dcf4bf8889fd",
+    "quality_parameter_intervals.csv": "ab127c88dbb0e58eb8f5040ae152d2ade0c598051b51335448da38434f25841f",
+    "source_conditional_holdout.csv": "9cd0183b1bd91750e1a746c3f85b91da50c6b8d50748bc0d5e7d7388a955d51b",
+    "source_leave_B5_out.csv": "6872e1d3bd4c19f1790e585e74d3785bab58fcc30ea3c18718113022b259e6ea",
+    "B6_B8_exact_overlap.csv": "c0656947ab2387bfa61bd2b5d17302c928faec81156a1956d55823ce90b2f1a7",
+    "quality_direction_by_source.csv": "9ec480e6840b048a83770e5f5dca8dac2a2f60c51e96fdc9fd86f8c724b1166b",
+    "mechanism_diagnostic.json": "8390e2359b299173469cd09d9baaccc9809c5b485405a7c0f1b03ee00dba9f98",
+    "lambda_p_scenarios.csv": "4efdebc4e751b65fe0569d5f46691e85c2b7ca815fcd2067ff1192eba26830e3",
+    "problem2_model_tournament.csv": "6654d1c5248af4e451c681b282c0479c7447d2f48c6b3eb4ca792b788f347dfc",
+    "selection.json": "216f394dc0ad7ee80b0f1ba042a78e4317bc6b014b886a09a97beab3ea7c3012",
+    "verification_results.json": "fff1814544da47dbedc34b91d1617e226bc6eadbadea96f04089c5ee3bebd329"
+  },
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "PYTHONDONTWRITEBYTECODE": "1"
+}

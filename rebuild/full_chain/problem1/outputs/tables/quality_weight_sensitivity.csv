@@ -1,0 +1,8 @@
+domain,baseline_rank,perturbed_rank_mean,rank_p05,rank_p95,p_top3
+arxiv,1,1.038,1.0,1.0,1.0
+book,6,5.956,5.0,7.0,0.004
+c4,4,3.544,2.0,4.0,0.38
+commoncrawl,2,2.224,2.0,3.0,0.998
+github,7,6.808,6.0,7.0,0.0
+stackexchange,3,3.228,2.0,4.0,0.618
+wikipedia,5,5.202,5.0,6.0,0.0

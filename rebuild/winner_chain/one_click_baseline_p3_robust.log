@@ -1,0 +1,12 @@
+V2 complete: 200 joint bootstrap replicates; 800 optimizations
+ cost_model transition   status  C_threshold
+exponential      start crossing 3.702423e+18
+exponential saturation crossing 1.376996e+20
+      power      start crossing 1.291219e+19
+      power saturation crossing 7.214955e+19
+logarithmic      start crossing 2.003573e+18
+logarithmic saturation crossing 2.003573e+18
+          level       N_B         D_B  Q_B     loss  budget_ratio
+   E0_empirical 11.965825  299.893000  1.0 2.093379      0.025571
+ E1_moderate_3x 35.897475  899.679000  1.0 1.979399      0.223535
+E2_free_scaling 39.561843 3656.996708  1.0 1.915996      1.000000

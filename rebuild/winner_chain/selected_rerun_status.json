@@ -1,0 +1,86 @@
+[
+  {
+    "stage": "problem2_base",
+    "script": "problem2/run_problem2.py",
+    "exit_code": 0,
+    "seconds": 11.14
+  },
+  {
+    "stage": "problem2_final",
+    "script": "problem2_v2/run_v2.py",
+    "exit_code": 0,
+    "seconds": 10.62
+  },
+  {
+    "stage": "problem3_base",
+    "script": "problem3/run_problem3.py",
+    "exit_code": 0,
+    "seconds": 10.8
+  },
+  {
+    "stage": "problem3_final",
+    "script": "problem3_v2/run_v2.py",
+    "exit_code": 0,
+    "seconds": 44.3
+  },
+  {
+    "stage": "problem3_selected_challenge",
+    "script": "rebuild/problem3/run_decision_tournament.py",
+    "exit_code": 0,
+    "seconds": 28.13
+  },
+  {
+    "stage": "problem3_selected_verify",
+    "script": "rebuild/problem3/verify_tournament.py",
+    "exit_code": 0,
+    "seconds": 2.87
+  },
+  {
+    "stage": "p3_paper_assets_selected",
+    "script": "rebuild/problem3/build_paper_assets.py",
+    "exit_code": 0,
+    "seconds": 6.31
+  },
+  {
+    "stage": "problem4_final",
+    "script": "problem4/run_problem4.py",
+    "exit_code": 0,
+    "seconds": 17.48
+  },
+  {
+    "stage": "problem4_selected_frontier_bridge",
+    "script": "rebuild/problem4/run_frontier_bridge.py",
+    "exit_code": 0,
+    "seconds": 11.91
+  },
+  {
+    "stage": "problem4_selected_bridge_structures",
+    "script": "rebuild/problem4/run_bridge_structures.py",
+    "exit_code": 0,
+    "seconds": 15.45
+  },
+  {
+    "stage": "problem4_selected_multitask",
+    "script": "rebuild/problem4/run_ability_multitask.py",
+    "exit_code": 0,
+    "seconds": 5.86
+  },
+  {
+    "stage": "problem4_selected_quantile",
+    "script": "rebuild/problem4/run_quantile_frontier.py",
+    "exit_code": 0,
+    "seconds": 3.71
+  },
+  {
+    "stage": "problem4_selected_forecast",
+    "script": "rebuild/problem4/run_forecast_backtest.py",
+    "exit_code": 0,
+    "seconds": 3.69
+  },
+  {
+    "stage": "problem4_selected_selection",
+    "script": "rebuild/problem4/select_models.py",
+    "exit_code": 0,
+    "seconds": 1.66
+  }
+]

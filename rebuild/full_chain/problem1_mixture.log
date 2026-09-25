@@ -1,0 +1,24 @@
+  family      eps  reference_index  alpha  gamma  cv_rmse_pooled  cv_rmse_fold_sd  folds
+poly_alr 0.000250               11   10.0    NaN        0.329254         0.012492     10
+poly_alr 0.000250               16   10.0    NaN        0.331749         0.010955     10
+poly_alr 0.000499               11    1.0    NaN        0.334017         0.013360     10
+poly_alr 0.000499               11   10.0    NaN        0.334263         0.014295     10
+poly_alr 0.000250               11    1.0    NaN        0.334350         0.013588     10
+poly_alr 0.000250                9   10.0    NaN        0.336064         0.014109     10
+poly_alr 0.000499               16   10.0    NaN        0.336475         0.012966     10
+poly_alr 0.000499               16    1.0    NaN        0.336533         0.013975     10
+poly_alr 0.000250               16    1.0    NaN        0.336547         0.014381     10
+poly_alr 0.000998               11    1.0    NaN        0.338652         0.014184     10
+ dataset version     rmse      mae  spearman_mean     bias
+ test_1m      v1 0.341455 0.252625       0.906911 0.054003
+ test_1m      v2 0.270179 0.188957       0.945224 0.046362
+test_60m      v1 1.609271 1.516712       0.903459 1.513374
+test_60m      v2 1.595903 1.508660       0.940845 1.505733
+ test_1B      v1 2.982004 2.911448       0.888197 2.911448
+ test_1B      v2 2.702111 2.620240       0.876666 2.618576
+ est_10b      v1 3.605364 3.552567       0.694898 3.551547
+ est_10b      v2 3.621215 3.558920       0.632751 3.558920
+ est_70b      v1 3.992691 3.935164       0.628326 3.934460
+ est_70b      v2 4.008988 3.941833       0.553629 3.941833
+dataset  n_mixtures  v1_minus_v2_rmse  bootstrap_ci_low  bootstrap_ci_high bootstrap_unit  bootstrap_draws
+test_1m         256          0.071275          0.054966           0.088402    mixture row             3000

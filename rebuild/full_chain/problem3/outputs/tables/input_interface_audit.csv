@@ -1,0 +1,6 @@
+item,value,source
+model,problem2_v2 Model C,problem2_v2/outputs/models/recommended_model.joblib
+B1 rows,1176,B1
+B6 Q grid,"0.1,0.2,0.3,0.4,0.6,0.8,0.9,1.0",B6
+C7 rows,45,C7
+p train rows,512,A4/A5

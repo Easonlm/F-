@@ -1,0 +1,13 @@
+{
+  "V1_untouched": true,
+  "bootstrap_replicates": 200,
+  "bootstrap_optimizations": 800,
+  "D_elimination_max_relative_error": 3.257322870140268e-16,
+  "D_elimination_pass": true,
+  "free_budget_binding_max_error": 2.220446049250313e-16,
+  "free_budget_binding_pass": true,
+  "KKT_median_relative_error": 6.159929116263324e-08,
+  "KKT_max_relative_error": 4.237304035415919e-06,
+  "KKT_complementarity_rate": 1.0,
+  "KKT_pass": true
+}

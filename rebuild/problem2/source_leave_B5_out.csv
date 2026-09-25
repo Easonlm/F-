@@ -1,0 +1,3 @@
+source,protocol,B5_labels_used_for_fit,training_sources,n,rmse,mae,bias,spearman
+B5,zero_shot_classic,False,B1,44,0.197595074037,0.170721531462,-0.0205698631478,0.958807569572
+B5,B2_B4_mean_intercept_to_heldout_B5,False,B2+B4,44,1.06961845939,1.05140998409,1.05140998409,0.958807569572

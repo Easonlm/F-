@@ -1,0 +1,2 @@
+dataset,n_mixtures,v1_minus_v2_rmse,bootstrap_ci_low,bootstrap_ci_high,bootstrap_unit,bootstrap_draws
+test_1m,256,0.07127546649421335,0.054966002572084546,0.08840186356007063,mixture row,3000

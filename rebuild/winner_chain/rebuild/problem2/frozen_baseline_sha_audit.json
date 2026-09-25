@@ -1,0 +1,8 @@
+{
+  "checked": 119,
+  "unchanged": 119,
+  "changed": [],
+  "missing": [],
+  "all_passed": true,
+  "scope": "all manifest files under frozen problem2 and problem2_v2; read-only"
+}

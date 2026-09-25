@@ -1,0 +1,21 @@
+{
+  "computational_integrity": {
+    "one_click_all_stages_exit_zero": true,
+    "selected_p1_embedded_in_p2": true,
+    "p4_summary_hash_matches_lineage": true,
+    "p4_uses_selected_p1_delta": true,
+    "original_three_evidence_gaps_preserved": true,
+    "all_forecasts_scenario_labeled": true,
+    "all_forecasts_sparse_anchor_flagged": true,
+    "all_forecasts_bounded_and_ordered": true,
+    "two_horizons_nine_scenarios_each": true
+  },
+  "original_p4_verification_passed": 31,
+  "original_p4_verification_total": 34,
+  "unmet_evidence_gates": [
+    "12 month direct backtest",
+    "24 month direct backtest",
+    "Historical decomposition agrees with observed frontier"
+  ],
+  "final_freeze_achieved": false
+}
